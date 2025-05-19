@@ -1,0 +1,87 @@
+[
+  {
+    "category": "Open Methodology & Documentation",
+    "criteria": [
+      {
+        "name": "Clear Research Questions",
+        "description": "Are the research questions explicitly stated?"
+      },
+      {
+        "name": "Clear Hypotheses",
+        "description": "Are the hypotheses explicitly stated?"
+      },
+      {
+        "name": "Clear Methodology",
+        "description": "Is the methodology explicitly stated? Is there a step-by-step description of the experimental design?"
+      }
+    ]
+  },
+  {
+    "category": "Data Accessibility & Transparency",
+    "criteria": [
+      {
+        "name": "Open Data",
+        "description": "Are the raw or processed datasets publicly available? If data cannot be shared, is there a clear justification (e.g., privacy concerns)?"
+      },
+      {
+        "name": "Data Documentation",
+        "description": "Is there a data dictionary or codebook explaining variables, formats, and preprocessing steps? Are data collection methods (e.g., surveys, sensors, LMS logs) fully described?"
+      },
+      {
+        "name": "FAIR Compliance",
+        "description": "Is the data Findable (DOI or persistent identifier)? Is it Accessible (open license, no paywalls)? Is it Interoperable (standardized formats like CSV, JSON)? Is it Reusable (clear licensing, metadata)?"
+      }
+    ]
+  },
+  {
+    "category": "Code & Software Availability",
+    "criteria": [
+      {
+        "name": "Open Source Code",
+        "description": "Is the analysis code (Python, R, etc.) shared in a repository (GitHub, GitLab)?"
+      },
+      {
+        "name": "Code for Data preparation",
+        "description": "If code is shared: Are scripts for data cleaning, analysis, and visualization included?"
+      },
+      {
+        "name": "Version Control & Dependencies",
+        "description": "Are software versions (e.g., Python 3.10, TensorFlow 2.12) documented?"
+      },
+      {
+        "name": "Deterministic Execution",
+        "description": "If randomness is involved (e.g., ML training), are random seeds fixed and reported?"
+      }
+    ]
+  },
+  {
+    "category": "Replicability of Analysis",
+    "criteria": [
+      {
+        "name": "Transparent Statistical Methods",
+        "description": "Are statistical tests, models, and assumptions clearly described? Are effect sizes, confidence intervals, and p-values reported (not just significance)?"
+      },
+      {
+        "name": "Alternative Implementations Tested",
+        "description": "If applicable, does the study test robustness by varying methods (e.g., different ML models)?"
+      }
+    ]
+  },
+  {
+    "category": "Results & Interpretation",
+    "criteria": [
+      {
+        "name": "Outcome Shared",
+        "description": "Has the outcome of the Experiment been shared?"
+      },
+      {
+        "name": "Limiations and potential biases",
+        "description": "Are limitations and potential biases discussed?"
+      },
+      {
+        "name": "Negative Results Reported",
+        "description": "Are non-significant or contradictory findings included?"
+      }
+    ]
+  }
+]
