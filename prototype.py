@@ -1,28 +1,72 @@
-import requests
+import ollama
 import json
+from pypdf import PdfReader
 
-def evaluate_study(materials, checklist):
+
+client = ollama.Client()
+model = "gemma3:27b"
+
+def evaluate_study(document, checklist):
     prompt = f"""
-    Evaluate the study based on the checklist:
-    Checklist: {json.dumps(checklist, indent=2)}
-    Materials: {materials}
-    Output in JSON format with criterion, status, and explanation.
+        Evaluate the following document using this checklist:
+        {json.dumps(checklist, indent=2)}
+        . 
+        For each checklist item, provide:
+        - `criterion`: the name or summary of the checklist item
+        - `status`: one of "Met", "Partially Met", or "Not Met"
+
+
+        Paper:
+        \"\"\"
+        {document}
+        \"\"\"
+
+        Output format:
+        [
+          {{
+            "criterion": "...",
+            "status": "Met" | "Partially Met" | "Not Met"
+          }},
+          ...
+        ]
+        """
+
+    prompt2 = f"""
+    Document: 
+    \"\"\"
+    {document}
+    \"\"\"
+    
+    
+    Answer the question for the given document:
+    
+    
+    Question: Is there a step-by-step description of the experimental design?
+    
+    Output format:
+    "yes" | "no" | "na"
     """
-    response = requests.post(
-        "https://api.x.ai/grok3",  # Hypothetical endpoint
-        headers={"Authorization": "Bearer YOUR_API_KEY"},
-        json={"prompt": prompt}
-    )
-    return response.json()
 
-materials = {
-    "paper": "Extracted text from PDF...",
-    "code": "GitHub link: https://github.com/example/repo",
-    "dataset": "Dataset description..."
-}
+    response = client.generate(model=model, prompt=prompt2, options={"temperature":0})
 
+    print(response.response)
+
+# Load PDF content
+reader = PdfReader("lakproceedings/3706468.3706470.pdf")
+paper = ""
+second_page = reader.pages[1].extract_text()
+third_page = reader.pages[2].extract_text()
+
+sec_third_pages = second_page + "\n" + third_page
+
+for page in reader.pages:
+    page_text = page.extract_text()
+    if page_text:
+        paper += page_text + "\n"
+
+# Load checklist
 with open("checklist.json", "r") as file:
     checklist = json.load(file)
 
-result = evaluate_study(materials, checklist)
-print(json.dumps(result, indent=2))
+# Run evaluation
+evaluate_study(sec_third_pages, checklist)

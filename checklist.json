@@ -3,12 +3,16 @@
     "category": "Open Methodology & Documentation",
     "criteria": [
       {
-        "name": "Clear Research Protocol",
-        "description": "Are the research questions, hypotheses, and methodology explicitly stated? Is there a step-by-step description of the experimental design?"
+        "name": "Clear Research Questions",
+        "description": "Are the research questions explicitly stated?"
       },
       {
-        "name": "Detailed README File",
-        "description": "Does the paper or supplementary materials include a README explaining how to reproduce the study?"
+        "name": "Clear Hypotheses",
+        "description": "Are the hypotheses explicitly stated?"
+      },
+      {
+        "name": "Clear Methodology",
+        "description": "Is the methodology explicitly stated? Is there a step-by-step description of the experimental design?"
       }
     ]
   },
@@ -37,6 +41,10 @@
         "description": "Is the analysis code (Python, R, etc.) shared in a repository (GitHub, GitLab)? Are scripts for data cleaning, analysis, and visualization included?"
       },
       {
+        "name": "Code for Data preparation",
+        "description": "If code is shared: Are scripts for data cleaning, analysis, and visualization included?"
+      },
+      {
         "name": "Version Control & Dependencies",
         "description": "Are software versions (e.g., Python 3.10, TensorFlow 2.12) documented? Is there a requirements.txt, environment.yml, or Dockerfile for reproducibility?"
       },
@@ -49,10 +57,6 @@
   {
     "category": "Replicability of Analysis",
     "criteria": [
-      {
-        "name": "Reproducible Workflow",
-        "description": "Can the analysis be rerun with the provided code and data?"
-      },
       {
         "name": "Transparent Statistical Methods",
         "description": "Are statistical tests, models, and assumptions clearly described? Are effect sizes, confidence intervals, and p-values reported (not just significance)?"
@@ -67,12 +71,20 @@
     "category": "Results & Interpretation",
     "criteria": [
       {
+        "name": "Outcome Shared",
+        "description": "Has the outcome of the Experiment been shared?"
+      },
+      {
         "name": "Same Conclusions Possible",
         "description": "Can an independent researcher reach similar conclusions using the same data and methods? Are limitations and potential biases discussed?"
       },
       {
         "name": "Negative Results Reported",
         "description": "Are non-significant or contradictory findings included (avoiding publication bias)?"
+      },
+      {
+        "name": "Reproducible Workflow",
+        "description": "Can the analysis be rerun with the provided code and data?"
       }
     ]
   }
