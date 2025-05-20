@@ -3,16 +3,12 @@
     "category": "Open Methodology & Documentation",
     "criteria": [
       {
-        "name": "Clear Research Questions",
-        "description": "Are the research questions explicitly stated?"
-      },
-      {
-        "name": "Clear Hypotheses",
-        "description": "Are the hypotheses explicitly stated?"
-      },
-      {
         "name": "Clear Methodology",
-        "description": "Is the methodology explicitly stated? Is there a step-by-step description of the experimental design?"
+        "description": "Is the methodology explicitly stated?"
+      },
+      {
+        "name": "Step-by-step description",
+        "description": "Is there a step-by-step description of the experimental design?"
       }
     ]
   },
@@ -25,11 +21,11 @@
       },
       {
         "name": "Data Documentation",
-        "description": "Is there a data dictionary or codebook explaining variables, formats, and preprocessing steps? Are data collection methods (e.g., surveys, sensors, LMS logs) fully described?"
+        "description": "Is there a data dictionary or codebook explaining variables, formats, and preprocessing steps?"
       },
       {
-        "name": "FAIR Compliance",
-        "description": "Is the data Findable (DOI or persistent identifier)? Is it Accessible (open license, no paywalls)? Is it Interoperable (standardized formats like CSV, JSON)? Is it Reusable (clear licensing, metadata)?"
+        "name":"Data Collection",
+        "description": "Are data collection methods (e.g., surveys, sensors, LMS logs) fully described?"
       }
     ]
   },
@@ -38,7 +34,7 @@
     "criteria": [
       {
         "name": "Open Source Code",
-        "description": "Is the analysis code (Python, R, etc.) shared in a repository (GitHub, GitLab)? Are scripts for data cleaning, analysis, and visualization included?"
+        "description": "Is the analysis code (Python, R, etc.) shared in a repository (GitHub, GitLab)?"
       },
       {
         "name": "Code for Data preparation",
@@ -46,7 +42,7 @@
       },
       {
         "name": "Version Control & Dependencies",
-        "description": "Are software versions (e.g., Python 3.10, TensorFlow 2.12) documented? Is there a requirements.txt, environment.yml, or Dockerfile for reproducibility?"
+        "description": "Are software versions (e.g., Python 3.10, TensorFlow 2.12) documented?"
       },
       {
         "name": "Deterministic Execution",
@@ -75,16 +71,12 @@
         "description": "Has the outcome of the Experiment been shared?"
       },
       {
-        "name": "Same Conclusions Possible",
-        "description": "Can an independent researcher reach similar conclusions using the same data and methods? Are limitations and potential biases discussed?"
+        "name": "Limitations and potential biases",
+        "description": "Are limitations and potential biases discussed?"
       },
       {
         "name": "Negative Results Reported",
-        "description": "Are non-significant or contradictory findings included (avoiding publication bias)?"
-      },
-      {
-        "name": "Reproducible Workflow",
-        "description": "Can the analysis be rerun with the provided code and data?"
+        "description": "Are non-significant or contradictory findings included?"
       }
     ]
   }
