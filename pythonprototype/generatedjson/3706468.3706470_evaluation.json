@@ -1,0 +1,100 @@
+{
+  "id": "3706468.3706470",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research involved four user studies in an iterative design process. (e.g., \"To answer our research questions, we consulted adolescents, teachers...in an iterative design process including four user studies...\")"
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Each study (1-4) is described in detail, outlining participants, procedures, and data collection methods. (e.g., \"Study 1 acted as a pilot study...\", \"In study 2, we conducted think-aloud sessions...\")"
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data",
+          "status": "Not Met",
+          "justification": "The document does not mention any publicly available datasets. It does not provide a justification for why the data cannot be shared, but the nature of qualitative data (quotes, observations) makes full open access challenging."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Not Met",
+          "justification": "There is no data dictionary or codebook provided. While participant demographics are described (e.g., age, profession), detailed coding schemes or variable definitions are absent."
+        },
+        {
+          "criterion": "Data Collection",
+          "status": "Met",
+          "justification": "Data collection methods are fully described, including group discussions, think-aloud sessions, and focus groups. Details like session duration, participant recruitment, and consent procedures are provided. (e.g., \"Study 2, we conducted think-aloud sessions with 6 adolescents after parental consent.\")"
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code",
+          "status": "Not Met",
+          "justification": "The document does not mention any shared analysis code."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Applicable",
+          "justification": "Since no code is shared, this criterion is not applicable."
+        },
+        {
+          "criterion": "Version Control & Dependencies",
+          "status": "Not Applicable",
+          "justification": "Since no code is shared, this criterion is not applicable."
+        },
+        {
+          "criterion": "Deterministic Execution",
+          "status": "Not Applicable",
+          "justification": "Since no code is shared, this criterion is not applicable."
+        }
+      ]
+    },
+    {
+      "category": "Replicability of Analysis",
+      "results": [
+        {
+          "criterion": "Transparent Statistical Methods",
+          "status": "Partially Met",
+          "justification": "The analysis is described as \"thematically grouping relevant quotes and combining them with our observations into main findings along with their prominence.\" While the process is described, it lacks the rigor of formal statistical methods. No effect sizes, confidence intervals, or p-values are reported."
+        },
+        {
+          "criterion": "Alternative Implementations Tested",
+          "status": "Not Applicable",
+          "justification": "The study focuses on qualitative data and design iteration, not on comparing different implementations of statistical methods."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Outcome Shared",
+          "status": "Met",
+          "justification": "The document presents the findings from each study, including key observations and lessons learned. (e.g., \"Minimise Text, Tightly Integrate Explanations.\", \"Control Stimulates Self-Reflection.\")"
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Section 5.3 explicitly discusses limitations related to participant demographics, measurement methods, and the need for further validation. (e.g., \"Regarding design, we based the phrasings of our motivational sentences on existing literature...\")"
+        },
+        {
+          "criterion": "Negative Results Reported",
+          "status": "Met",
+          "justification": "The document reports findings that challenged initial assumptions, such as the lack of need for 'why' explanations among adolescents. (e.g., \"why explanations do not fulfil a primary need for adolescents...\")"
+        }
+      ]
+    }
+  ]
+}
