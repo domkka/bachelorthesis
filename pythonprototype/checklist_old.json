@@ -24,8 +24,8 @@
         "description": "Is there a data dictionary or codebook explaining variables, formats, and preprocessing steps?"
       },
       {
-        "name":"Data Collection Methods",
-        "description": "Are data collection methods fully described?"
+        "name":"Data Collection",
+        "description": "Are data collection methods (e.g., surveys, sensors, LMS logs) fully described?"
       }
     ]
   },
@@ -39,19 +39,27 @@
       {
         "name": "Code for Data preparation",
         "description": "If code is shared: Are scripts for data cleaning, analysis, and visualization included?"
+      },
+      {
+        "name": "Version Control & Dependencies",
+        "description": "Are software versions (e.g., Python 3.10, TensorFlow 2.12) documented?"
+      },
+      {
+        "name": "Deterministic Execution",
+        "description": "If randomness is involved (e.g., ML training), are random seeds fixed and reported?"
       }
     ]
   },
   {
-    "category": "Type of Analysis",
+    "category": "Replicability of Analysis",
     "criteria": [
       {
-        "name": "Quantitative Research Methods",
-        "description": "Are statistical tests, models, and assumptions clearly described? Are effect sizes, confidence intervals, and p-values reported?"
+        "name": "Transparent Statistical Methods",
+        "description": "Are statistical tests, models, and assumptions clearly described? Are effect sizes, confidence intervals, and p-values reported (not just significance)?"
       },
       {
-        "name": "Qualitative Research Methods",
-        "description": "Is subjective context and interpretation given? Is data coding and analysis cleary described and shared?"
+        "name": "Alternative Implementations Tested",
+        "description": "If applicable, does the study test robustness by varying methods (e.g., different ML models)?"
       }
     ]
   },
@@ -65,6 +73,10 @@
       {
         "name": "Limitations and potential biases",
         "description": "Are limitations and potential biases discussed?"
+      },
+      {
+        "name": "Negative Results Reported",
+        "description": "Are non-significant or contradictory findings included?"
       }
     ]
   }

@@ -3,6 +3,7 @@ from google import genai
 from google.genai import types
 import json
 from pypdf import PdfReader
+import re
 
 def extract_sections_using_bookmarks(reader: PdfReader):
     """Splits the PDF into sections using its bookmarks (if available)."""
@@ -10,8 +11,6 @@ def extract_sections_using_bookmarks(reader: PdfReader):
     bookmarks = []
 
     for item in reader.outline:
-        if isinstance(item, list):  # Handle nested bookmarks
-            continue
         if "/Title" in item:
             title = item["/Title"]
             bookmarks.append(title)
@@ -22,6 +21,8 @@ def extract_sections_using_bookmarks(reader: PdfReader):
     all_text = ""
     for page in reader.pages:
         all_text += page.extract_text() + "\n"
+
+    all_text = re.sub(r'(?<!\n)\n(?!\n)', ' ', all_text)
     # Extract text for each section
     for i in range(len(bookmarks)):
         title = bookmarks[i]
@@ -70,7 +71,7 @@ def generate(pdf_text, checklist):
 
             For each checklist item, provide:
             - `criterion`: the name of the checklist item
-            - `status`: one of "Met", "Partially Met", "Not Met", "Not Applicable"
+            - `status`: one of "Met", "Not Met"
             - `justification`: a short explanation of where or why the criterion is (not) met (e.g., section title, paragraph context, or quote)
 
 
@@ -82,7 +83,7 @@ def generate(pdf_text, checklist):
                   "results": [
                     {{
                       "criterion": "...",
-                      "status": "Met" | "Partially Met" | "Not Met" | "Not Applicable",
+                      "status": "Met" | "Not Met",
                       "justification": "..."
                     }}
                   ]
@@ -108,6 +109,7 @@ def generate(pdf_text, checklist):
         model=model,contents=prompt
     )
     print(f"total tokens: {total_tokens}")
+    print("generating response")
     response = client.models.generate_content(
         model=model,
         contents=contents,
@@ -117,7 +119,7 @@ def generate(pdf_text, checklist):
     return response.text
 
 if __name__ == "__main__":
-    file_name = "3706468.3706470.pdf"
+    file_name = "3706468.3706541.pdf"
     file_id = os.path.splitext(os.path.basename(file_name))[0]
 
     reader = PdfReader(f"lakproceedings/{file_name}")
@@ -172,3 +174,4 @@ if __name__ == "__main__":
             print("failed to parse JSON string")
     else:
         print("Failed to generate a valid JSON response.")
+        print(f"Raw Response: {response}")
