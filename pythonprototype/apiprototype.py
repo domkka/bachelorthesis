@@ -119,7 +119,7 @@ def generate(pdf_text, checklist):
     return response.text
 
 if __name__ == "__main__":
-    file_name = "3706468.3706541.pdf"
+    file_name = "3706468.3706501.pdf"
     file_id = os.path.splitext(os.path.basename(file_name))[0]
 
     reader = PdfReader(f"lakproceedings/{file_name}")

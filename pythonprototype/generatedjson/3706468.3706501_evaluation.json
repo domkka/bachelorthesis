@@ -1,0 +1,85 @@
+{
+  "id": "3706468.3706501",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the goal of developing methods to estimate student knowledge and predict correctness in dialogues. The overall approach is clearly outlined."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 4.1, 4.2, and 4.3 provide a detailed, step-by-step description of the experimental design, including data annotation, LLMKT method, and DKT-Sem method."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data",
+          "status": "Met",
+          "justification": "The document mentions using the CoMTA and MathDial datasets, which are publicly available. The authors acknowledge other datasets exist as well."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Table 1 provides statistics for the datasets, including the number of dialogues, labels, KCs, and turns. This serves as a basic data dictionary."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The document describes the data collection methods for both CoMTA and MathDial, including how the dialogues were generated and the source of the data (Khan Academy, GPT-3.5, crowd workers)."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code",
+          "status": "Met",
+          "justification": "The document states: \"We release our prompts in an online supplementary material: https://osf.io/873ms?view_only=f32472a6560649e692a4e2ba603ef52c\" and mentions using pyKT and pyBKT, which are open-source repositories."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Met",
+          "justification": "The document mentions using scripts for data cleaning, analysis, and visualization, and links to the supplementary material where these are available."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods",
+          "status": "Met",
+          "justification": "The document describes statistical tests (accuracy, AUC, F1), models (DKT, DKVMN, AKT, SAINT, simpleKT, LLMKT, DKT-Sem, BKT), and reports effect sizes (accuracy, AUC, F1 scores) and standard deviations."
+        },
+        {
+          "criterion": "Qualitative Research Methods",
+          "status": "Met",
+          "justification": "Section 6.2 provides a qualitative case study analysis of a dialogue, offering subjective context and interpretation of the model's predictions."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Outcome Shared",
+          "status": "Met",
+          "justification": "Table 2 presents the quantitative results of the experiments, clearly showing the performance of each method on both datasets."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Section 6.1 discusses limitations, such as the small size of the CoMTA dataset and the challenges of dialogueKT compared to standard KT. Section 7.2 details errors in the GPT-4o annotations."
+        }
+      ]
+    }
+  ]
+}
