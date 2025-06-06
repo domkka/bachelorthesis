@@ -1,0 +1,85 @@
+{
+  "id": "3706468.3706567",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the focus on student retention prediction and the collaborative model development paradigm. It outlines the roles of source and target institutions."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 4.1-4.3 detail the data sources, prediction task, and transfer learning strategies, providing a step-by-step description of the experimental design. Section 4.4 outlines the key metrics used."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data",
+          "status": "Partially Met",
+          "justification": "The document states data access was gained through research partnerships. While the raw data isn't directly shared, links to the data schema (Table1-Data-Schema.csv) and institutional contextual factors (Table2-Institutional-Contextual-Factors.csv) are provided on GitHub. This is not full open data, but provides some transparency."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Links to the data schema and institutional contextual factors on GitHub provide documentation explaining the variables. The document also describes the data collection process from SIS and IPEDS."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The document details data collection from administrative records (SIS) and the Integrated Postsecondary Education Data System (IPEDS), including the time frame (2013-2019) and the types of records collected."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code",
+          "status": "Not Met",
+          "justification": "The document does not mention the availability of analysis code in a repository like GitHub or GitLab."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Applicable",
+          "justification": "Since the code is not shared, the question of whether data preparation scripts are included is not applicable."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods",
+          "status": "Met",
+          "justification": "The document describes statistical tests (regression analysis), models (fully connected neural network), and metrics (AUC, \u0394AUC, AUC Gap, MCC, Specificity, Equalized Odds, Wasserstein distance) with details on their calculation and interpretation. It also mentions effect sizes and confidence intervals (error bars in figures)."
+        },
+        {
+          "criterion": "Qualitative Research Methods",
+          "status": "Not Met",
+          "justification": "The analysis is primarily quantitative; there is no mention of qualitative data or analysis."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Outcome Shared",
+          "status": "Met",
+          "justification": "The document presents the results of the transfer learning experiments, including performance metrics (AUC, \u0394AUC, MCC, Specificity) and fairness metrics (AUC Gap, Equalized Odds) for different strategies."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The document discusses limitations such as reliance on common data features, the limited geographic scope (US institutions), and the potential for ungeneralizable findings. It also acknowledges the complexity of fairness and the need for further research."
+        }
+      ]
+    }
+  ]
+}

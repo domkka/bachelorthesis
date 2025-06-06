@@ -7,12 +7,12 @@
         {
           "criterion": "Clear Methodology",
           "status": "Met",
-          "justification": "The document explicitly states the goal of developing methods to estimate student knowledge and predict correctness in dialogues. The overall approach is clearly outlined."
+          "justification": "The paper explicitly states its goal: \"We introduced the task of dialogueKT with the goal of estimating student knowledge from open-ended tutor-student dialogues.\""
         },
         {
           "criterion": "Step-by-step description",
           "status": "Met",
-          "justification": "Sections 4.1, 4.2, and 4.3 provide a detailed, step-by-step description of the experimental design, including data annotation, LLMKT method, and DKT-Sem method."
+          "justification": "Sections 4.1, 4.2, and 4.3 provide a detailed, step-by-step description of the experimental design, including data annotation, model development (LLMKT and DKT-Sem), and experimental setup."
         }
       ]
     },
@@ -21,8 +21,8 @@
       "results": [
         {
           "criterion": "Open Data",
-          "status": "Met",
-          "justification": "The document mentions using the CoMTA and MathDial datasets, which are publicly available. The authors acknowledge other datasets exist as well."
+          "status": "Not Met",
+          "justification": "The paper mentions using CoMTA and MathDial datasets, but does not state whether they are publicly available. While CoMTA is mentioned as being released by Khan Academy, there is no direct link or confirmation of full accessibility."
         },
         {
           "criterion": "Data Documentation",
@@ -32,7 +32,7 @@
         {
           "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "The document describes the data collection methods for both CoMTA and MathDial, including how the dialogues were generated and the source of the data (Khan Academy, GPT-3.5, crowd workers)."
+          "justification": "The data collection methods are described for both CoMTA and MathDial in Section 5.1, detailing how the dialogues were obtained (Khanmigo, GPT-3.5 and crowd workers)."
         }
       ]
     },
@@ -42,12 +42,12 @@
         {
           "criterion": "Open Source Code",
           "status": "Met",
-          "justification": "The document states: \"We release our prompts in an online supplementary material: https://osf.io/873ms?view_only=f32472a6560649e692a4e2ba603ef52c\" and mentions using pyKT and pyBKT, which are open-source repositories."
+          "justification": "The paper states: \"We release our prompts in an online supplementary material: https://osf.io/873ms?view_only=f32472a6560649e692a4e2ba603ef52c\" and mentions using pyKT and Huggingface Transformers."
         },
         {
           "criterion": "Code for Data preparation",
-          "status": "Met",
-          "justification": "The document mentions using scripts for data cleaning, analysis, and visualization, and links to the supplementary material where these are available."
+          "status": "Not Met",
+          "justification": "While the paper mentions using various libraries, it does not explicitly state whether scripts for data cleaning and preprocessing are included in the shared resources."
         }
       ]
     },
@@ -57,7 +57,7 @@
         {
           "criterion": "Quantitative Research Methods",
           "status": "Met",
-          "justification": "The document describes statistical tests (accuracy, AUC, F1), models (DKT, DKVMN, AKT, SAINT, simpleKT, LLMKT, DKT-Sem, BKT), and reports effect sizes (accuracy, AUC, F1 scores) and standard deviations."
+          "justification": "The paper uses statistical tests (accuracy, AUC, F1) and reports results with standard deviations where applicable (Table 2). Hyperparameter tuning is also described."
         },
         {
           "criterion": "Qualitative Research Methods",
@@ -67,12 +67,22 @@
       ]
     },
     {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The paper does not mention or link to a preregistration."
+        }
+      ]
+    },
+    {
       "category": "Results & Interpretation",
       "results": [
         {
           "criterion": "Outcome Shared",
           "status": "Met",
-          "justification": "Table 2 presents the quantitative results of the experiments, clearly showing the performance of each method on both datasets."
+          "justification": "The results of the experiments, including performance metrics for different KT methods, are clearly presented in Table 2."
         },
         {
           "criterion": "Limitations and potential biases",

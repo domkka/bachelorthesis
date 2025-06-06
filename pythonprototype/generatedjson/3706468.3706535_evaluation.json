@@ -1,0 +1,95 @@
+{
+  "id": "3706468.3706535",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the methodology, describing two studies with specific designs and hypotheses. (e.g., 'In preparation for Study 1...' and 'In light of the surprising findings in Study 1...')"
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Both Study 1 and Study 2 have detailed 'Procedure' sections outlining the steps taken, from participant recruitment to data collection. (e.g., '3.2 Procedure' and '4.2 Experimental Manipulation')"
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data",
+          "status": "Met",
+          "justification": "The document states: 'All code, data, and supplementary materials for this study are available on OSF https://osf.io/7c5zt/?view_only=58f0a6314e9243e9acdbd1c844d43d7b'."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "The document describes the variables measured (e.g., '3.4 Measures') and provides details about the scales used. Demographic information is also detailed."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The document details how participants were recruited (Prolific), compensated ($1.70/$2.00), and the survey format (10-minute survey). (e.g., '3.1 Participants' and '4.1 Participants')"
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code",
+          "status": "Met",
+          "justification": "The document states: 'All code, data, and supplementary materials for this study are available on OSF https://osf.io/7c5zt/?view_only=58f0a6314e9243e9acdbd1c844d43d7b'."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Met",
+          "justification": "The document states: 'All code, data, and supplementary materials for this study are available on OSF https://osf.io/7c5zt/?view_only=58f0a6314e9243e9acdbd1c844d43d7b.', implying scripts for data cleaning and analysis are included."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods",
+          "status": "Met",
+          "justification": "The document describes statistical tests (linear regression, Pearson\u2019s r), effect sizes (e.g., 0.25), confidence intervals, and p-values. (e.g., '3.5.1 Effects of Explanations on Preference and Attitudes' and '3.5.2 Relationship Between Attitudes and Preferences')"
+        },
+        {
+          "criterion": "Qualitative Research Methods",
+          "status": "Met",
+          "justification": "The document describes a thematic analysis of open-ended responses from participants, detailing the coding process and identified themes. (e.g., '4.5.2 Exploratory Measures')"
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Met",
+          "justification": "The document states: 'The study was preregistered on OSF at https://osf.io/cjadu.'"
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Outcome Shared",
+          "status": "Met",
+          "justification": "The document clearly presents the results of both studies, including statistical findings and interpretations. (e.g., '3.5 Results' and '4.5 Results')"
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The document discusses limitations, such as the use of Prolific participants and the context of ITS, and potential biases. (e.g., '5.3 Limitations and Future Research')"
+        }
+      ]
+    }
+  ]
+}

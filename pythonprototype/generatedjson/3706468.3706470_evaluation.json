@@ -7,12 +7,12 @@
         {
           "criterion": "Clear Methodology",
           "status": "Met",
-          "justification": "The document explicitly states the research involved four user studies in an iterative design process. (e.g., \"To answer our research questions, we consulted adolescents, teachers...in an iterative design process including four user studies...\")"
+          "justification": "The document explicitly states the research involved a 'four-stage design process' and 'four user studies' with different stakeholders."
         },
         {
           "criterion": "Step-by-step description",
           "status": "Met",
-          "justification": "Each study (1-4) is described in detail, outlining participants, procedures, and data collection methods. (e.g., \"Study 1 acted as a pilot study...\", \"In study 2, we conducted think-aloud sessions...\")"
+          "justification": "The document provides a detailed, step-by-step description of each of the four studies (Study 1, Study 2, Study 3, Study 4), including participant recruitment, procedures, and data collection methods."
         }
       ]
     },
@@ -22,17 +22,17 @@
         {
           "criterion": "Open Data",
           "status": "Not Met",
-          "justification": "The document does not mention any publicly available datasets. It does not provide a justification for why the data cannot be shared, but the nature of qualitative data (quotes, observations) makes full open access challenging."
+          "justification": "The document does not mention any publicly available datasets. While it doesn't explicitly state a reason for non-sharing, it implies data is collected from individuals (adolescents, teachers) which could raise privacy concerns."
         },
         {
           "criterion": "Data Documentation",
           "status": "Not Met",
-          "justification": "There is no data dictionary or codebook provided. While participant demographics are described (e.g., age, profession), detailed coding schemes or variable definitions are absent."
+          "justification": "There is no mention of a data dictionary or codebook explaining variables, formats, or preprocessing steps."
         },
         {
-          "criterion": "Data Collection",
+          "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "Data collection methods are fully described, including group discussions, think-aloud sessions, and focus groups. Details like session duration, participant recruitment, and consent procedures are provided. (e.g., \"Study 2, we conducted think-aloud sessions with 6 adolescents after parental consent.\")"
+          "justification": "Data collection methods are fully described for each study, including group discussions, think-aloud sessions, focus groups, and observations. Details like session duration, participant numbers, and data recording are provided."
         }
       ]
     },
@@ -42,37 +42,27 @@
         {
           "criterion": "Open Source Code",
           "status": "Not Met",
-          "justification": "The document does not mention any shared analysis code."
+          "justification": "The document does not mention any shared analysis code or repository links."
         },
         {
           "criterion": "Code for Data preparation",
-          "status": "Not Applicable",
-          "justification": "Since no code is shared, this criterion is not applicable."
-        },
-        {
-          "criterion": "Version Control & Dependencies",
-          "status": "Not Applicable",
-          "justification": "Since no code is shared, this criterion is not applicable."
-        },
-        {
-          "criterion": "Deterministic Execution",
-          "status": "Not Applicable",
-          "justification": "Since no code is shared, this criterion is not applicable."
+          "status": "Not Met",
+          "justification": "Since no code is shared, there are no scripts for data cleaning, analysis, or visualization."
         }
       ]
     },
     {
-      "category": "Replicability of Analysis",
+      "category": "Type of Analysis",
       "results": [
         {
-          "criterion": "Transparent Statistical Methods",
-          "status": "Partially Met",
-          "justification": "The analysis is described as \"thematically grouping relevant quotes and combining them with our observations into main findings along with their prominence.\" While the process is described, it lacks the rigor of formal statistical methods. No effect sizes, confidence intervals, or p-values are reported."
+          "criterion": "Quantitative Research Methods",
+          "status": "Not Met",
+          "justification": "The analysis appears primarily qualitative. While sample sizes are reported, there's no mention of statistical tests, effect sizes, or p-values."
         },
         {
-          "criterion": "Alternative Implementations Tested",
-          "status": "Not Applicable",
-          "justification": "The study focuses on qualitative data and design iteration, not on comparing different implementations of statistical methods."
+          "criterion": "Qualitative Research Methods",
+          "status": "Met",
+          "justification": "The document describes a thematic analysis of quotes and observations, indicating a qualitative approach. The process of grouping quotes and combining them with observations is described."
         }
       ]
     },
@@ -82,17 +72,12 @@
         {
           "criterion": "Outcome Shared",
           "status": "Met",
-          "justification": "The document presents the findings from each study, including key observations and lessons learned. (e.g., \"Minimise Text, Tightly Integrate Explanations.\", \"Control Stimulates Self-Reflection.\")"
+          "justification": "The document presents the findings from each study, including key themes, lessons learned, and design implications. The final design is also described."
         },
         {
           "criterion": "Limitations and potential biases",
           "status": "Met",
-          "justification": "Section 5.3 explicitly discusses limitations related to participant demographics, measurement methods, and the need for further validation. (e.g., \"Regarding design, we based the phrasings of our motivational sentences on existing literature...\")"
-        },
-        {
-          "criterion": "Negative Results Reported",
-          "status": "Met",
-          "justification": "The document reports findings that challenged initial assumptions, such as the lack of need for 'why' explanations among adolescents. (e.g., \"why explanations do not fulfil a primary need for adolescents...\")"
+          "justification": "Section 4.5 explicitly discusses limitations regarding design, participants, and methods, and suggests future work to address these."
         }
       ]
     }

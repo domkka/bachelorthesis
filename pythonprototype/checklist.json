@@ -56,6 +56,15 @@
     ]
   },
   {
+    "category": "Preregistration",
+    "criteria": [
+      {
+        "name": "Preregistration",
+        "description": "Does the Paper contain a link to the preregistration (e.g the Open Science Foundation)? If a paper does not need to use a preregistration (e.g. theoretical or argumentative papers), then this field will be non-applicable"
+      }
+    ]
+  },
+  {
     "category": "Results & Interpretation",
     "criteria": [
       {
