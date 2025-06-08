@@ -1,13 +1,9 @@
 import os
-import tkinter
-
 from google import genai
 from google.genai import types
 import json
 from pypdf import PdfReader
 import re
-import tkinter as ttk
-from tkinter import filedialog,messagebox
 
 def extract_sections_using_bookmarks(reader: PdfReader):
     """Splits the PDF into sections using its bookmarks (if available)."""
@@ -121,75 +117,6 @@ def generate(pdf_text, checklist):
     )
 
     return response.text
-
-class ReproducibilityChecker:
-    def __init__(self, root):
-        self.root = root
-        self.root.title("Reproducibility Checker")
-
-        self.file_path = ""
-        self.sections = {}
-        self.check_vars = {}
-
-        self.build_gui()
-
-    def build_gui(self):
-        frame = ttk.Frame(self.root, padding=10)
-        frame.grid(row=0, column = 0)
-
-        ttk.Button(frame, text="Select PDF File", command=self.load_pdf).grid(row=0, column=0, pady=5)
-
-        self.sections_frame = ttk.LabelFrame(frame, text="Select Sections to evaluate")
-        self.sections_frame.grid(row=1, column = 0, pady=10)
-
-        ttk.Button(frame, text="Run Evaluation", command=self.run_evaluation).grid(row=2, column=0, pady=5)
-
-    def load_pdf(self):
-        file_path = filedialog.askopenfilename(filetypes=[("PDF files", "*.pdf")])
-        if not file_path:
-            return
-        self.file_path = file_path
-        reader = PdfReader(file_path)
-        self.sections = extract_sections_using_bookmarks(reader)
-
-        for widget in self.sections_frame.winfo_children():
-            widget.destroy()
-        self.check_vars.clear()
-
-        for i, title in enumerate(self.sections):
-            var = tkinter.BooleanVar()
-            chk = ttk.Checkbutton(self.sections_frame, text=title, variable=var)
-            chk.grid(row=i, column=0)
-            self.check_vars[title] = var
-
-    def run_evaluation(self):
-        selected = [title for title, var in self.check_vars.items() if var.get()]
-        if not selected:
-            messagebox.showwarning("No Selection", "Please select sections.")
-            return
-        combined_text = "\n\n".join(self.sections[title] for title in selected)
-        file_id = os.path.splitext(os.path.basename(self.file_path))[0]
-
-        with open("checklist.json", "r") as file:
-            checklist = json.load(file)
-
-        try:
-            response=generate(combined_text, checklist)
-            responsejson = extract_json_from_response(response)
-            parsed = json.loads(responsejson)
-            wrapped_data = {
-                "id": file_id,
-                "evaluation": parsed
-            }
-            output_path = f"generatedjson/{file_id}_evaluation.json"
-            with open(output_path, "w") as f:
-                json.dump(wrapped_data, f, indent=2)
-            print(f"saved JSON to {output_path}")
-
-            messagebox.showinfo("Success", f"Saved JSON to {output_path}")
-        except Exception as e:
-            messagebox.showerror("Error", str(e))
-
 
 if __name__ == "__main__":
     file_name = "3706468.3706535.pdf"
