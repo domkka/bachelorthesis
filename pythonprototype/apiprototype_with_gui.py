@@ -6,7 +6,7 @@ from google.genai import types
 import json
 from pypdf import PdfReader
 import re
-import tkinter as ttk
+from tkinter import ttk
 from tkinter import filedialog,messagebox
 
 def extract_sections_using_bookmarks(reader: PdfReader):
@@ -126,29 +126,44 @@ class ReproducibilityChecker:
     def __init__(self, root):
         self.root = root
         self.root.title("Reproducibility Checker")
+        self.root.geometry("600x600")
 
         self.file_path = ""
+        self.file_label = None
         self.sections = {}
         self.check_vars = {}
 
         self.build_gui()
 
     def build_gui(self):
-        frame = ttk.Frame(self.root, padding=10)
-        frame.grid(row=0, column = 0)
+        container = ttk.Frame(self.root, padding=10)
+        container.grid(row=0, column = 0, sticky="nsew")
 
-        ttk.Button(frame, text="Select PDF File", command=self.load_pdf).grid(row=0, column=0, pady=5)
+        self.root.columnconfigure(0, weight=1)
+        self.root.rowconfigure(0, weight=1)
+
+        container.columnconfigure(0, weight=1)
+
+        frame = ttk.Frame(container, padding=10)
+        frame.grid(row=0, column=0, sticky="n")
+
+        ttk.Button(frame, text="Select PDF File", command=self.load_pdf).grid(row=0, column=0, pady=5, sticky="ew")
+
+        self.file_label = ttk.Label(frame, text="", foreground="gray")
+        self.file_label.grid(row=1, column=0, pady=(0, 10), sticky="ew")
 
         self.sections_frame = ttk.LabelFrame(frame, text="Select Sections to evaluate")
-        self.sections_frame.grid(row=1, column = 0, pady=10)
+        self.sections_frame.grid(row=2, column = 0, pady=10, sticky="ew")
 
-        ttk.Button(frame, text="Run Evaluation", command=self.run_evaluation).grid(row=2, column=0, pady=5)
+        ttk.Button(frame, text="Run Evaluation", command=self.run_evaluation).grid(row=3, column=0, pady=5, sticky="ew")
 
     def load_pdf(self):
         file_path = filedialog.askopenfilename(filetypes=[("PDF files", "*.pdf")])
         if not file_path:
             return
         self.file_path = file_path
+        filename = os.path.basename(self.file_path)
+        self.file_label.config(text=f"Selected file: {filename}")
         reader = PdfReader(file_path)
         self.sections = extract_sections_using_bookmarks(reader)
 
@@ -159,7 +174,7 @@ class ReproducibilityChecker:
         for i, title in enumerate(self.sections):
             var = tkinter.BooleanVar()
             chk = ttk.Checkbutton(self.sections_frame, text=title, variable=var)
-            chk.grid(row=i, column=0)
+            chk.grid(row=i, column=0, sticky="w")
             self.check_vars[title] = var
 
     def run_evaluation(self):
@@ -192,59 +207,6 @@ class ReproducibilityChecker:
 
 
 if __name__ == "__main__":
-    file_name = "3706468.3706535.pdf"
-    file_id = os.path.splitext(os.path.basename(file_name))[0]
-
-    reader = PdfReader(f"lakproceedings/{file_name}")
-
-    # Load checklist
-    with open("checklist.json", "r") as file:
-        reproducibility_checklist = json.load(file)
-
-
-    #Choose sections to not exceed Token Count (15000)
-    sections = extract_sections_using_bookmarks(reader)
-    section_names = list(sections.keys())
-    print("Available sections:")
-    for i, name in enumerate(section_names, 0):
-        print(f"{i}: {name}")
-
-    selected_input = input("Enter the numbers to evaluate (comma-separated): ")
-    selected_indices = [int(i.strip()) for i in selected_input.split(",") if i.strip().isdigit()]
-
-    fused_texts = []
-    for i in selected_indices:
-        name = section_names[i]
-        section_text = sections[name]
-        if section_text is None:
-            print(f"Section '{name}' not found.")
-            continue
-        if not section_text:
-            print(f"Section '{name}' is empty.")
-            continue
-        fused_texts.append(section_text)
-
-    if fused_texts:
-        combined_text = "\n\n".join(fused_texts)
-
-    response = generate(combined_text, reproducibility_checklist)
-
-    responsejson = extract_json_from_response(response)
-    if responsejson:
-        try:
-            parsed = json.loads(responsejson)
-            wrapped_data = {
-                "id": file_id,
-                "evaluation": parsed
-            }
-
-            output_path = f"generatedjson/{file_id}_evaluation.json"
-            with open(output_path, "w") as f:
-                json.dump(wrapped_data, f, indent=2)
-
-            print(f"saved JSON to {output_path}")
-        except json.JSONDecodeError:
-            print("failed to parse JSON string")
-    else:
-        print("Failed to generate a valid JSON response.")
-        print(f"Raw Response: {response}")
+    root = tkinter.Tk()
+    app = ReproducibilityChecker(root)
+    root.mainloop()

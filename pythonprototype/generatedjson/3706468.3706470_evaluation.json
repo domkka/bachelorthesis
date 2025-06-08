@@ -7,12 +7,12 @@
         {
           "criterion": "Clear Methodology",
           "status": "Met",
-          "justification": "The document explicitly states the research involved a 'four-stage design process' and 'four user studies' with different stakeholders."
+          "justification": "The document explicitly states the research involved a 'human-centred design process' and 'four user studies' with different stakeholders."
         },
         {
           "criterion": "Step-by-step description",
           "status": "Met",
-          "justification": "The document provides a detailed, step-by-step description of each of the four studies (Study 1, Study 2, Study 3, Study 4), including participant recruitment, procedures, and data collection methods."
+          "justification": "The document provides a detailed, step-by-step description of each of the four studies (Study 1, Study 2, Study 3, Study 4), including participant recruitment, tasks, data collection methods, and analysis techniques."
         }
       ]
     },
@@ -22,17 +22,17 @@
         {
           "criterion": "Open Data",
           "status": "Not Met",
-          "justification": "The document does not mention any publicly available datasets. While it doesn't explicitly state a reason for non-sharing, it implies data is collected from individuals (adolescents, teachers) which could raise privacy concerns."
+          "justification": "The document does not mention any publicly available datasets or provide links to where they can be found. It does not provide a justification for why the data cannot be shared."
         },
         {
           "criterion": "Data Documentation",
           "status": "Not Met",
-          "justification": "There is no mention of a data dictionary or codebook explaining variables, formats, or preprocessing steps."
+          "justification": "There is no data dictionary or codebook explaining variables, formats, or preprocessing steps."
         },
         {
           "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "Data collection methods are fully described for each study, including group discussions, think-aloud sessions, focus groups, and observations. Details like session duration, participant numbers, and data recording are provided."
+          "justification": "Data collection methods are fully described for each study, including group discussions, think-aloud sessions, focus groups, and observation of participant reactions."
         }
       ]
     },
@@ -57,12 +57,22 @@
         {
           "criterion": "Quantitative Research Methods",
           "status": "Not Met",
-          "justification": "The analysis appears primarily qualitative. While sample sizes are reported, there's no mention of statistical tests, effect sizes, or p-values."
+          "justification": "While sample sizes are reported, there is no mention of statistical tests, models, effect sizes, confidence intervals, or p-values. The analysis appears primarily qualitative."
         },
         {
           "criterion": "Qualitative Research Methods",
           "status": "Met",
-          "justification": "The document describes a thematic analysis of quotes and observations, indicating a qualitative approach. The process of grouping quotes and combining them with observations is described."
+          "justification": "The document describes the thematic analysis of quotes and observations, combining them into main findings. The process of grouping quotes and combining them with observations is described."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to any preregistration."
         }
       ]
     },
@@ -72,12 +82,12 @@
         {
           "criterion": "Outcome Shared",
           "status": "Met",
-          "justification": "The document presents the findings from each study, including key themes, lessons learned, and design implications. The final design is also described."
+          "justification": "The document presents the findings from each study, including lessons learned and design implications."
         },
         {
           "criterion": "Limitations and potential biases",
           "status": "Met",
-          "justification": "Section 4.5 explicitly discusses limitations regarding design, participants, and methods, and suggests future work to address these."
+          "justification": "The document discusses limitations related to design, participants, and methods in section 4.5: 'Limitations and Future Work'."
         }
       ]
     }

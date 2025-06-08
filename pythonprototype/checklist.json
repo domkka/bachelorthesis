@@ -17,7 +17,7 @@
     "criteria": [
       {
         "name": "Open Data",
-        "description": "Are the raw or processed datasets publicly available? If data cannot be shared, is there a clear justification (e.g., privacy concerns)?"
+        "description": "Are the raw or processed datasets publicly available (direct link provided or mentioning where it can be found)? If data cannot be shared, is there a clear justification (e.g., privacy concerns)?"
       },
       {
         "name": "Data Documentation",

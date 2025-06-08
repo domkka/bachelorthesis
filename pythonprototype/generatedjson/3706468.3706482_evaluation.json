@@ -7,7 +7,7 @@
         {
           "criterion": "Clear Methodology",
           "status": "Met",
-          "justification": "The document clearly states the methodology, focusing on feature engineering and machine learning algorithms for collusion detection. (e.g., 'We used feature engineering and ML algorithms to create a model for the detection of collusion.')"
+          "justification": "The document explicitly states the methodology, focusing on feature engineering and machine learning algorithms for collusion detection. (e.g., \"We used feature engineering and ML algorithms to create a model for the detection of collusion.\")"
         },
         {
           "criterion": "Step-by-step description",
@@ -22,17 +22,17 @@
         {
           "criterion": "Open Data",
           "status": "Met",
-          "justification": "The document explicitly states that the data is publicly available and provides a DOI link: 'To enhance the usability and reproducibility of our work, we have open-sourced the iQuiz tool and made the collected data publicly available. Data Availability The data that support the findings of this study are available at https://doi.org/10.6084/m9.figshare.23744283.v1'"
+          "justification": "The document states that the iQuiz tool and collected data are publicly available. (e.g., \"To enhance the usability and reproducibility of our work, we have open-sourced the iQuiz tool and made the collected data publicly available.\") and provides a DOI: https://doi.org/10.6084/m9.figshare.23744283.v1"
         },
         {
           "criterion": "Data Documentation",
           "status": "Met",
-          "justification": "The document includes a description of the data entries in the log file (Student, Question, Response, Score, Start, Revisions, Time) and a sample dataset is referenced (Fig 1). Table 3 provides feature information."
+          "justification": "Section 3.1 provides a description of the data entries in the log file, acting as a data dictionary. (e.g., \"Student \u2013 User identification number\", \"Question \u2013 Numeric variable describing the question number.\")"
         },
         {
           "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "Data collection methods are fully described, detailing the online assessments, the iQuiz tool, the Moodle integration, and the two settings (experimental and empirical). (Section 3.1)"
+          "justification": "Data collection methods are fully described, detailing the online assessments, iQuiz tool, Moodle integration, and the two settings (experimental and empirical). (e.g., Section 3.1 provides details on the assessments, tool, and settings.)"
         }
       ]
     },
@@ -42,12 +42,12 @@
         {
           "criterion": "Open Source Code",
           "status": "Met",
-          "justification": "The document states that the iQuiz tool has been open-sourced: 'To enhance the usability and reproducibility of our work, we have open-sourced the iQuiz tool...'"
+          "justification": "The document states that the iQuiz tool has been open-sourced. (e.g., \"To enhance the usability and reproducibility of our work, we have open-sourced the iQuiz tool...\")"
         },
         {
           "criterion": "Code for Data preparation",
           "status": "Not Met",
-          "justification": "While the document mentions the use of scikit-learn and Google Collaboratory, it does not explicitly state that the code for data cleaning, analysis, and visualization is shared. It only mentions the implementation was done using these tools."
+          "justification": "While the iQuiz tool is open-sourced, the document does not explicitly state whether the scripts for data cleaning, analysis, and visualization are included or publicly available."
         }
       ]
     },
@@ -57,12 +57,22 @@
         {
           "criterion": "Quantitative Research Methods",
           "status": "Met",
-          "justification": "The document describes the statistical tests (stratified five-fold cross-validation), models (LR, SVM, DT, XGB, RF), and evaluation metrics (accuracy, precision, recall, F1 score, macro-averaging). (Section 3.3 and 4.1)"
+          "justification": "The document describes statistical tests (e.g., stratified five-fold cross-validation), models (LR, SVM, DT, XGB, RF), and reports evaluation metrics (accuracy, precision, recall, F1 score). (e.g., Section 3.3 and 4.1)"
         },
         {
           "criterion": "Qualitative Research Methods",
           "status": "Not Met",
-          "justification": "The analysis is primarily quantitative. While the personality test provides some qualitative data, it's used to support the quantitative findings rather than being a central focus of qualitative analysis. There is no description of data coding or subjective interpretation."
+          "justification": "The analysis is primarily quantitative. While personality test results are mentioned, they are used to support quantitative findings rather than being the focus of a qualitative analysis with detailed coding and interpretation."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration."
         }
       ]
     },
@@ -72,12 +82,12 @@
         {
           "criterion": "Outcome Shared",
           "status": "Met",
-          "justification": "The results of the experiments, including the performance of different classifiers and feature importance, are clearly presented. (Section 4.1 and 4.2)"
+          "justification": "The results of the experiment, including the performance of different classifiers and feature importance, are shared. (e.g., Section 4.1 and Figures 3 & 4)"
         },
         {
           "criterion": "Limitations and potential biases",
           "status": "Met",
-          "justification": "The document discusses limitations, such as the use of experimental datasets and the potential for coincidental observations or false accusations. (Section 4.3)"
+          "justification": "The document discusses limitations, such as the use of experimental datasets and the potential for coincidental observations. (e.g., the last paragraph of Section 4.2)"
         }
       ]
     }

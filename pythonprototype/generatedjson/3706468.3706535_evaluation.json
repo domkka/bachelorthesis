@@ -7,12 +7,12 @@
         {
           "criterion": "Clear Methodology",
           "status": "Met",
-          "justification": "The document explicitly states the methodology, describing two studies with specific designs and hypotheses. (e.g., 'In preparation for Study 1...' and 'In light of the surprising findings in Study 1...')"
+          "justification": "The document explicitly states the methodology, describing two studies with specific designs and hypotheses. (e.g., 'In preparation for Study 1...' and 'In light of the surprising findings in Study 1...') "
         },
         {
           "criterion": "Step-by-step description",
           "status": "Met",
-          "justification": "Both Study 1 and Study 2 have detailed 'Procedure' sections outlining the steps taken, from participant recruitment to data collection. (e.g., '3.2 Procedure' and '4.2 Experimental Manipulation')"
+          "justification": "Both Study 1 and Study 2 have detailed 'Procedure' sections outlining the steps taken, from participant recruitment to data collection. (e.g., '3.2 Procedure', '4.2 Experimental Manipulation', '4.3 Procedure')"
         }
       ]
     },
@@ -22,17 +22,17 @@
         {
           "criterion": "Open Data",
           "status": "Met",
-          "justification": "The document states: 'All code, data, and supplementary materials for this study are available on OSF https://osf.io/7c5zt/?view_only=58f0a6314e9243e9acdbd1c844d43d7b'."
+          "justification": "The document states: 'All code, data, and supplementary materials for this study are available on OSF https://osf.io/cjadu.' and 'Materials on OSF https://osf.io/7c5zt/?view_only= 58f0a6314e9243e9acdbd1c844d43d7b'."
         },
         {
           "criterion": "Data Documentation",
           "status": "Met",
-          "justification": "The document describes the variables measured (e.g., '3.4 Measures') and provides details about the scales used. Demographic information is also detailed."
+          "justification": "The document describes the variables measured (e.g., '3.4 Measures') and provides details about the scales used. While a full codebook isn't provided within the text, the OSF link suggests it's available there."
         },
         {
           "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "The document details how participants were recruited (Prolific), compensated ($1.70/$2.00), and the survey format (10-minute survey). (e.g., '3.1 Participants' and '4.1 Participants')"
+          "justification": "The document details how participants were recruited (Prolific), compensated ($1.70/$2.00), and the survey format (e.g., '3.1 Participants', '4.1 Participants')."
         }
       ]
     },
@@ -42,12 +42,12 @@
         {
           "criterion": "Open Source Code",
           "status": "Met",
-          "justification": "The document states: 'All code, data, and supplementary materials for this study are available on OSF https://osf.io/7c5zt/?view_only=58f0a6314e9243e9acdbd1c844d43d7b'."
+          "justification": "The document states: 'All code, data, and supplementary materials for this study are available on OSF https://osf.io/cjadu.'"
         },
         {
           "criterion": "Code for Data preparation",
           "status": "Met",
-          "justification": "The document states: 'All code, data, and supplementary materials for this study are available on OSF https://osf.io/7c5zt/?view_only=58f0a6314e9243e9acdbd1c844d43d7b.', implying scripts for data cleaning and analysis are included."
+          "justification": "The document states: 'All code, data, and supplementary materials for this study are available on OSF https://osf.io/cjadu.', implying that scripts for data cleaning, analysis, and visualization are included."
         }
       ]
     },
@@ -57,12 +57,12 @@
         {
           "criterion": "Quantitative Research Methods",
           "status": "Met",
-          "justification": "The document describes statistical tests (linear regression, Pearson\u2019s r), effect sizes (e.g., 0.25), confidence intervals, and p-values. (e.g., '3.5.1 Effects of Explanations on Preference and Attitudes' and '3.5.2 Relationship Between Attitudes and Preferences')"
+          "justification": "The document describes statistical tests (linear regression, Pearson\u2019s r), reports effect sizes (b, t, r), confidence intervals, and p-values (e.g., '3.5.1 Effects of Explanations on Preference and Attitudes.', '3.5.2 Relationship Between Attitudes and Preferences.')."
         },
         {
           "criterion": "Qualitative Research Methods",
           "status": "Met",
-          "justification": "The document describes a thematic analysis of open-ended responses from participants, detailing the coding process and identified themes. (e.g., '4.5.2 Exploratory Measures')"
+          "justification": "The document describes a thematic analysis of open-ended responses ('4.5.2 Exploratory Measures') and provides examples of themes and coding. (e.g., 'We extracted two types of themes from this analysis...') "
         }
       ]
     },
@@ -82,12 +82,12 @@
         {
           "criterion": "Outcome Shared",
           "status": "Met",
-          "justification": "The document clearly presents the results of both studies, including statistical findings and interpretations. (e.g., '3.5 Results' and '4.5 Results')"
+          "justification": "The document clearly presents the results of both studies, including statistical findings and interpretations. (e.g., '3.5 Results', '4.5 Results')"
         },
         {
           "criterion": "Limitations and potential biases",
           "status": "Met",
-          "justification": "The document discusses limitations, such as the use of Prolific participants and the context of ITS, and potential biases. (e.g., '5.3 Limitations and Future Research')"
+          "justification": "The document discusses limitations, such as the use of Prolific participants and the context of ITS, and potential biases (e.g., '5.1 Limitations and Future Research')."
         }
       ]
     }

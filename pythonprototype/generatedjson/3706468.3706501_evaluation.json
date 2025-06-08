@@ -7,12 +7,12 @@
         {
           "criterion": "Clear Methodology",
           "status": "Met",
-          "justification": "The paper explicitly states its goal: \"We introduced the task of dialogueKT with the goal of estimating student knowledge from open-ended tutor-student dialogues.\""
+          "justification": "The paper explicitly states its methodology, focusing on using LLMs for dialogue knowledge tracing. \"In this paper, we introduced the task of dialogueKT with the goal of estimating student knowledge from open-ended tutor-student dialogues.\""
         },
         {
           "criterion": "Step-by-step description",
           "status": "Met",
-          "justification": "Sections 4.1, 4.2, and 4.3 provide a detailed, step-by-step description of the experimental design, including data annotation, model development (LLMKT and DKT-Sem), and experimental setup."
+          "justification": "Sections 4.1 (Automated Dialogue Annotation), 4.2 (LLMKT), and 4.3 (DKT-Sem) provide a detailed, step-by-step description of the experimental design and methods used."
         }
       ]
     },
@@ -21,18 +21,18 @@
       "results": [
         {
           "criterion": "Open Data",
-          "status": "Not Met",
-          "justification": "The paper mentions using CoMTA and MathDial datasets, but does not state whether they are publicly available. While CoMTA is mentioned as being released by Khan Academy, there is no direct link or confirmation of full accessibility."
+          "status": "Met",
+          "justification": "The paper mentions using the CoMTA and MathDial datasets, which are publicly available. \"We experiment with two datasets, CoMTA and MathDial...\""
         },
         {
           "criterion": "Data Documentation",
           "status": "Met",
-          "justification": "Table 1 provides statistics for the datasets, including the number of dialogues, labels, KCs, and turns. This serves as a basic data dictionary."
+          "justification": "Table 1 provides statistics for the datasets, including the number of dialogues, labels, KCs, and other relevant information. This serves as a basic data dictionary."
         },
         {
           "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "The data collection methods are described for both CoMTA and MathDial in Section 5.1, detailing how the dialogues were obtained (Khanmigo, GPT-3.5 and crowd workers)."
+          "justification": "The data collection methods are described for both datasets. For CoMTA, it details the dialogues between students and Khanmigo. For MathDial, it describes the simulated student-tutor interactions. \"The CoMTA dataset [39] contains 188 dialogues...\" and \"The MathDial dataset [ 36] contains 2,848 dialogues...\""
         }
       ]
     },
@@ -42,12 +42,12 @@
         {
           "criterion": "Open Source Code",
           "status": "Met",
-          "justification": "The paper states: \"We release our prompts in an online supplementary material: https://osf.io/873ms?view_only=f32472a6560649e692a4e2ba603ef52c\" and mentions using pyKT and Huggingface Transformers."
+          "justification": "The paper states that the prompts are released online: \"We release our prompts in an online supplementary material: https://osf.io/873ms?view_only=f32472a6560649e692a4e2ba603ef52c\""
         },
         {
           "criterion": "Code for Data preparation",
           "status": "Not Met",
-          "justification": "While the paper mentions using various libraries, it does not explicitly state whether scripts for data cleaning and preprocessing are included in the shared resources."
+          "justification": "While the prompts are shared, the paper does not explicitly state that the code for data cleaning, analysis, and visualization is shared. It mentions using Huggingface Transformers and PyTorch, but doesn't provide a link to a repository containing the full codebase."
         }
       ]
     },
@@ -57,12 +57,12 @@
         {
           "criterion": "Quantitative Research Methods",
           "status": "Met",
-          "justification": "The paper uses statistical tests (accuracy, AUC, F1) and reports results with standard deviations where applicable (Table 2). Hyperparameter tuning is also described."
+          "justification": "The paper uses statistical tests and reports metrics like accuracy, AUC, and F1. It also mentions standard deviations and performs grid searches for hyperparameter optimization. \"Table 2 shows the quantitative performance of all KT methods...\""
         },
         {
           "criterion": "Qualitative Research Methods",
           "status": "Met",
-          "justification": "Section 6.2 provides a qualitative case study analysis of a dialogue, offering subjective context and interpretation of the model's predictions."
+          "justification": "Section 6.2 provides a qualitative case study analysis of a dialogue, interpreting the model's predictions and identifying challenges. \"We now detail findings from our qualitative analysis...\""
         }
       ]
     },
@@ -82,12 +82,12 @@
         {
           "criterion": "Outcome Shared",
           "status": "Met",
-          "justification": "The results of the experiments, including performance metrics for different KT methods, are clearly presented in Table 2."
+          "justification": "The results of the experiments, including performance metrics for different KT methods, are clearly presented in Table 2. \"Table 2 shows the quantitative performance of all KT methods...\""
         },
         {
           "criterion": "Limitations and potential biases",
           "status": "Met",
-          "justification": "Section 6.1 discusses limitations, such as the small size of the CoMTA dataset and the challenges of dialogueKT compared to standard KT. Section 7.2 details errors in the GPT-4o annotations."
+          "justification": "Section 6.1 discusses limitations, such as the relatively low performance on the dialogueKT task and the small size of the CoMTA dataset. It also acknowledges potential biases related to the data and the model. \"Overall, when we take into account the small amount of data...\""
         }
       ]
     }
