@@ -7,12 +7,12 @@
         {
           "criterion": "Clear Methodology",
           "status": "Met",
-          "justification": "The document explicitly states the methodology, describing two studies with specific designs and hypotheses. (e.g., 'In preparation for Study 1...' and 'In light of the surprising findings in Study 1...') "
+          "justification": "The document explicitly states the methodology, describing two studies with specific designs and hypotheses. (e.g., 'In preparation for Study 1, we conducted a pilot study...' and 'Grounded in our research questions and the review of the literature, our goal was to test the following hypotheses in Study 1:')"
         },
         {
           "criterion": "Step-by-step description",
           "status": "Met",
-          "justification": "Both Study 1 and Study 2 have detailed 'Procedure' sections outlining the steps taken, from participant recruitment to data collection. (e.g., '3.2 Procedure', '4.2 Experimental Manipulation', '4.3 Procedure')"
+          "justification": "Both Study 1 and Study 2 have detailed sections outlining participants, procedure, experimental manipulation, and measures, providing a step-by-step description of the experimental design. (e.g., '3.1 Participants', '3.2 Procedure', '4.1 Participants', '4.2 Experimental Manipulation')"
         }
       ]
     },
@@ -22,17 +22,17 @@
         {
           "criterion": "Open Data",
           "status": "Met",
-          "justification": "The document states: 'All code, data, and supplementary materials for this study are available on OSF https://osf.io/cjadu.' and 'Materials on OSF https://osf.io/7c5zt/?view_only= 58f0a6314e9243e9acdbd1c844d43d7b'."
+          "justification": "The document states: 'All code, data, and supplementary materials for this study are available on OSF at https://osf.io/cjadu.'"
         },
         {
           "criterion": "Data Documentation",
           "status": "Met",
-          "justification": "The document describes the variables measured (e.g., '3.4 Measures') and provides details about the scales used. While a full codebook isn't provided within the text, the OSF link suggests it's available there."
+          "justification": "The document mentions the use of established scales and adaptation from prior work, implying documentation. Additionally, the OSF link suggests the presence of supplementary materials that may include a data dictionary. (e.g., 'We adapted this set of measures from prior work...' and 'Materials on OSF https://osf.io/7c5zt/?view_only= 58f0a6314e9243e9acdbd1c844d43d7b')"
         },
         {
           "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "The document details how participants were recruited (Prolific), compensated ($1.70/$2.00), and the survey format (e.g., '3.1 Participants', '4.1 Participants')."
+          "justification": "Data collection methods are fully described, including recruitment via Prolific, survey administration, and the use of specific scales and questions. (e.g., 'We recruited 170 participants from Prolific.', 'Participants received $1.70 for completing the 10-minute survey...') "
         }
       ]
     },
@@ -42,12 +42,12 @@
         {
           "criterion": "Open Source Code",
           "status": "Met",
-          "justification": "The document states: 'All code, data, and supplementary materials for this study are available on OSF https://osf.io/cjadu.'"
+          "justification": "The document states: 'All code, data, and supplementary materials for this study are available on OSF at https://osf.io/cjadu.'"
         },
         {
           "criterion": "Code for Data preparation",
           "status": "Met",
-          "justification": "The document states: 'All code, data, and supplementary materials for this study are available on OSF https://osf.io/cjadu.', implying that scripts for data cleaning, analysis, and visualization are included."
+          "justification": "The document states: 'All code, data, and supplementary materials for this study are available on OSF at https://osf.io/cjadu.', implying the inclusion of scripts for data cleaning, analysis, and visualization."
         }
       ]
     },
@@ -57,12 +57,12 @@
         {
           "criterion": "Quantitative Research Methods",
           "status": "Met",
-          "justification": "The document describes statistical tests (linear regression, Pearson\u2019s r), reports effect sizes (b, t, r), confidence intervals, and p-values (e.g., '3.5.1 Effects of Explanations on Preference and Attitudes.', '3.5.2 Relationship Between Attitudes and Preferences.')."
+          "justification": "Statistical tests (linear regression, F-statistic, t-statistic), effect sizes (b), confidence intervals, and p-values are reported throughout the Results section. (e.g., '\ud835\udc393,164 = 0.4454,\ud835\udc5d = 0.7209', '\ud835\udc4f = 0.466,\ud835\udc61164 = 2.583,\ud835\udc5d = 0.011')"
         },
         {
           "criterion": "Qualitative Research Methods",
           "status": "Met",
-          "justification": "The document describes a thematic analysis of open-ended responses ('4.5.2 Exploratory Measures') and provides examples of themes and coding. (e.g., 'We extracted two types of themes from this analysis...') "
+          "justification": "The document describes a thematic analysis of open-ended responses from participants, detailing the coding process and identified themes. (e.g., 'A thematic analysis was conducted on the participants\u2019 responses.', 'We extracted two types of themes...') "
         }
       ]
     },
@@ -82,12 +82,12 @@
         {
           "criterion": "Outcome Shared",
           "status": "Met",
-          "justification": "The document clearly presents the results of both studies, including statistical findings and interpretations. (e.g., '3.5 Results', '4.5 Results')"
+          "justification": "The results of both studies are clearly presented, including statistical findings and interpretations. (e.g., 'We find no evidence in support of hypothesis H1...', 'Overall, the finding that educators prefer the complex over the simple algorithm is surprising...') "
         },
         {
           "criterion": "Limitations and potential biases",
           "status": "Met",
-          "justification": "The document discusses limitations, such as the use of Prolific participants and the context of ITS, and potential biases (e.g., '5.1 Limitations and Future Research')."
+          "justification": "The document discusses limitations, such as the use of Prolific participants and the context of ITS, and potential biases, such as the influence of the parent-teacher conference scenario. (e.g., 'First, the data collected was from educators on Prolific...', 'While the task of explaining the tool to a parent may have unintentionally influenced participants...') "
         }
       ]
     }

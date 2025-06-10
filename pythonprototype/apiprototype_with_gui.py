@@ -10,7 +10,7 @@ from tkinter import ttk
 from tkinter import filedialog,messagebox
 
 def extract_sections_using_bookmarks(reader: PdfReader):
-    """Splits the PDF into sections using its bookmarks (if available)."""
+    """Splits the PDF into sections using its bookmarks."""
     sections = {}
     bookmarks = []
 
@@ -32,9 +32,17 @@ def extract_sections_using_bookmarks(reader: PdfReader):
         title = bookmarks[i]
         next_title = bookmarks[i + 1] if i + 1 < len(bookmarks) else None
 
-        section_start = all_text.split(title, 1)[1]
-        if next_title and next_title in section_start:
-            section_text = section_start.split(next_title, 1)[0]
+        match = re.search(re.escape(title), all_text, re.IGNORECASE)
+        if not match:
+            print("title not found")
+        section_start = all_text[match.end():]
+
+        if next_title:
+            next_match = re.search(re.escape(next_title), section_start, re.IGNORECASE)
+            if next_match:
+                section_text = section_start[:next_match.start()]
+            else:
+                section_text = section_start
         else:
             section_text = section_start
 

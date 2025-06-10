@@ -1,11 +1,14 @@
-id,score,reproducible
-3706468.3706470,3,no
-3706468.3706482,4,no
-3706468.3706489,4,no
-3706468.3706493,3,no
-3706468.3706501,4,no
-3706468.3706514,3,no
-3706468.3706535,5,yes
-3706468.3706541,3,no
-3706468.3706559,3,no
-3706468.3706567,4,no
+id,score,reproducible,Open Methodology & Documentation,Data Accessibility & Transparency,Code & Software Availability,Type of Analysis,Preregistration,Results & Interpretation
+3506860.3506871,3,no,Met,Not Met,Not Met,Met,Not Met,Met
+3506860.3506902,4,no,Met,Not Met,Met,Met,Not Met,Met
+3506860.3506922,3,no,Met,Not Met,Not Met,Met,Not Met,Met
+3706468.3706470,3,no,Met,Not Met,Not Met,Met,Not Met,Met
+3706468.3706482,4,no,Met,Met,Not Met,Met,Not Met,Met
+3706468.3706489,4,no,Met,Met,Not Met,Met,Not Met,Met
+3706468.3706493,3,no,Met,Not Met,Not Met,Met,Not Met,Met
+3706468.3706501,4,no,Met,Met,Not Met,Met,Not Met,Met
+3706468.3706514,3,no,Met,Not Met,Not Met,Met,Met
+3706468.3706535,5,yes,Met,Met,Met,Met,Met,Met
+3706468.3706541,3,no,Met,Not Met,Not Met,Met,Met
+3706468.3706559,3,no,Met,Not Met,Not Met,Met,Met
+3706468.3706567,4,no,Met,Met,Not Met,Met,Met

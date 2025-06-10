@@ -1,0 +1,95 @@
+{
+  "id": "3506860.3506922",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Methodology",
+          "status": "Met",
+          "justification": "The document states: \"Our architecture for data collection, processing and analysis was based on our previous work [25].\" and describes the methods used."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Section 3.1 and 3.2 provide a detailed description of the experimental context, setup, data collection, processing, and analysis methods. The process is described sequentially."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data",
+          "status": "Not Met",
+          "justification": "The document does not provide a link to the raw or processed datasets, nor does it mention where they can be found. There is no explicit justification for why the data cannot be shared."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Not Met",
+          "justification": "There is no data dictionary or codebook explaining variables, formats, and preprocessing steps. While the processing steps are described, a formal documentation is missing."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The document details the data collection methods, including the FoLA2 method, session details, participant roles, and recording procedures (Section 3.1)."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code",
+          "status": "Not Met",
+          "justification": "The document does not mention or provide a link to any code repository (GitHub, GitLab)."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "Since the code is not shared, there are no scripts for data cleaning, analysis, and visualization included."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods",
+          "status": "Met",
+          "justification": "The document describes the use of frequency analysis, tf-idf ranking, and centrality measures (BC, EC). While specific statistical tests aren't detailed, the quantitative nature of the analysis is evident."
+        },
+        {
+          "criterion": "Qualitative Research Methods",
+          "status": "Met",
+          "justification": "The document mentions consulting with the game master to generate summarized annotations and provides subjective interpretation of the results, indicating qualitative analysis. The process of generating annotations is described."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Outcome Shared",
+          "status": "Met",
+          "justification": "The document describes the findings related to convergence within a phase, overview of epistemic and social space, and the dashboard's functionality, effectively sharing the experimental outcomes."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The document discusses limitations related to transcription accuracy, the generic nature of the dashboard, and potential overcrowding in network graphs (last paragraph)."
+        }
+      ]
+    }
+  ]
+}
