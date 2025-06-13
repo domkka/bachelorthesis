@@ -17,7 +17,7 @@
     "criteria": [
       {
         "name": "Open Data",
-        "description": "Are the raw or processed datasets publicly available (direct link provided or mentioning where it can be found)? If data cannot be shared, is there a clear justification (e.g., privacy concerns)?"
+        "description": "Are the raw or processed datasets publicly available or has it been mentioned where the data can be found? If data cannot be shared, is there a clear justification (e.g., privacy concerns)?"
       },
       {
         "name": "Data Documentation",
@@ -60,7 +60,7 @@
     "criteria": [
       {
         "name": "Preregistration",
-        "description": "Does the Paper contain a link to the preregistration (e.g the Open Science Foundation)? If a paper does not need to use a preregistration (e.g. theoretical or argumentative papers), then this field will be non-applicable"
+        "description": "Does the Paper contain a link to the preregistration (e.g the Open Science Foundation)?"
       }
     ]
   },

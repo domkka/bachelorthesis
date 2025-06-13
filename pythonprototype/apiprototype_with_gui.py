@@ -1,6 +1,6 @@
 import os
 import tkinter
-
+import threading
 from google import genai
 from google.genai import types
 import json
@@ -120,8 +120,7 @@ def generate(pdf_text, checklist):
     total_tokens = client.models.count_tokens(
         model=model,contents=prompt
     )
-    print(f"total tokens: {total_tokens}")
-    print("generating response")
+
     response = client.models.generate_content(
         model=model,
         contents=contents,
@@ -155,7 +154,8 @@ class ReproducibilityChecker:
         frame = ttk.Frame(container, padding=10)
         frame.grid(row=0, column=0, sticky="n")
 
-        ttk.Button(frame, text="Select PDF File", command=self.load_pdf).grid(row=0, column=0, pady=5, sticky="ew")
+        self.file_button = ttk.Button(frame, text="Select PDF File", command=self.load_pdf)
+        self.file_button.grid(row=0, column=0, pady=5, sticky="ew")
 
         self.file_label = ttk.Label(frame, text="", foreground="gray")
         self.file_label.grid(row=1, column=0, pady=(0, 10), sticky="ew")
@@ -163,7 +163,15 @@ class ReproducibilityChecker:
         self.sections_frame = ttk.LabelFrame(frame, text="Select Sections to evaluate")
         self.sections_frame.grid(row=2, column = 0, pady=10, sticky="ew")
 
-        ttk.Button(frame, text="Run Evaluation", command=self.run_evaluation).grid(row=3, column=0, pady=5, sticky="ew")
+        self.eval_button = ttk.Button(frame, text="Run Evaluation", command=self.run_evaluation_thread)
+        self.eval_button.grid(row=3, column=0, pady=5, sticky="ew")
+
+        self.status_label = ttk.Label(frame, text="",foreground="blue")
+        self.status_label.grid(row=4, column=0, pady=5, sticky="ew")
+
+        self.progressbar = ttk.Progressbar(frame, mode="indeterminate")
+        self.progressbar.grid(row=5, column=0, pady=5, sticky="ew")
+        self.progressbar.grid_remove()
 
     def load_pdf(self):
         file_path = filedialog.askopenfilename(filetypes=[("PDF files", "*.pdf")])
@@ -213,6 +221,28 @@ class ReproducibilityChecker:
         except Exception as e:
             messagebox.showerror("Error", str(e))
 
+    def run_evaluation_thread(self):
+        self.file_button.config(state="disabled")
+        self.eval_button.config(state="disabled")
+        self.status_label.config(text="Generating response...")
+        self.progressbar.grid()
+        self.progressbar.start(10)
+
+        thread = threading.Thread(target=self._threaded_evaluation)
+        thread.start()
+
+    def _threaded_evaluation(self):
+        try:
+            self.run_evaluation()
+        finally:
+            self.root.after(0, self._reset_ui)
+
+    def _reset_ui(self):
+        self.file_button.config(state="normal")
+        self.eval_button.config(state="normal")
+        self.status_label.config(text="")
+        self.progressbar.stop()
+        self.progressbar.grid_remove()
 
 if __name__ == "__main__":
     root = tkinter.Tk()
