@@ -63,11 +63,9 @@ def extract_json_from_response(text):
     json_content = "\n".join(lines)
     return json_content
 
-def get_api_key():
-    return simpledialog.askstring("API Key Required", "Enter your Gemini API KEY:", show="*")
 
-def generate(pdf_text, checklist):
-    api_key = os.environ.get("GEMINI_API_KEY") or get_api_key()
+
+def generate(pdf_text, checklist, api_key):
     client = genai.Client(
         api_key=api_key,
     )
@@ -144,6 +142,8 @@ class ReproducibilityChecker:
         self.sections = {}
         self.check_vars = {}
 
+        self.api_key = os.environ.get("GEMINI_API_KEY")
+
         self.build_gui()
 
     def build_gui(self):
@@ -186,12 +186,27 @@ class ReproducibilityChecker:
         self.eval_button = ttk.Button(frame, text="Run Evaluation", command=self.run_evaluation_thread, state="disabled")
         self.eval_button.grid(row=3, column=0, pady=5, sticky="ew")
 
+        self.key_button = ttk.Button(frame, text="Change API Key", command=self.prompt_api_key, state="normal")
+        self.key_button.grid(row=3, column=1, pady=5, sticky="ew")
+
         self.status_label = ttk.Label(frame, text="",foreground="blue")
         self.status_label.grid(row=4, column=0, pady=5, sticky="ew")
 
         self.progressbar = ttk.Progressbar(frame, mode="indeterminate")
         self.progressbar.grid(row=5, column=0, pady=5, sticky="ew")
         self.progressbar.grid_remove()
+
+    def prompt_api_key(self):
+        api_key = simpledialog.askstring(
+            "API Key Required",
+            "Enter your Gemini API Key",
+            show="*",
+            parent=self.root
+        )
+        if api_key:
+            self.api_key = api_key
+        else:
+            messagebox.showwarning("Missing Key", "No API key entered.")
 
     def load_pdf(self):
         file_path = filedialog.askopenfilename(filetypes=[("PDF files", "*.pdf")])
@@ -250,7 +265,7 @@ class ReproducibilityChecker:
             return
         checklist = self.checklist
         try:
-            response=generate(combined_text, checklist)
+            response=generate(combined_text, checklist, self.api_key)
             responsejson = extract_json_from_response(response)
             parsed = json.loads(responsejson)
             wrapped_data = {

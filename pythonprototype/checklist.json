@@ -38,7 +38,7 @@
       },
       {
         "name": "Code for Data preparation",
-        "description": "If code is shared: Are scripts for data cleaning, analysis, and visualization included?"
+        "description": "Is code for data cleaning, analysis, and visualization mentioned?"
       }
     ]
   },
