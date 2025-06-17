@@ -7,12 +7,12 @@
         {
           "criterion": "Clear Methodology",
           "status": "Met",
-          "justification": "The document explicitly states the research approach as a 'four-stage design process' and details user studies with different stakeholders."
+          "justification": "The document explicitly states the research involved a four-stage design process with adolescents, teachers, EdTech professionals, and pedagogical experts. It details user studies and iterative design."
         },
         {
           "criterion": "Step-by-step description",
           "status": "Met",
-          "justification": "The document provides a detailed description of each of the four studies, including participant recruitment, tasks, and data collection methods (e.g., 'Study 1 acted as a pilot study...', 'In study 2, we conducted think-aloud sessions...')."
+          "justification": "The document provides a detailed, step-by-step description of each of the four studies, including participant recruitment, tasks, data collection methods, and analysis techniques (e.g., 'Study 1 acted as a pilot study...', 'In study 2, we conducted think-aloud sessions...')."
         }
       ]
     },
@@ -22,17 +22,17 @@
         {
           "criterion": "Open Data",
           "status": "Not Met",
-          "justification": "The document does not mention the availability of raw or processed datasets. There is no indication of where the data can be found."
+          "justification": "The document does not mention the availability of raw or processed datasets. While participant details are given, the actual data collected is not shared."
         },
         {
           "criterion": "Data Documentation",
           "status": "Not Met",
-          "justification": "There is no data dictionary or codebook explaining variables, formats, or preprocessing steps."
+          "justification": "There is no data dictionary or codebook explaining variables, formats, or preprocessing steps. The document describes the data collection but not its structure."
         },
         {
           "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "Data collection methods are fully described for each study, including group discussions, think-aloud sessions, and focus groups. Details like session duration and incentives are provided (e.g., 'think-aloud sessions with 6 adolescents after parental consent...participants received a \u20ac15 voucher')."
+          "justification": "Data collection methods are fully described, including group discussions, think-aloud sessions, and focus groups. Details like session duration, participant numbers, and incentives are provided."
         }
       ]
     },
@@ -42,7 +42,7 @@
         {
           "criterion": "Open Source Code",
           "status": "Not Met",
-          "justification": "The document does not mention the sharing of analysis code in a repository."
+          "justification": "The document does not mention the sharing of any analysis code in a repository."
         },
         {
           "criterion": "Code for Data preparation",
@@ -57,12 +57,12 @@
         {
           "criterion": "Quantitative Research Methods",
           "status": "Not Met",
-          "justification": "The analysis appears to be primarily qualitative. While sample sizes are mentioned, there is no reporting of statistical tests, effect sizes, confidence intervals, or p-values."
+          "justification": "The analysis is primarily qualitative. While sample sizes are reported, there's no mention of statistical tests, effect sizes, or p-values."
         },
         {
           "criterion": "Qualitative Research Methods",
           "status": "Met",
-          "justification": "The document describes a thematic analysis of the qualitative data collected from the user studies. It mentions 'thematically grouping relevant quotes and combining them with our observations into main findings' and provides illustrative quotes throughout the text."
+          "justification": "The document provides subjective context and interpretation of the findings. It describes the thematic analysis of quotes and observations, and provides examples of participant feedback ('Minimise Text, Tightly Integrate Explanations')."
         }
       ]
     },
@@ -72,7 +72,7 @@
         {
           "criterion": "Preregistration",
           "status": "Not Met",
-          "justification": "The document does not contain a link to a preregistration on platforms like the Open Science Foundation."
+          "justification": "The document does not contain a link to any preregistration on platforms like the Open Science Foundation."
         }
       ]
     },
@@ -82,12 +82,12 @@
         {
           "criterion": "Outcome Shared",
           "status": "Met",
-          "justification": "The document clearly shares the outcomes of the experiment, detailing the findings from each study and the resulting design implications (e.g., 'we found that why explanations do not necessarily fulfil explainability needs for young learners')."
+          "justification": "The document clearly shares the outcomes of the experiment, including key findings about the effectiveness of different explanation types and learner control mechanisms."
         },
         {
           "criterion": "Limitations and potential biases",
           "status": "Met",
-          "justification": "The document discusses limitations related to the design, participants, and methods used in the study (e.g., 'we only involved adolescents from 7th to 11th grade in our study', 'we measured cognitive engagement only through observation')."
+          "justification": "The document discusses limitations related to sample size, participant demographics (Dutch-speaking adolescents), and measurement methods (observation only). It also acknowledges potential biases (e.g., low visual literacy)."
         }
       ]
     }

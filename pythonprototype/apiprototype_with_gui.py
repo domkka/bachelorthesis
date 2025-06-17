@@ -7,7 +7,7 @@ import json
 from pypdf import PdfReader
 import re
 from tkinter import ttk
-from tkinter import filedialog,messagebox
+from tkinter import filedialog,messagebox, simpledialog
 
 def extract_sections_using_bookmarks(reader: PdfReader):
     """Splits the PDF into sections using its bookmarks."""
@@ -63,9 +63,13 @@ def extract_json_from_response(text):
     json_content = "\n".join(lines)
     return json_content
 
+def get_api_key():
+    return simpledialog.askstring("API Key Required", "Enter your Gemini API KEY:", show="*")
+
 def generate(pdf_text, checklist):
+    api_key = os.environ.get("GEMINI_API_KEY") or get_api_key()
     client = genai.Client(
-        api_key=os.environ.get("GEMINI_API_KEY"),
+        api_key=api_key,
     )
 
     model = "gemma-3-27b-it"
@@ -133,7 +137,7 @@ class ReproducibilityChecker:
     def __init__(self, root):
         self.root = root
         self.root.title("Reproducibility Checker")
-        self.root.geometry("600x600")
+        self.root.geometry("1200x600")
 
         self.file_path = ""
         self.file_label = None
@@ -157,13 +161,29 @@ class ReproducibilityChecker:
         self.file_button = ttk.Button(frame, text="Select PDF File", command=self.load_pdf)
         self.file_button.grid(row=0, column=0, pady=5, sticky="ew")
 
+        self.checklist_button = ttk.Button(frame, text="Load Checklist", command=self.load_checklist)
+        self.checklist_button.grid(row=0, column=1, pady=5, sticky="ew")
+
         self.file_label = ttk.Label(frame, text="", foreground="gray")
         self.file_label.grid(row=1, column=0, pady=(0, 10), sticky="ew")
+
+        self.checklist_label = ttk.Label(frame, text="", foreground="gray")
+        self.checklist_label.grid(row=1, column=1, pady=(0, 10), sticky="ew")
 
         self.sections_frame = ttk.LabelFrame(frame, text="Select Sections to evaluate")
         self.sections_frame.grid(row=2, column = 0, pady=10, sticky="ew")
 
-        self.eval_button = ttk.Button(frame, text="Run Evaluation", command=self.run_evaluation_thread)
+        self.checklist_frame = ttk.LabelFrame(frame,text="Checklist Preview")
+        self.checklist_frame.grid(row=2, column=1, columnspan=2, sticky="nsew", pady=10)
+
+        self.checklist_view = tkinter.Text(self.checklist_frame, wrap=tkinter.WORD, height=15)
+        self.checklist_view.pack(side=tkinter.LEFT, fill=tkinter.BOTH, expand=True)
+
+        self.scrollbar = ttk.Scrollbar(self.checklist_frame, command=self.checklist_view.yview)
+        self.scrollbar.pack(side=tkinter.RIGHT, fill=tkinter.Y)
+        self.checklist_view.config(yscrollcommand=self.scrollbar.set)
+
+        self.eval_button = ttk.Button(frame, text="Run Evaluation", command=self.run_evaluation_thread, state="disabled")
         self.eval_button.grid(row=3, column=0, pady=5, sticky="ew")
 
         self.status_label = ttk.Label(frame, text="",foreground="blue")
@@ -193,6 +213,30 @@ class ReproducibilityChecker:
             chk.grid(row=i, column=0, sticky="w")
             self.check_vars[title] = var
 
+    def load_checklist(self):
+        file_path = filedialog.askopenfilename(filetypes=[("JSON files", "*.json")])
+        if not file_path:
+            return
+        try:
+            with open(file_path, "r") as f:
+                self.checklist = json.load(f)
+            filename = os.path.basename(file_path)
+            self.checklist_label.config(text=f"Loaded checklist: {filename}")
+
+            self.checklist_view.config(state=tkinter.NORMAL)
+            self.checklist_view.delete("1.0", tkinter.END)
+            formatted_json = json.dumps(self.checklist, indent=4)
+            self.checklist_view.insert(tkinter.END, formatted_json)
+            self.checklist_view.config(state=tkinter.DISABLED)
+
+            self.eval_button.config(state="normal")
+        except Exception as e:
+            messagebox.showerror("Error", f"Failed to load checklist:\n{str(e)}")
+            self.checklist = None
+            self.checklist_view.insert(tkinter.END, "File not found.")
+            self.checklist_view.config(state=tkinter.DISABLED)
+            self.eval_button.config(state="disabled")
+
     def run_evaluation(self):
         selected = [title for title, var in self.check_vars.items() if var.get()]
         if not selected:
@@ -201,9 +245,10 @@ class ReproducibilityChecker:
         combined_text = "\n\n".join(self.sections[title] for title in selected)
         file_id = os.path.splitext(os.path.basename(self.file_path))[0]
 
-        with open("checklist.json", "r") as file:
-            checklist = json.load(file)
-
+        if not self.checklist:
+            messagebox.showwarning("Checklist Missing", "Please load a checklist")
+            return
+        checklist = self.checklist
         try:
             response=generate(combined_text, checklist)
             responsejson = extract_json_from_response(response)
@@ -212,18 +257,28 @@ class ReproducibilityChecker:
                 "id": file_id,
                 "evaluation": parsed
             }
-            output_path = f"generatedjson/{file_id}_evaluation.json"
+
+            output_dir = "generatedjson"
+            os.makedirs(output_dir, exist_ok=True)
+            output_path = os.path.join(output_dir, f"{file_id}_evaluation.json")
             with open(output_path, "w") as f:
                 json.dump(wrapped_data, f, indent=2)
-            print(f"saved JSON to {output_path}")
 
             messagebox.showinfo("Success", f"Saved JSON to {output_path}")
+
+            self.checklist_view.config(state=tkinter.NORMAL)
+            self.checklist_view.delete("1.0", tkinter.END)
+            formatted_result = json.dumps(wrapped_data, indent=4)
+            self.checklist_view.insert(tkinter.END, formatted_result)
+            self.checklist_view.config(state=tkinter.DISABLED)
+
         except Exception as e:
             messagebox.showerror("Error", str(e))
 
     def run_evaluation_thread(self):
         self.file_button.config(state="disabled")
         self.eval_button.config(state="disabled")
+        self.checklist_button.config(state="disabled")
         self.status_label.config(text="Generating response...")
         self.progressbar.grid()
         self.progressbar.start(10)
@@ -240,6 +295,7 @@ class ReproducibilityChecker:
     def _reset_ui(self):
         self.file_button.config(state="normal")
         self.eval_button.config(state="normal")
+        self.checklist_button.config(state="normal")
         self.status_label.config(text="")
         self.progressbar.stop()
         self.progressbar.grid_remove()

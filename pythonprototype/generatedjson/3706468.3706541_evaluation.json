@@ -7,12 +7,12 @@
         {
           "criterion": "Clear Methodology",
           "status": "Met",
-          "justification": "The document states: \"A qualitative and interpretive approach was applied to address the research questions...The research used a case study design...Aligned with the interpretivist paradigm, focus groups were selected...Drawing on Layder\u2019s (1998) adaptive theory...\""
+          "justification": "The document explicitly states a qualitative and interpretive approach, employing a case study design and focus groups. \"A qualitative and interpretive approach was applied to address the research questions...\""
         },
         {
           "criterion": "Step-by-step description",
           "status": "Met",
-          "justification": "The document details the research process from ethics approval and participant selection (\"Institutional ethics approval was obtained...purposive sampling was used...\") through data collection (\"six focus groups involving 23 university instructors...\"), data analysis (\"The audio files were transcribed verbatim, and two coding cycles were done in Atlas.ti...\"), and interpretation (\"The analyses were done inductively, and the results were interpreted through the lens of SDT theory constructs.\")."
+          "justification": "The document provides a detailed description of the research process, including participant selection, data collection (focus groups), data analysis (coding cycles in Atlas.ti, Layder\u2019s adaptive theory), and ethical considerations. \"Institutional ethics approval was obtained...The study comprised six focus groups...The audio files were transcribed verbatim, and two coding cycles were done in Atlas.ti...\""
         }
       ]
     },
@@ -22,17 +22,17 @@
         {
           "criterion": "Open Data",
           "status": "Not Met",
-          "justification": "The document does not mention the availability of raw or processed datasets. It is likely that sharing the transcripts of focus groups would raise privacy concerns, but this is not explicitly stated."
+          "justification": "The document does not mention the availability of raw or processed datasets. It does not provide a location where the data can be found, nor does it offer a justification for its unavailability."
         },
         {
           "criterion": "Data Documentation",
           "status": "Not Met",
-          "justification": "There is no mention of a data dictionary or codebook. While the coding process is described, there's no detailed documentation of variables or formats."
+          "justification": "There is no data dictionary or codebook explaining variables, formats, or preprocessing steps. While coding is described, the specifics of the coding scheme are not fully documented."
         },
         {
           "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "The document describes the data collection methods: \"focus groups were selected as the data collection strategy to allow instructors to share their ideas collectively through in-depth discussions...The focus groups were conducted through video conference technology and recorded...\""
+          "justification": "Data collection methods are fully described, detailing the use of focus groups, participant selection criteria, and the recording/transcription process. \"Aligned with the interpretivist paradigm, focus groups were selected as the data collection strategy...\""
         }
       ]
     },
@@ -42,12 +42,12 @@
         {
           "criterion": "Open Source Code",
           "status": "Not Met",
-          "justification": "The document does not mention the sharing of analysis code."
+          "justification": "The document does not mention the sharing of analysis code in a repository like GitHub or GitLab."
         },
         {
           "criterion": "Code for Data preparation",
           "status": "Not Met",
-          "justification": "Since no code is shared, there are no scripts for data cleaning, analysis, or visualization."
+          "justification": "Since the analysis code is not shared, there are no scripts for data cleaning, analysis, or visualization included."
         }
       ]
     },
@@ -62,7 +62,17 @@
         {
           "criterion": "Qualitative Research Methods",
           "status": "Met",
-          "justification": "The document provides details on the qualitative analysis: \"inductive coding enabled the principal data analyst to analyse and crystalise the participants\u2019 lived experiences...Data segmentation was done on a unit-of-meaning basis...in vivo coding...thematic analysis...\""
+          "justification": "The document provides subjective context and interpretation of the focus group data. Data coding and analysis are clearly described, including the use of in vivo coding, thematic analysis, and the application of SDT. \"The analyses were done inductively, and the results were interpreted through the lens of SDT theory constructs...\""
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration on platforms like the Open Science Foundation."
         }
       ]
     },
@@ -72,12 +82,12 @@
         {
           "criterion": "Outcome Shared",
           "status": "Met",
-          "justification": "The results are presented in the form of emergent themes and their alignment with SDT constructs, summarized in Table 1 and discussed throughout the text. The Data-informed Educational Design Decision-making framework is also presented."
+          "justification": "The study's findings, including emergent themes and their alignment with SDT constructs, are presented in Table 1 and discussed throughout the results section. \"Our results address the following research questions...Table 1 summarises the emergent themes...\""
         },
         {
           "criterion": "Limitations and potential biases",
           "status": "Met",
-          "justification": "The document acknowledges limitations: \"The study was conducted in a single institution and within one academic unit...As a result, the findings and insights were likely influenced by the target institution\u2019s organisational culture...\""
+          "justification": "The document acknowledges limitations related to the single institution and academic unit studied. \"The study was conducted in a single institution and within one academic unit...\""
         }
       ]
     }
