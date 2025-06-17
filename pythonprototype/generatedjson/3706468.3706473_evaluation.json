@@ -1,0 +1,95 @@
+{
+  "id": "3706468.3706473",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research focus on team formation and its challenges. It outlines the approach of designing and evaluating algorithms for this purpose."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Section 4 details the evaluation framework, including scenarios, algorithms, and metrics, providing a step-by-step description of the experimental design. Algorithm 1 provides a pseudocode description of the priority algorithm."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data",
+          "status": "Partially Met",
+          "justification": "The document mentions using real class data from 2022 and 2023, but does not make it publicly available. It states that students without survey responses were omitted, implying privacy concerns. A link to a repository is provided for algorithms, but not the datasets themselves."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "The document describes the characteristics and distributions of the student data used in the real class scenarios (Section 4.2), providing a form of data documentation."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The document states that data was collected from a survey (Section 4.2), describing the type of information gathered (e.g., background information, timeslot availabilities)."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code",
+          "status": "Met",
+          "justification": "The document states: \"The Algorithms repository is available at https://github.com/Teamable-Analytics/algorithms.\""
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "While the document mentions data preprocessing, it does not explicitly state whether the code for data cleaning and preparation is shared in the repository."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods",
+          "status": "Met",
+          "justification": "The document presents quantitative results (e.g., runtime comparisons, performance metrics) and discusses statistical comparisons between algorithms. Metrics like intra-heterogeneity and solo status are used for quantitative evaluation."
+        },
+        {
+          "criterion": "Qualitative Research Methods",
+          "status": "Not Met",
+          "justification": "The document primarily focuses on quantitative analysis and does not include significant qualitative data or interpretation."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not mention or link to any preregistration."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Outcome Shared",
+          "status": "Met",
+          "justification": "The document presents detailed results from both synthetic and real-world data experiments, including tables and figures comparing the performance of different algorithms."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Section 6.1 discusses limitations, including the need for more comparison algorithms and testing on more student distributions. Section 5.1 also acknowledges potential biases."
+        }
+      ]
+    }
+  ]
+}

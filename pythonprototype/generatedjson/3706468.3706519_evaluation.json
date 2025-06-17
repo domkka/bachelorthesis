@@ -1,0 +1,95 @@
+{
+  "id": "3706468.3706519",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research aims to \"evaluate the dynamics of linguistic synchrony in second language virtual tutoring environments\" and outlines the approach."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 3.1, 3.2, and 3.3 provide a detailed description of the research process, including data extraction, feature engineering, model training, and evaluation. The process is described in a step-by-step manner."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data",
+          "status": "Not Met",
+          "justification": "The document does not mention the availability of the raw or processed datasets. There is no indication of where the data can be found."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Not Met",
+          "justification": "While the document describes the features extracted (e.g., Table 3), a comprehensive data dictionary or codebook explaining all variables, formats, and preprocessing steps is not provided."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The document states the study focuses on \"second language virtual tutoring environments\" and implies data was collected from tutoring sessions, but specific details about participant recruitment or session setup are limited."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code",
+          "status": "Not Met",
+          "justification": "The document does not mention whether the analysis code is shared in a repository like GitHub or GitLab."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document mentions the use of tools like JSDuPOS, ALIGN, CLiD, and Tsfresh, but does not provide the code used for data cleaning, analysis, and visualization."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods",
+          "status": "Met",
+          "justification": "The document describes statistical tests (Kruskal-Wallis H test, Dunn\u2019s post-hoc test), models (SVM, RF, LR, KNN, GBM), and reports performance metrics like accuracy, precision, recall, and F1 scores. P-values are also reported (e.g., p<.001)."
+        },
+        {
+          "criterion": "Qualitative Research Methods",
+          "status": "Not Met",
+          "justification": "The analysis is primarily quantitative. While there is interpretation of the results, there is no mention of qualitative data coding or analysis."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration on platforms like the Open Science Foundation."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Outcome Shared",
+          "status": "Met",
+          "justification": "The document clearly presents the results of the analysis, including model performance and statistical significance of findings."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The document acknowledges limitations, such as the limited scope of existing research and the infrequent occurrence of certain dialogue acts, which could affect the variability of the metrics (e.g., \"Despite its significance, research specifically focusing on linguistic synchrony within language tutoring for second language learners remains limited in scope\")."
+        }
+      ]
+    }
+  ]
+}

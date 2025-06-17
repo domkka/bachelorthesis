@@ -1,0 +1,95 @@
+{
+  "id": "3706468.3706513",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the introduction of \"Transition Network Analysis (TNA)\" and its integration of Stochastic Process Mining (SPM) and probabilistic network (PN) models."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 3.1 (Implementation of the method) and subsequent subsections detail the steps taken, including data coding, session grouping, Markov model estimation, clustering, and covariate analysis."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data",
+          "status": "Not Met",
+          "justification": "The document states the data was gathered from course offerings but does not provide a link or mention availability of the raw or processed datasets. No justification for non-sharing is given."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Table 1 provides a coding scheme for chat discussions, acting as a data dictionary explaining the variables and codes used."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The document describes the data collection as students collaborating online using chats, and specifies the course level and number of participants. It also details the coding process and inter-rater reliability (\u03ba>0.61)."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code",
+          "status": "Met",
+          "justification": "The document mentions the use of the R package 'tna' [19] and 'seqHMM' [12, 37], implying code availability."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Met",
+          "justification": "The document details the steps for data preparation, including coding, session grouping, and Markov model estimation, which could be replicated with the mentioned R packages."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods",
+          "status": "Met",
+          "justification": "The document describes statistical methods like Markov models, clustering (BIC values reported), covariate analysis (estimates, confidence intervals, p-values reported), and centrality measures. Effect sizes (e.g., t-values) are also reported."
+        },
+        {
+          "criterion": "Qualitative Research Methods",
+          "status": "Not Met",
+          "justification": "While the data originates from text (chat discussions), the analysis focuses on quantitative modeling of the coded data. There is limited subjective context or interpretation beyond describing the model results."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not mention or link to any preregistration."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Outcome Shared",
+          "status": "Met",
+          "justification": "The document presents detailed results of the TNA analysis, including network plots, centrality measures, cluster characteristics, and covariate analysis results."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The document explicitly discusses limitations related to sample size, Markov model assumptions, computational complexity, and potential issues with continuous-time processes. It also cautions about the context-sensitivity of network measures."
+        }
+      ]
+    }
+  ]
+}

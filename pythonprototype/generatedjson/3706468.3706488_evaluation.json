@@ -1,0 +1,95 @@
+{
+  "id": "3706468.3706488",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research aim: \"Therefore, the aim of this study is to analyze students\u2019 preferences for AI-generated feedback in formative peer assessment...\" and outlines the overall approach."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Section 3.1, \"AI-Driven Formative Peer Assessment Process\", provides a detailed, stage-by-stage description of the experimental design, outlining the 'ask', 'answer', 'analyze', and 'adapt' stages."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data",
+          "status": "Not Met",
+          "justification": "The document does not mention the availability of raw or processed datasets. While the study involved data collection, there is no indication of public access."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Section 3.3, \"Data Processing\", includes details about the variables used (e.g., FirstAttemptCorrect, Preference, Math Anxiety) and how they were measured, effectively serving as a data dictionary."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The document describes data collection methods, including trace data from the AI-driven formative peer assessment process and self-report survey data on learning dispositions (Section 3.2 and 3.3)."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code",
+          "status": "Not Met",
+          "justification": "The document does not mention the sharing of analysis code in a repository like GitHub or GitLab."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document does not explicitly state the availability of code used for data cleaning, analysis, or visualization."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods",
+          "status": "Met",
+          "justification": "The document details the use of ANOVA, Dunnett\u2019s Test, and Linear Regression, reporting statistical significance (p-values) and model fit statistics (R-squared).\"(Table 5 and Table 7, Table 8)\""
+        },
+        {
+          "criterion": "Qualitative Research Methods",
+          "status": "Not Met",
+          "justification": "The study primarily focuses on quantitative analysis. While there's discussion of classroom environments, it's largely descriptive and doesn't involve in-depth qualitative coding or interpretation of textual data."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration on platforms like the Open Science Foundation."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Outcome Shared",
+          "status": "Met",
+          "justification": "The document presents the results of the analysis, including preference differences based on classroom environment and disposition (Section 4.1 and 4.2)."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Section 4.3, \"Discussion\", explicitly addresses limitations, such as the limited scope of dispositional data and the inability of AI to increase participation rates."
+        }
+      ]
+    }
+  ]
+}
