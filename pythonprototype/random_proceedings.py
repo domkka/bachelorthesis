@@ -2,7 +2,7 @@ import os
 import random
 import shutil
 
-def extract_random_files(source_folder, output_folder, sample=6, seed=None):
+def extract_random_files(source_folder, output_folder, sample=2, seed=None):
     if seed is not None:
         random.seed(seed)
 
@@ -10,7 +10,13 @@ def extract_random_files(source_folder, output_folder, sample=6, seed=None):
 
     files = [f for f in os.listdir(source_folder) if os.path.isfile(os.path.join(source_folder, f))]
 
-    selected_files = random.sample(files, sample)
+    already_selected = set(
+        f for f in os.listdir(output_folder) if os.path.isfile(os.path.join(output_folder, f))
+    )
+
+    availabel_files = [f for f in files if f not in already_selected]
+
+    selected_files = random.sample(availabel_files, sample)
 
     for file in selected_files:
         src_path = os.path.join(source_folder, file)
@@ -21,4 +27,4 @@ if __name__ == "__main__":
     folder_path = "lakproceedings"
     output_folder_path = "randomproceedings"
 
-    extract_random_files(folder_path, output_folder_path, sample=12, seed=42)
+    extract_random_files(folder_path, output_folder_path, sample=2, seed=42)
