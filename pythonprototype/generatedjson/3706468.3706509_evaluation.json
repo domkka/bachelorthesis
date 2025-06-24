@@ -5,14 +5,14 @@
       "category": "Open Methodology & Documentation",
       "results": [
         {
-          "criterion": "Clear Methodology",
+          "criterion": "Clear Research Methodology",
           "status": "Met",
-          "justification": "The study explicitly states it adopted 'Quantitative ethnography' integrating qualitative and quantitative methods (Section 3)."
+          "justification": "The document states it uses 'Quantitative ethnography' and details the integration of qualitative and quantitative methods."
         },
         {
           "criterion": "Step-by-step description",
           "status": "Met",
-          "justification": "Sections 2.3 (Participants and data sources) and 3 (Data transformation, Network Analysis) provide a detailed description of the experimental design and analysis steps."
+          "justification": "Sections 2.1, 2.2, 2.3, 3.1, 3.2, and 3.3 provide a detailed description of the course design, research questions, participants, data sources, data transformation, and network analysis."
         }
       ]
     },
@@ -20,19 +20,24 @@
       "category": "Data Accessibility & Transparency",
       "results": [
         {
-          "criterion": "Open Data",
+          "criterion": "Open Data 1",
           "status": "Not Met",
-          "justification": "The document does not mention the availability of raw or processed datasets. It only states data was collected from student forum posts and assignment results."
+          "justification": "The document does not state that the raw or processed datasets are publicly available."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "While privacy isn't explicitly mentioned, the document doesn't offer data access, and no justification is provided."
         },
         {
           "criterion": "Data Documentation",
-          "status": "Partially Met",
-          "justification": "A description of the coding process is provided (Section 3.1), which acts as a partial codebook. However, a full data dictionary is not present."
+          "status": "Met",
+          "justification": "Section 3.1 details the coding process and the creation of a consolidated list of textual expressions matched to the keywords, functioning as a codebook."
         },
         {
           "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "Data collection methods are fully described, including the use of online forum discussions and assignment scores (Section 2.2 and 2.3)."
+          "justification": "The document describes data collection as students\u2019 inputs in online discussion forums and records of their assignment performance (Section 2.3)."
         }
       ]
     },
@@ -40,14 +45,19 @@
       "category": "Code & Software Availability",
       "results": [
         {
-          "criterion": "Open Source Code",
+          "criterion": "Open Source Code 1",
           "status": "Not Met",
-          "justification": "The document does not mention whether the analysis code is shared in a repository."
+          "justification": "The document mentions using web-ENA1 but does not provide a link to the code repository."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Met",
+          "justification": "No justification is provided for why the code is not shared."
         },
         {
           "criterion": "Code for Data preparation",
-          "status": "Partially Met",
-          "justification": "The document mentions the use of Excel formulas for counting code occurrences, inspired by a procedure in Moraes et al. [46], but doesn't share the code itself. It also mentions using web-ENA1, but doesn't provide access to the code used with it."
+          "status": "Met",
+          "justification": "Section 3.1 describes the creation of Excel formulas for counting code occurrences, indicating code for data preparation was used."
         }
       ]
     },
@@ -55,14 +65,39 @@
       "category": "Type of Analysis",
       "results": [
         {
-          "criterion": "Quantitative Research Methods",
+          "criterion": "Quantitative Research Methods 1",
           "status": "Met",
-          "justification": "Statistical tests (t-tests) are described, and results including means, standard deviations, p-values, and Cohen's d are reported (Table 2 and Section 4.1)."
+          "justification": "The document describes the use of t-tests, singular value decomposition (SVD), and network analysis."
         },
         {
-          "criterion": "Qualitative Research Methods",
+          "criterion": "Quantitative Research Methods 2",
           "status": "Met",
-          "justification": "The initial coding of the forum posts was done manually and is described, providing subjective context and interpretation. The process of matching textual expressions to codes is detailed (Section 3.1)."
+          "justification": "The document reports t-test results, p-values, and Cohen\u2019s d (effect sizes) (e.g., Table 2)."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document includes subjective interpretation of the network analysis results and discusses conceptual engagement patterns."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Met",
+          "justification": "The document describes the manual coding process and the iterative refinement of the codebook (Section 3.1)."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "The results of the ENA and ONA analyses are presented with figures and tables, and are clearly described in the text."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The document discusses limitations related to the sample size and the potential influence of factors beyond epistemic orientation (Section 4)."
         }
       ]
     },
@@ -73,21 +108,6 @@
           "criterion": "Preregistration",
           "status": "Not Met",
           "justification": "The document does not contain a link to a preregistration."
-        }
-      ]
-    },
-    {
-      "category": "Results & Interpretation",
-      "results": [
-        {
-          "criterion": "Outcome Shared",
-          "status": "Met",
-          "justification": "The results of the ENA and ONA analyses are presented and discussed throughout Section 4."
-        },
-        {
-          "criterion": "Limitations and potential biases",
-          "status": "Met",
-          "justification": "Limitations are discussed in the final paragraph of Section 4, including the lack of investigation into factors influencing performance and the need for further research with varied designs."
         }
       ]
     }

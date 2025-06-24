@@ -5,14 +5,14 @@
       "category": "Open Methodology & Documentation",
       "results": [
         {
-          "criterion": "Clear Methodology",
+          "criterion": "Clear Research Methodology",
           "status": "Met",
-          "justification": "The document explicitly states the methodology, focusing on re-examining theoretical models of affect dynamics through literature review and empirical investigation. \"This study seeks to re-examine our theoretical models by reviewing the learning analytics literature...\""
+          "justification": "The document explicitly states the research aims to re-examine theoretical models of affect dynamics using data from a classroom study. It details the use of epistemic network analysis (ENA) and BROMP-based detectors."
         },
         {
           "criterion": "Step-by-step description",
           "status": "Met",
-          "justification": "Sections 3.1-3.3 provide a step-by-step description of the study context, learners, automated detectors of student affect, and the Ordered Network Analysis (ONA) used. This details the experimental design."
+          "justification": "Sections 3.1-3.3 provide a detailed description of the study context, learners, automated detectors, and ordered network analysis, outlining the steps taken in the study design."
         }
       ]
     },
@@ -20,9 +20,14 @@
       "category": "Data Accessibility & Transparency",
       "results": [
         {
-          "criterion": "Open Data",
+          "criterion": "Open Data 1",
           "status": "Not Met",
-          "justification": "The document does not mention the availability of raw or processed datasets. There is no indication of where the data can be found."
+          "justification": "The document does not mention the public availability of the raw or processed datasets."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "There is no justification provided for why the data cannot be shared."
         },
         {
           "criterion": "Data Documentation",
@@ -32,7 +37,7 @@
         {
           "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "Data collection methods are described in section 3.1 and 3.2, detailing the use of a game-based learning system (Crystal Island), pre/post-surveys, and automated detectors based on BROMP observations."
+          "justification": "Data collection methods are described, including pre- and post-surveys, and the use of BROMP observations during gameplay (Section 3.1 & 3.2)."
         }
       ]
     },
@@ -40,14 +45,19 @@
       "category": "Code & Software Availability",
       "results": [
         {
-          "criterion": "Open Source Code",
+          "criterion": "Open Source Code 1",
           "status": "Not Met",
-          "justification": "The document does not mention whether the analysis code is shared in a repository."
+          "justification": "The document does not mention the sharing of analysis code in an open repository."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Met",
+          "justification": "There is no justification provided for why the code cannot be shared."
         },
         {
           "criterion": "Code for Data preparation",
           "status": "Not Met",
-          "justification": "The document does not mention code for data cleaning, analysis, and visualization."
+          "justification": "The document does not mention the sharing of code for data preparation."
         }
       ]
     },
@@ -55,14 +65,39 @@
       "category": "Type of Analysis",
       "results": [
         {
-          "criterion": "Quantitative Research Methods",
+          "criterion": "Quantitative Research Methods 1",
           "status": "Met",
-          "justification": "The document describes statistical analyses like ONA and mentions normalization techniques. Results are presented with tables showing rates and line weights. \"By conducting an ONA analysis, which does normalize the data according to the base rates of individual affective states...\""
+          "justification": "Statistical methods like Ordered Network Analysis (ONA) are described, and the use of normalization techniques is mentioned (Section 3.3)."
         },
         {
-          "criterion": "Qualitative Research Methods",
+          "criterion": "Quantitative Research Methods 2",
           "status": "Not Met",
-          "justification": "While the study interprets the quantitative results, there is no explicit description of qualitative data coding or analysis. The focus is primarily on quantitative methods."
+          "justification": "While statistical methods are mentioned, effect sizes, confidence intervals, and p-values are not explicitly reported in the provided text."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document provides subjective context and interpretation of the results, particularly in the discussion of pleasurable frustration and the limitations of the BROMP detectors."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Met",
+          "justification": "Data coding and analysis are not described in detail, and no coding scheme is shared."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented in tables (Table 2 & 3) and described in the text, detailing changes in affective states over time and differences based on self-efficacy."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The document discusses limitations, such as the inability of BROMP detectors to differentiate between types of frustration and the need for further investigation into the temporal scale of affective experiences (Section 5.3)."
         }
       ]
     },
@@ -73,21 +108,6 @@
           "criterion": "Preregistration",
           "status": "Not Met",
           "justification": "The document does not contain a link to a preregistration on platforms like the Open Science Foundation."
-        }
-      ]
-    },
-    {
-      "category": "Results & Interpretation",
-      "results": [
-        {
-          "criterion": "Outcome Shared",
-          "status": "Met",
-          "justification": "The study's results are shared throughout the document, including descriptive results (tables 2 & 3), ONA results (figures 3, 4, 5 and table 4 & 5), and the proposed SDVET model."
-        },
-        {
-          "criterion": "Limitations and potential biases",
-          "status": "Met",
-          "justification": "The document discusses limitations, such as the inability of BROMP-based detectors to differentiate between types of frustration and the need for further investigation into the temporal aspects of affect dynamics. \"However, these models produce atomized labels that likely to not capture the full range of experiences that an individual student experiences...\""
         }
       ]
     }

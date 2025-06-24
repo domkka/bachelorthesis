@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706552",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research aims to investigate machine learning predictors using student logs to predict long-term outcomes. The overall approach is clearly outlined."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 2.2.1, 2.2.2, and 2.2.3 provide a detailed, step-by-step description of the data analysis process, including feature extraction, machine learning methods, and model evaluation."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document does not state that the raw or processed datasets are publicly available. It mentions data was collected from specific sources (CWTL, MATHia, iReady) but doesn't provide access."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Met",
+          "justification": "The document implicitly justifies the lack of open data by mentioning the context of data collection (e.g., students in conflict areas, US schools) which suggests privacy concerns and data use agreements."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Section 2.1 provides details about the datasets, including the source, time period, number of students, and the nature of the post-test scores. The features extracted are also described in 2.2.1."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The document describes the data collection methods, specifying that data was collected from educational technology platforms (CWTL, MATHia, iReady) and includes details about the types of data recorded (log data, pre-test scores, post-test scores)."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document does not mention whether the analysis code is shared in an open repository."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Applicable",
+          "justification": "Since the code is not mentioned as being available, there is no justification for its absence."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document does not explicitly state whether the code for data preparation is shared or mentioned."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document clearly describes the statistical tests and models used, including linear regression, support vector regression, and random forest. It also mentions the use of 5-fold cross-validation."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "The document reports effect sizes (R-squared), and RMSE is used as a metric for evaluating the models."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Not Met",
+          "justification": "The study is primarily quantitative and does not include significant subjective context or interpretation."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Applicable",
+          "justification": "Since there is no qualitative data analysis, there is no data coding or analysis to describe."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "The results are presented in tables and figures, with clear descriptions of the findings. For example, Figure 1 and Tables 3 & 4 present the prediction performance."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The document discusses limitations, such as the potential impact of usage time definitions (Section 2.2), the sparsity of data in CWTLReading, and the need for further validation before using predictions for interventions (Section 3.6)."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration on platforms like the Open Science Foundation."
+        }
+      ]
+    }
+  ]
+}

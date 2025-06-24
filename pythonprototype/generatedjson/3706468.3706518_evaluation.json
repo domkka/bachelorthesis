@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706518",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states a 'design-based research approach' and mentions the 'Integrative Learning Design Framework (IDL)'."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "The paper details the three phases of the ILD framework (Informed Exploration, Enactment, Local Evaluation) and provides a narrative report of the main results for each phase."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document does not mention the public availability of raw or processed datasets."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "No justification is provided for the lack of data sharing, as no sharing is mentioned."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Not Met",
+          "justification": "There is no mention of a data dictionary or codebook."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Data collection methods are described, including document analysis, semi-structured interviews, and a pilot study. Table 1 provides details on information sources and study objectives."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document does not mention the sharing of analysis code."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Met",
+          "justification": "No justification is provided for the lack of code sharing, as no sharing is mentioned."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document does not mention code for data preparation."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document mentions the calculation of Fleiss\u2019 kappa to assess peer agreement as evidence of construct validity."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Not Met",
+          "justification": "Effect sizes, confidence intervals, and p-values are not reported."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document provides subjective context and interpretation of interview data and document analysis."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Met",
+          "justification": "The document describes the data coding process (inductive coding, peer debriefing, thematic analysis) and mentions triangulation of data sources."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented in a narrative format, with supporting evidence from interviews and document analysis. Tables (e.g., Table 2, Table 3, Table 4) summarize key findings."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The document discusses limitations, such as the short period of time analyzed and the conservative nature of improvement actions detected. It also acknowledges potential biases related to faculty perceptions."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration."
+        }
+      ]
+    }
+  ]
+}

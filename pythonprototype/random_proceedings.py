@@ -21,4 +21,4 @@ if __name__ == "__main__":
     folder_path = "lakproceedings"
     output_folder_path = "randomproceedings"
 
-    extract_random_files(folder_path, output_folder_path, sample=6, seed=42)
+    extract_random_files(folder_path, output_folder_path, sample=12, seed=42)

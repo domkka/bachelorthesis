@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706487",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research aims and approach, focusing on topic-controlled question generation and evaluating its effectiveness. (e.g., \"This paper tackled the challenge of topic-controllable question generation...\")"
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 3 and 4 provide a detailed, step-by-step description of the study design, including dataset creation, model development, and experimental setup. (e.g., \"3.1 Datasets Utilised\", \"3.2 Creating Novel Datasets for T-CQG\", \"3.3 Developing T-CQG Models for Education\", \"3.4 Human Annotation-based Evaluation of Semantic Relatedness Metrics\")"
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document mentions datasets used (SQuAD, KhanQ, PeS2O) but does not state whether they are publicly available or provide links to access them. It only mentions where the datasets were sourced from."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "N/A",
+          "justification": "Since the data is not stated as being available, justification for not sharing is not applicable."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Not Met",
+          "justification": "While the datasets are described, a detailed data dictionary or codebook explaining variables, formats, and preprocessing steps is not provided."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Data collection methods, particularly for the human annotation task, are described in section 3.4. (e.g., \"To set up the annotation task, we randomly selected 30 questions...\")"
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document mentions a GitHub repository but does not provide a link. (e.g., \"https://github.com/Cathgy/Topic-controllable-Question-Generator.\")"
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "N/A",
+          "justification": "Since code availability is not confirmed, justification for not sharing is not applicable."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document describes the data preparation process but does not explicitly state whether the code used for this purpose is shared or available."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "Statistical tests and models (BLEU, METEOR, ROUGE, Perplexity, BERTScore, WikiSimRel) are clearly described and used for evaluation. (e.g., \"3.6 Evaluation Metrics\")"
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Metrics like BLEU scores, F1 scores, and Perplexity are reported. (e.g., Table 3)"
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "Subjective context and interpretation are given, particularly in the discussion of human evaluation results and the limitations of the study. (e.g., \"4.1 Most Representative Automated Topic Relevance Metric to Human Evaluations\")"
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Met",
+          "justification": "The data coding and analysis process for the human annotation task is described, including the Fleiss\u2019 kappa measure for inter-rater reliability. (e.g., \"To set up the annotation task...\")"
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented in tables (e.g., Table 3, Table 4) and discussed in the text. (e.g., \"4.2 Topical Relevance and the Effect of Pre-training on Generated Questions\")"
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Limitations of the study, such as the limited sample size for human evaluation and the potential impact of model size, are discussed. (e.g., \"5.1 Implications of the Results for Research and Practice\", \"This study, while advancing topic-controllable question generation in education, acknowledges several limitations.\")"
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration on platforms like the Open Science Foundation."
+        }
+      ]
+    }
+  ]
+}

@@ -5,14 +5,14 @@
       "category": "Open Methodology & Documentation",
       "results": [
         {
-          "criterion": "Clear Methodology",
+          "criterion": "Clear Research Methodology",
           "status": "Met",
-          "justification": "The document explicitly states the methodology, focusing on experimental studies investigating the effects of explanations on algorithm aversion. (e.g., 'In this paper, we provide a background on algorithm aversion in education and present two experimental studies\u2026') "
+          "justification": "The document explicitly states the research methodology, focusing on experimental studies investigating the effects of explanations on algorithm aversion. (e.g., 'In this paper, we provide a background on algorithm aversion in education and present two experimental studies\u2026') "
         },
         {
           "criterion": "Step-by-step description",
           "status": "Met",
-          "justification": "Both Study 1 and Study 2 have detailed descriptions of their design, participants, procedure, manipulation, and measures. (e.g., 'Study 1 employed a two (explanation) by two (visualization) between-subjects design\u2026', '4.2 Experimental Manipulation') "
+          "justification": "Both Study 1 and Study 2 have detailed descriptions of their design, participants, procedure, manipulation, and measures. (e.g., '3.1 Participants', '3.2 Procedure', '4.1 Participants', '4.2 Experimental Manipulation')"
         }
       ]
     },
@@ -20,19 +20,24 @@
       "category": "Data Accessibility & Transparency",
       "results": [
         {
-          "criterion": "Open Data",
+          "criterion": "Open Data 1",
           "status": "Met",
-          "justification": "The document states: 'All code, data, and supplementary materials for this study are available on OSF https://osf.io/cjadu.' and 'Materials on OSF https://osf.io/7c5zt/?view_only=58f0a6314e9243e9acdbd1c844d43d7b' "
+          "justification": "The document states, 'All code, data, and supplementary materials for this study are available on OSF at https://osf.io/cjadu.' and 'Materials on OSF https://osf.io/7c5zt/?view_only=58f0a6314e9243e9acdbd1c844d43d7b'."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "No justification is provided for not sharing data, as the data *is* shared."
         },
         {
           "criterion": "Data Documentation",
           "status": "Met",
-          "justification": "The document describes the measures used, including scales and adaptations from prior work. (e.g., 'We measured participants\u2019 attitudes towards each algorithm using six questions\u2026') "
+          "justification": "The document describes the variables and measures used in the study. (e.g., '3.4 Measures', '4.4 Measures')"
         },
         {
           "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "Data collection methods are fully described, including recruitment through Prolific, survey administration, and the use of specific scales. (e.g., 'We recruited 170 participants from Prolific\u2026', '3.4 Measures')"
+          "justification": "Data collection methods are fully described, including recruitment through Prolific and the use of online surveys. (e.g., '3.1 Participants', '3.2 Procedure', '4.1 Participants', '4.2 Experimental Manipulation')"
         }
       ]
     },
@@ -40,14 +45,19 @@
       "category": "Code & Software Availability",
       "results": [
         {
-          "criterion": "Open Source Code",
+          "criterion": "Open Source Code 1",
           "status": "Met",
-          "justification": "The document states: 'All code, data, and supplementary materials for this study are available on OSF https://osf.io/cjadu.' "
+          "justification": "The document states, 'All code, data, and supplementary materials for this study are available on OSF at https://osf.io/cjadu.'"
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Met",
+          "justification": "No justification is provided for not sharing code, as the code *is* shared."
         },
         {
           "criterion": "Code for Data preparation",
           "status": "Met",
-          "justification": "The document states: 'All code, data, and supplementary materials for this study are available on OSF https://osf.io/cjadu.' implying that scripts for data cleaning and analysis are included."
+          "justification": "The document states that all code is available on OSF, implying code for data preparation is included. ('All code, data, and supplementary materials for this study are available on OSF at https://osf.io/cjadu.')"
         }
       ]
     },
@@ -55,14 +65,39 @@
       "category": "Type of Analysis",
       "results": [
         {
-          "criterion": "Quantitative Research Methods",
+          "criterion": "Quantitative Research Methods 1",
           "status": "Met",
-          "justification": "Statistical tests (linear regression), effect sizes, and p-values are reported throughout the results sections. (e.g., 'We examined how algorithm preference varies across experimental conditions by fitting a linear regression model\u2026', '\ud835\udc4f = 0.466,\ud835\udc61164 = 2.583,\ud835\udc5d = 0.011')"
+          "justification": "Statistical tests (linear regression) and models are clearly described. (e.g., 'We examined how algorithm preference varies across experimental conditions by fitting a linear regression model.')"
         },
         {
-          "criterion": "Qualitative Research Methods",
+          "criterion": "Quantitative Research Methods 2",
           "status": "Met",
-          "justification": "The document includes a thematic analysis of open-ended responses from participants, providing subjective context and interpretation. (e.g., 'We extracted two types of themes from this analysis\u2026', 'Table 3: Descriptions of the themes about algorithm details in the note.')"
+          "justification": "Effect sizes (e.g., 0.25), p-values (e.g., p = 0.7209), and regression coefficients are reported. (e.g., '\ud835\udc393,164 = 0.4454,\ud835\udc5d = 0.7209', '\ud835\udc4f = 0.466,\ud835\udc61164 = 2.583,\ud835\udc5d = 0.011')"
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document includes a thematic analysis of the open-ended responses from participants, providing subjective context and interpretation. (e.g., '4.5.2 Exploratory Measures')"
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Met",
+          "justification": "The data coding and analysis process for the qualitative data (notes to parents) is described, including the identification of themes. (e.g., 'We extracted two types of themes\u2026')"
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are clearly presented in text and figures (e.g., Figure 2, Table 1, Table 2)."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Limitations are discussed, including the use of Prolific participants and the context of the study being limited to ITS. (e.g., 'First, the data collected was from educators on Prolific\u2026')"
         }
       ]
     },
@@ -72,22 +107,7 @@
         {
           "criterion": "Preregistration",
           "status": "Met",
-          "justification": "The document states: 'The study was preregistered on OSF at https://osf.io/cjadu.' "
-        }
-      ]
-    },
-    {
-      "category": "Results & Interpretation",
-      "results": [
-        {
-          "criterion": "Outcome Shared",
-          "status": "Met",
-          "justification": "The document clearly presents the results of both studies, including statistical findings and interpretations. (e.g., 'Contrary to our hypothesis (H3), participants in the 3RR condition rated the tool lower in perceived competence and trust\u2026')"
-        },
-        {
-          "criterion": "Limitations and potential biases",
-          "status": "Met",
-          "justification": "The document discusses limitations, such as the use of Prolific participants and the context of ITS, and potential biases. (e.g., 'First, the data collected was from educators on Prolific\u2026', 'Although we were limited by the constraints of a 10-minute online experimental study\u2026')"
+          "justification": "The document contains a link to the preregistration on OSF: 'The study was preregistered on OSF at https://osf.io/cjadu.'"
         }
       ]
     }
