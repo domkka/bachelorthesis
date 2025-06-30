@@ -14,11 +14,13 @@ def extract_sections_using_bookmarks(reader: PdfReader):
     sections = {}
     bookmarks = []
 
+    # get and save bookmarks
     for item in reader.outline:
         if "/Title" in item:
             title = item["/Title"]
             bookmarks.append(title)
 
+    #if pdf has no bookmarks just use full text
     if not bookmarks:
         return {"Full Text": "\n".join(page.extract_text() for page in reader.pages if page.extract_text())}
 
@@ -26,17 +28,21 @@ def extract_sections_using_bookmarks(reader: PdfReader):
     for page in reader.pages:
         all_text += page.extract_text() + "\n"
 
+    # remove all double new lines from text so that headlines will be found and not broken up
     all_text = re.sub(r'(?<!\n)\n(?!\n)', ' ', all_text)
     # Extract text for each section
     for i in range(len(bookmarks)):
+        # get current and next bookmark
         title = bookmarks[i]
         next_title = bookmarks[i + 1] if i + 1 < len(bookmarks) else None
 
+        # look for current title in text
         match = re.search(re.escape(title), all_text, re.IGNORECASE)
         if not match:
             print("title not found")
         section_start = all_text[match.end():]
 
+        # look for next title in text and cut off
         if next_title:
             next_match = re.search(re.escape(next_title), section_start, re.IGNORECASE)
             if next_match:
@@ -46,12 +52,14 @@ def extract_sections_using_bookmarks(reader: PdfReader):
         else:
             section_text = section_start
 
+        # saves each section
         sections[title] = section_text.strip()
 
     return sections
 
 
 def extract_json_from_response(text):
+    """parse LLM output to JSON, output start and ends with ```  """
     lines = text.strip().splitlines()
 
     if lines and lines[0].startswith("```"):
@@ -62,7 +70,6 @@ def extract_json_from_response(text):
 
     json_content = "\n".join(lines)
     return json_content
-
 
 
 def generate(pdf_text, checklist, api_key):
@@ -133,6 +140,7 @@ def generate(pdf_text, checklist, api_key):
 
 class ReproducibilityChecker:
     def __init__(self, root):
+        """Initiate GUI root and variables"""
         self.root = root
         self.root.title("Reproducibility Checker")
         self.root.geometry("1200x600")
@@ -147,6 +155,7 @@ class ReproducibilityChecker:
         self.build_gui()
 
     def build_gui(self):
+        """ Build Frames, Buttons, Lables"""
         container = ttk.Frame(self.root, padding=10)
         container.grid(row=0, column = 0, sticky="nsew")
 
@@ -197,6 +206,7 @@ class ReproducibilityChecker:
         self.progressbar.grid_remove()
 
     def prompt_api_key(self):
+        """Function to enter API Key"""
         api_key = simpledialog.askstring(
             "API Key Required",
             "Enter your Gemini API Key",
@@ -209,6 +219,7 @@ class ReproducibilityChecker:
             messagebox.showwarning("Missing Key", "No API key entered.")
 
     def load_pdf(self):
+        """Function to load PDF file and make widgets checkbuttons for selecting sections"""
         file_path = filedialog.askopenfilename(filetypes=[("PDF files", "*.pdf")])
         if not file_path:
             return
@@ -229,6 +240,7 @@ class ReproducibilityChecker:
             self.check_vars[title] = var
 
     def load_checklist(self):
+        """Function to load and preview checklist"""
         file_path = filedialog.askopenfilename(filetypes=[("JSON files", "*.json")])
         if not file_path:
             return
@@ -253,6 +265,7 @@ class ReproducibilityChecker:
             self.eval_button.config(state="disabled")
 
     def run_evaluation(self):
+        """Function to run evaluation, input selcted sections and checklist into generate response, show and save JSON if successfully parsed"""
         selected = [title for title, var in self.check_vars.items() if var.get()]
         if not selected:
             messagebox.showwarning("No Selection", "Please select sections.")
@@ -291,6 +304,7 @@ class ReproducibilityChecker:
             messagebox.showerror("Error", str(e))
 
     def run_evaluation_thread(self):
+        """run as thread so program is not frozen during generating and disable buttons while genereating"""
         self.file_button.config(state="disabled")
         self.eval_button.config(state="disabled")
         self.checklist_button.config(state="disabled")
@@ -308,6 +322,7 @@ class ReproducibilityChecker:
             self.root.after(0, self._reset_ui)
 
     def _reset_ui(self):
+        """after eval reset ui components to normal state"""
         self.file_button.config(state="normal")
         self.eval_button.config(state="normal")
         self.checklist_button.config(state="normal")
