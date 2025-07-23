@@ -18,6 +18,22 @@ def evaluate_json(data):
             else:
                 category_statuses[category_name] = "Not Met"
 
+        elif category_name == "Data Accessibility & Transparency":
+            required_criterion_idx = [0,2,3]
+            if all(criteria[i]["status"] != "Not Met" for i in required_criterion_idx):
+                score += 1
+                category_statuses[category_name] = "Met"
+            else:
+                category_statuses[category_name] = "Not Met"
+
+        elif category_name == "Code & Software Availability":
+            required_criterion_idx = [0,2]
+            if all(criteria[i]["status"] != "Not Met" for i in required_criterion_idx):
+                score += 1
+                category_statuses[category_name] = "Met"
+            else:
+                category_statuses[category_name] = "Not Met"
+
         elif category_name == "Preregistration":
             if all(result["status"] != "Not Met" for result in criteria):
                 category_statuses[category_name] = "Met"
@@ -39,7 +55,7 @@ def evaluate_all_json(directory):
         if filename.endswith(".json"):
             filepath = os.path.join(directory, filename)
             with open(filepath, "r", encoding="utf-8") as file:
-                data =json.load(file)
+                data = json.load(file)
 
             file_id = data["id"]
             score, category_statuses = evaluate_json(data)

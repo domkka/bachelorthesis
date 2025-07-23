@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706524",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research aims to examine students\u2019 use of AI and identify pedagogical strategies. It details a mixed-methods approach using quantitative data analysis and survey responses."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 2 and 3 provide a detailed, step-by-step description of the study design, including participant selection, data collection, data analysis (clustering, regression), and the sequence of steps taken."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document states data was provided by Macmillan Learning, but does not indicate if the raw or processed datasets are publicly available."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Met",
+          "justification": "The document acknowledges data was collected through the Achieve homework platform and mentions Macmillan Learning as the provider, implying data access is controlled by them. No explicit justification for non-sharing is given, but the context suggests it's due to data ownership."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Section 2.2.3 describes the demographic and learning outcome data collected, including means and standard deviations, effectively serving as a partial data dictionary."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Data collection methods are fully described in sections 2.1, 2.2.1, 2.2.2, and 2.2.3, detailing the sources (homework platform, surveys, institutional data) and the types of data collected."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document mentions the use of R packages (bupaR, cluster, TraMineR) but does not provide a link to an open repository containing the analysis code."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Applicable",
+          "justification": "Since the code is not shared, a justification is not provided."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document does not explicitly mention or share code used for data preparation or pre-processing."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "Statistical tests (logistic regression, ANOVA, regression) and models are clearly described in sections 3.2 and 3.3."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Tables 4, 5, 6, 7, and 9 report effect sizes (beta coefficients), and p-values."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "Section 3.1 provides subjective context and interpretation of student responses from the survey regarding their perceptions of the AI tutor."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Partially Met",
+          "justification": "The document describes the themes identified from the open-ended survey responses, but does not explicitly share the coding scheme or detailed analysis process."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are clearly presented in tables (1-9) and figures (1-4) with accompanying textual descriptions."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Section 3.4 discusses limitations, including uncertainty about the quality of AI assistance and the potential for discrepancies between self-reported and actual AI usage."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration on platforms like the Open Science Foundation."
+        }
+      ]
+    }
+  ]
+}

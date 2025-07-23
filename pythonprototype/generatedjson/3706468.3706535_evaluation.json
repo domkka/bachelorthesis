@@ -37,7 +37,7 @@
         {
           "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "Data collection methods are fully described, including recruitment through Prolific and the use of online surveys. (e.g., '3.1 Participants', '3.2 Procedure', '4.1 Participants', '4.2 Experimental Manipulation')"
+          "justification": "Data collection methods are fully described, including recruitment through Prolific and the use of online surveys. (e.g., '3.1 Participants', '4.1 Participants')"
         }
       ]
     },
@@ -77,12 +77,12 @@
         {
           "criterion": "Qualitative Research Methods 1",
           "status": "Met",
-          "justification": "The document includes a thematic analysis of the open-ended responses from participants, providing subjective context and interpretation. (e.g., '4.5.2 Exploratory Measures')"
+          "justification": "Subjective context and interpretation are given, particularly in the analysis of the open-ended responses and the thematic analysis of the notes to parents. (e.g., 'We also encourage researchers to understand this phenomenon in real-world educational contexts.')"
         },
         {
           "criterion": "Qualitative Research Methods 2",
           "status": "Met",
-          "justification": "The data coding and analysis process for the qualitative data (notes to parents) is described, including the identification of themes. (e.g., 'We extracted two types of themes\u2026')"
+          "justification": "Data coding and analysis are described, including the identification of themes in the notes to parents. (e.g., 'We extracted two types of themes from this analysis\u2026')"
         }
       ]
     },
@@ -92,12 +92,12 @@
         {
           "criterion": "Clearly presented Results",
           "status": "Met",
-          "justification": "Results are clearly presented in text and figures (e.g., Figure 2, Table 1, Table 2)."
+          "justification": "Results are clearly presented in text and figures. (e.g., 'Figure 2a shows that educators\u2026', 'Table 1: Results from robust linear regressions\u2026')"
         },
         {
           "criterion": "Limitations and potential biases",
           "status": "Met",
-          "justification": "Limitations are discussed, including the use of Prolific participants and the context of the study being limited to ITS. (e.g., 'First, the data collected was from educators on Prolific\u2026')"
+          "justification": "Limitations and potential biases are discussed, including the use of Prolific participants and the context of the study being limited to ITS. (e.g., 'First, the data collected was from educators on Prolific\u2026')"
         }
       ]
     },

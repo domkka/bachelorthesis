@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706508",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document states: \"In this study, we detailed a case study with 30 online and distance learning undergraduate students...\" and describes the overall approach."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 3.1 (Sample), 3.2 (Methods of data collection), and 3.3 (Methods of data analysis) provide a step-by-step description of the study design."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document does not mention the availability of raw or processed datasets."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "No justification is provided for the lack of data sharing, as no sharing is mentioned."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Not Met",
+          "justification": "There is no mention of a data dictionary or codebook."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Section 3.2 details the data collection methods (survey and interviews)."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document does not mention the availability of analysis code."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Met",
+          "justification": "No justification is provided for the lack of code sharing, as no sharing is mentioned."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document does not mention code for data preparation."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document states: \"Both descriptive and inferential statistics (Spearman\u2019s r) were used to address RQ2.\""
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Spearman\u2019s rho correlation coefficients, p-values are reported (e.g., \"rs(19) = .468, p = .032\")."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document provides subjective context and interpretation of interview and survey data throughout sections 4.1 and 4.3."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Met",
+          "justification": "The document describes thematic analysis and mentions inter-rater reliability exercise to ensure coding consistency."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented in sections 4.1 (Survey analysis) and 4.3 (Interview analysis) with descriptive statistics and thematic analysis."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The document discusses limitations, such as the small sample size and potential biases related to the student sample (e.g., demographics)."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706538",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research methodology as proposing \"qualitative parameter triangulation (QPT)\" as a framework for determining temporal parameters in event-based temporal models."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "The document provides a detailed, step-by-step description of the QPT framework, including systematizing human interpretation, optimizing parameters, and verifying hermeneutics (Section 2.2 and 3.2)."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document mentions data was collected from Carpenter et al. but does not provide a link or mention availability of the raw or processed datasets."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "While the document doesn't explicitly state why data isn't shared, the lack of any mention of availability suggests it's not openly accessible. No justification is provided."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "A codebook explaining variables is provided in Table 1."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Data collection methods are fully described, including log data capture, eye-tracking (Eye Link II at 250 HZ), and manual coding by a domain expert (Section 3.1)."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document does not mention any publicly available analysis code."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Met",
+          "justification": "No justification is provided for the lack of code sharing."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document does not mention code for data preparation."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "Statistical tests (Wilcoxon Rank Test) and models (T/ONA, Vector Autoregression) are described. The use of a qualitative loss function is also mentioned."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Effect sizes (Cliff\u2019s Delta = 0.3565) and p-values (p < 0.01) are reported for the Wilcoxon Rank Test."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "Subjective context and interpretation are given throughout the document, particularly in the description of the anchor network identification process and the interpretation of learning events."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Met",
+          "justification": "Data coding and analysis are clearly described, including the manual coding of learning events, the creation of anchor networks, and the use of grounded stories (Section 4.1)."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "The results of the QPT framework application, including optimized temporal parameters and the comparison of T/ONA models, are clearly presented (Section 4.3)."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Limitations are discussed in the conclusion, including the need for further generalization of QPT and the reliance on human-identified anchor networks (Section 4.3)."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration."
+        }
+      ]
+    }
+  ]
+}

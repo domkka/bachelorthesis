@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706486",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The paper clearly states its research methodology as developing and evaluating a novel course recommendation model (MAECR) using knowledge graphs and meta-paths."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 4 (MAECR model introduction) and 5 (Experiment Setup) provide a step-by-step description of the study design, including model components, data preprocessing, and evaluation metrics."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Met",
+          "justification": "The paper mentions the dataset is collected from the XuetangX MOOC and provides a link: http://www.xuetangx.com."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "N/A",
+          "justification": "Data is mentioned as being available."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Table 1 provides statistics of the dataset, including the number of users, courses, knowledge entities, and relations. The text also describes the data preprocessing steps (filtering users and courses)."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The paper states the data was collected from the XuetangX MOOC platform and describes the filtering criteria applied to the data."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The paper does not mention whether the analysis code is publicly available."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "N/A",
+          "justification": "Code is not mentioned as being shared."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The paper does not explicitly state whether the data preparation code is shared."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "The paper clearly describes the statistical tests and models used, including BPR loss function, LSTM, and attention mechanisms."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "The paper reports performance metrics such as Precision@K, Recall@K, HR@K, and NDCG@K, which can be interpreted as effect sizes."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Not Met",
+          "justification": "The study is primarily quantitative; subjective context and interpretation are limited."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "N/A",
+          "justification": "Not applicable, as the study is not primarily qualitative."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented in tables (e.g., Table 2) and discussed in the text, with clear comparisons to baseline models."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The paper discusses limitations, such as the lack of real user experiments and the need for further evaluation on more datasets. It also acknowledges potential biases."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The paper does not contain a link to a preregistration."
+        }
+      ]
+    }
+  ]
+}

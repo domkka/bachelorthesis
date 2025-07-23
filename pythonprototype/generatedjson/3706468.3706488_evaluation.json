@@ -37,7 +37,7 @@
         {
           "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "Data collection methods are fully described, including the use of trace data from the AI-driven formative peer assessment process and self-report surveys (Section 3.2 and 3.3)."
+          "justification": "The document describes data collection through trace data from the AI-driven formative peer assessment process and self-report surveys on learning dispositions (Section 3.2 and 3.3)."
         }
       ]
     },
@@ -67,12 +67,12 @@
         {
           "criterion": "Quantitative Research Methods 1",
           "status": "Met",
-          "justification": "Statistical tests (ANOVA, Dunnett\u2019s Test, Linear Regression) and models are clearly described in Section 3.3 and 4.3."
+          "justification": "The document explicitly states the use of ANOVA and Linear Regression for data analysis (Section 3.3 and 4.3)."
         },
         {
           "criterion": "Quantitative Research Methods 2",
           "status": "Met",
-          "justification": "Effect sizes (R2 values), and p-values are reported in Tables 5, 6, 7, and 8."
+          "justification": "Tables 5, 6, 7, and 8 report p-values, estimates, and other statistical measures (e.g., R-squared)."
         },
         {
           "criterion": "Qualitative Research Methods 1",
@@ -92,7 +92,7 @@
         {
           "criterion": "Clearly presented Results",
           "status": "Met",
-          "justification": "Results are clearly presented in tables (3, 4, 5, 6, 7, 8) and figures (2), with accompanying text explaining the findings."
+          "justification": "Results are presented in tables (3, 4, 5, 6, 7, 8) and figures (2), with clear descriptions of findings."
         },
         {
           "criterion": "Limitations and potential biases",
@@ -107,7 +107,7 @@
         {
           "criterion": "Preregistration",
           "status": "Not Met",
-          "justification": "The document does not contain a link to a preregistration."
+          "justification": "The document does not contain a link to a preregistration on platforms like the Open Science Foundation."
         }
       ]
     }

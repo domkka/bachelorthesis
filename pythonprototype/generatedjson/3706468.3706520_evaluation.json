@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706520",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research aims to understand how educators design learning experiences using the BDP tool, employing clustering and correlation analyses."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 3.1 and 3.2 provide a detailed, step-by-step description of the data extraction, preprocessing, clustering, and correlation analysis procedures."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The raw or processed datasets are not publicly available. While the BDP tool is mentioned, access to the specific dataset used in the study is not provided."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Met",
+          "justification": "The document states data was used from 2022-2023 for which designers gave consent, implying privacy concerns are addressed through consent."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Section 3.1 details the features extracted from the TLA data, effectively serving as a data dictionary. The variables, their levels, and the data structure are explained."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The document describes the data collection method as extracting data from the BDP tool, specifying the time frame (2022-2023) and the number of educators and LDs included (165 educators, 218 LDs)."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Met",
+          "justification": "The document states: \"the source code with full details is available at https://github.com/josmarios/ld-clustering\"."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "N/A",
+          "justification": "Code is shared, so justification is not needed."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Met",
+          "justification": "The document states the code for data preparation is available at the same link as the analysis code: https://github.com/josmarios/ld-clustering."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document clearly describes the statistical methods used, including k-modes clustering, Pearson correlation coefficients, and the elbow method."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Effect sizes (R^2), confidence intervals, and p-values are reported in Table 4."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Not Met",
+          "justification": "The study is primarily quantitative. While cluster profiles are described, there is limited subjective context or interpretation beyond the statistical findings."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "N/A",
+          "justification": "The study is primarily quantitative, so data coding and analysis are not applicable."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented in tables (e.g., Table 1, Table 2, Table 3, Table 4) and figures (e.g., Figure 2, Figure 3, Figure 4), with clear descriptions accompanying them."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Section 5.1 explicitly discusses limitations, including potential bias from the BDP tool, the limited number of clusters, and the lack of exploration of causal relationships."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration on platforms like the Open Science Foundation."
+        }
+      ]
+    }
+  ]
+}

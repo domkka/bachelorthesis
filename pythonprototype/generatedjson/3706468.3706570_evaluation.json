@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706570",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document states: \"This study uses a case study design to explore the dialogic behaviors of preservice teachers and AI-powered student agents in interaction.\""
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 3.1-3.4 provide a detailed description of the simulation environment, participants, procedure, data collection, coding, and analysis."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document does not mention the public availability of the raw or processed datasets."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "While the document mentions data sources (e.g., recordings from open-access videos), it doesn't explicitly state why the datasets themselves aren't shared."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Table 1 provides a coding framework with examples, acting as a codebook. The document also describes the tagging process for the classroom recordings."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Section 3.2 and 3.3 detail the recruitment process, simulation setup, data recording, and transcript creation."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document mentions using Python and R for analysis but does not provide a link to an open repository."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Met",
+          "justification": "There is no justification provided for why the code is not shared."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document does not mention the availability of code used for data preparation."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document describes the use of a Generalized Sequence Pattern (GSP) algorithm and Markov Chain transition matrix for analysis."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "The document reports support and confidence values for the identified patterns, providing a measure of reliability."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document provides subjective context and interpretation of the results, comparing patterns between the simulated and in situ classrooms."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Met",
+          "justification": "The data coding process is described, and the coding framework (Table 1) is shared."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented in text, tables (2, 3, 4), and figures (3, 4, 5), with clear descriptions and comparisons."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The discussion section acknowledges limitations, such as the text-based format of the simulation and potential issues with social presence."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration."
+        }
+      ]
+    }
+  ]
+}

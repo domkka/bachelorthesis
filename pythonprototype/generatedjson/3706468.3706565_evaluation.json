@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706565",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research methodology, focusing on learning analytics (LA) and its relation to learning design (LD). It mentions the use of techniques like CDM, ENA, and SNA."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 3.1 (Study Setting), 3.2 (Data Preparation), and 3.3 (Data Analysis) provide a detailed, step-by-step description of the study design, from data collection to analysis techniques."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document does not state that the raw or processed datasets are publicly available."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Met",
+          "justification": "The document states: \"The study was conducted at a the University of Zagreb...we focused on one lecturing group, including 169 students.\" and \"The study was conducted with a positive opinion of the Ethics Committee of the higher education institution.\" implying privacy concerns prevent open data sharing."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "The document describes the data collection process and provides details about the variables (e.g., LO weights, assessment points, student grades) and their formats (e.g., percentage grades, binary mapping)."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Data collection methods are fully described, including extraction of student grades from the Moodle LMS, weekly quizzes, exams, and a problem-solving essay."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document does not state that the analysis code is shared in an open repository."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Met",
+          "justification": "There is no justification provided for why the code is not shared."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document mentions using R and specific packages (CDM, rENA) for data analysis, but does not state whether the data preparation code is shared."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "Statistical tests and models (CDM, ENA, SNA) are clearly described, including their purpose and application."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Average mastery scores, percentages, and centrality metrics are reported, providing quantitative results."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Not Met",
+          "justification": "The study is primarily quantitative; subjective context and interpretation are limited."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Met",
+          "justification": "Data coding and analysis are not described in a qualitative manner, as the focus is on statistical analysis."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented in tables (Table 1, Table 2, Table 3, Table 4) and figures (Figure 1, Figure 2, Figure 3, Figure 5, Figure 6), with clear descriptions and interpretations."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Section 5.3 explicitly discusses limitations of the study, including sample size, context specificity, and methodological considerations."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration on platforms like the Open Science Foundation."
+        }
+      ]
+    }
+  ]
+}

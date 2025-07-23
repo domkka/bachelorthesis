@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706474",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research aims to \"address the above gaps, in this work, we aim to 1) build an AI-driven pipeline and evaluate the effectiveness of leveraging speech & language processing...\" and outlines the overall approach."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Section 3 provides a detailed step-by-step description of the study design, including participants, contexts, instruments, data collection, and analysis."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document does not mention the public availability of the raw or processed datasets."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "While the document mentions IRB approval, it doesn't explicitly state why the data cannot be shared, only that it was obtained."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Table 1 provides a coding scheme, which serves as a data dictionary explaining the categories and sub-categories used for coding the dialogue data."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Data collection methods are fully described in section 3.1 and 3.3, detailing the recruitment process, CT course, and video recording procedures."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document does not mention the availability of the analysis code in an open repository."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Met",
+          "justification": "No justification is provided for why the code is not shared."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document mentions the use of ASR, VAD, and LLMs for data preparation but does not provide details or access to the code used for these processes."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "Statistical tests (paired t-tests, lag sequential analysis) are mentioned and described, and the document references the CT framework used for analysis."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Effect sizes (Cohen\u2019s d) and p-values are reported in Table 4."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document provides subjective context and interpretation of the dialogue patterns identified through analysis (e.g., descriptions of the four clusters)."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Met",
+          "justification": "Data coding and analysis are clearly described, including the development of the coding scheme, inter-coder reliability (kappa values), and the process of identifying significant utterance sequences."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are clearly presented in tables (e.g., Table 2, Table 3, Table 4) and figures (e.g., Figure 2, Figure 3, Figure 4, Figure 5)."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Section 5.1 and 5.2.3 discuss limitations of the study, such as the limited generalizability of the findings and potential biases related to student ability levels."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration on platforms like the Open Science Foundation."
+        }
+      ]
+    }
+  ]
+}

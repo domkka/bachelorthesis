@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706485",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research goal: \"to replicate an LA study that involves predicting an academic outcome, and subsequently investigate whether data augmentation boosts model performance on the same task.\""
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Section 3 provides a detailed, step-by-step description of the study design, including criteria for selecting a paper to replicate, the replication process, and the data augmentation process (Sections 3.1, 3.3, and 3.4)."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Met",
+          "justification": "The document states: \"We obtained free access to the dataset after filling in the request form [49].\" and references the ASSISTments dataset [49]."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "N/A",
+          "justification": "Data is available, so justification for not sharing is not applicable."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "The document mentions data documentation: \"Due to the space limitations of this paper, further details are available in our code documentation (see link in Section 5).\" and describes the variables used (e.g., cognitive and affective features)."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The document describes the data collection methods, stating the dataset was collected from the ASSISTments platform and details the tracked student interactions and outcomes (Section 3.2.1)."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Met",
+          "justification": "The document states: \"All code used in our research and full results are available [70].\""
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "N/A",
+          "justification": "Code is shared, so justification for not sharing is not applicable."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Met",
+          "justification": "The document states that the code includes data preparation steps and is available at the provided link (Section 5)."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document clearly describes the statistical tests and models used, including Logistic Regression, Support Vector Machine, Random Forest, and Multi-Layer Perceptron, and the evaluation metric AUC (Section 3.2.4)."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "The document reports AUC values, standard deviations, and uses statistical tests like DeLong\u2019s test and bootstrapping for significance testing (Section 4.2)."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Not Met",
+          "justification": "The study is primarily quantitative and does not involve significant qualitative data or interpretation."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Met",
+          "justification": "The study is primarily quantitative and does not involve data coding or qualitative analysis."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented in tables (Table 2) and discussed in detail in Section 4, including comparisons between the original study and the replication, and the effects of different data augmentation techniques."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Section 4.3 discusses limitations, including the potential for inflated test set performance and the limited generalizability of the findings. It also acknowledges the impact of seed variation."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not mention or provide a link to a preregistration."
+        }
+      ]
+    }
+  ]
+}

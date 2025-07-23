@@ -5,14 +5,14 @@
       "category": "Open Methodology & Documentation",
       "results": [
         {
-          "criterion": "Clear Methodology",
+          "criterion": "Clear Research Methodology",
           "status": "Met",
-          "justification": "The document explicitly states a qualitative and interpretive approach, employing a case study design and focus groups. \"A qualitative and interpretive approach was applied to address the research questions...\""
+          "justification": "The document states: \"A qualitative and interpretive approach was applied to address the research questions... The research used a case study design...\""
         },
         {
           "criterion": "Step-by-step description",
           "status": "Met",
-          "justification": "The document provides a detailed description of the research process, including participant selection, data collection (focus groups), data analysis (coding cycles in Atlas.ti, Layder\u2019s adaptive theory), and ethical considerations. \"Institutional ethics approval was obtained...The study comprised six focus groups...The audio files were transcribed verbatim, and two coding cycles were done in Atlas.ti...\""
+          "justification": "The document provides a detailed description of the study design, including participant selection, data collection (focus groups), and data analysis (coding cycles, thematic analysis using Atlas.ti)."
         }
       ]
     },
@@ -20,19 +20,24 @@
       "category": "Data Accessibility & Transparency",
       "results": [
         {
-          "criterion": "Open Data",
+          "criterion": "Open Data 1",
           "status": "Not Met",
-          "justification": "The document does not mention the availability of raw or processed datasets. It does not provide a location where the data can be found, nor does it offer a justification for its unavailability."
+          "justification": "The document does not mention the availability of raw or processed datasets."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "Since data availability is not mentioned, there is no justification provided."
         },
         {
           "criterion": "Data Documentation",
           "status": "Not Met",
-          "justification": "There is no data dictionary or codebook explaining variables, formats, or preprocessing steps. While coding is described, the specifics of the coding scheme are not fully documented."
+          "justification": "No data dictionary or codebook is provided."
         },
         {
           "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "Data collection methods are fully described, detailing the use of focus groups, participant selection criteria, and the recording/transcription process. \"Aligned with the interpretivist paradigm, focus groups were selected as the data collection strategy...\""
+          "justification": "The document details the use of focus groups: \"Aligned with the interpretivist paradigm, focus groups were selected as the data collection strategy...\" and provides information about participant selection and recording."
         }
       ]
     },
@@ -40,14 +45,19 @@
       "category": "Code & Software Availability",
       "results": [
         {
-          "criterion": "Open Source Code",
+          "criterion": "Open Source Code 1",
           "status": "Not Met",
-          "justification": "The document does not mention the sharing of analysis code in a repository like GitHub or GitLab."
+          "justification": "The document does not mention the availability of analysis code."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Met",
+          "justification": "Since code availability is not mentioned, there is no justification provided."
         },
         {
           "criterion": "Code for Data preparation",
           "status": "Not Met",
-          "justification": "Since the analysis code is not shared, there are no scripts for data cleaning, analysis, or visualization included."
+          "justification": "The document does not mention code used for data preparation."
         }
       ]
     },
@@ -55,14 +65,39 @@
       "category": "Type of Analysis",
       "results": [
         {
-          "criterion": "Quantitative Research Methods",
+          "criterion": "Quantitative Research Methods 1",
           "status": "Not Met",
-          "justification": "The study employs a qualitative approach, and therefore does not include statistical tests, models, or effect sizes."
+          "justification": "The study is primarily qualitative, and no statistical tests or models are described."
         },
         {
-          "criterion": "Qualitative Research Methods",
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Not Met",
+          "justification": "Since no quantitative methods are used, effect sizes, confidence intervals, and p-values are not reported."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
           "status": "Met",
-          "justification": "The document provides subjective context and interpretation of the focus group data. Data coding and analysis are clearly described, including the use of in vivo coding, thematic analysis, and the application of SDT. \"The analyses were done inductively, and the results were interpreted through the lens of SDT theory constructs...\""
+          "justification": "The document provides subjective context and interpretation throughout, particularly in the results and discussion sections."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Met",
+          "justification": "Data coding and analysis are clearly described: \"two coding cycles were done in Atlas.ti... The analyses were done inductively...\" and the use of Layder\u2019s adaptive theory is explained."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented in Table 1, summarizing themes, example quotes, and links to SDT constructs."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The document states: \"The study was conducted in a single institution and within one academic unit... As a result, the findings and insights were likely influenced by the target institution\u2019s organisational culture...\""
         }
       ]
     },
@@ -72,22 +107,7 @@
         {
           "criterion": "Preregistration",
           "status": "Not Met",
-          "justification": "The document does not contain a link to a preregistration on platforms like the Open Science Foundation."
-        }
-      ]
-    },
-    {
-      "category": "Results & Interpretation",
-      "results": [
-        {
-          "criterion": "Outcome Shared",
-          "status": "Met",
-          "justification": "The study's findings, including emergent themes and their alignment with SDT constructs, are presented in Table 1 and discussed throughout the results section. \"Our results address the following research questions...Table 1 summarises the emergent themes...\""
-        },
-        {
-          "criterion": "Limitations and potential biases",
-          "status": "Met",
-          "justification": "The document acknowledges limitations related to the single institution and academic unit studied. \"The study was conducted in a single institution and within one academic unit...\""
+          "justification": "The document does not contain a link to a preregistration."
         }
       ]
     }

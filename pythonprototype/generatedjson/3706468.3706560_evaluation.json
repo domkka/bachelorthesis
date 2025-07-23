@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706560",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research aims to investigate the relationship between CPS skills and individual learning outcomes, using a quantitative approach. (e.g., 'Specifically, the current study assessed CPS skills...')."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Section 2.3 and 2.4 provide a detailed, step-by-step description of the study design, including participant recruitment, the game environment (Physics Playground), measures used, and the procedure followed."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document does not mention the public availability of the raw or processed datasets."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "While the document mentions IRB approval, it does not provide a justification for why the data cannot be shared."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Section 2.3 describes the measures used, including the physics tests and surveys, providing details about their scales and content. Table 1 details the CPS coding scheme."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Data collection methods are fully described in sections 2.2, 2.3, and 2.4, detailing the game environment, the instruments used (tests, surveys), and the experimental procedure."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document does not mention the availability of the analysis code in an open repository."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Met",
+          "justification": "There is no justification provided for why the code cannot be shared."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document does not mention the availability of code used for data preparation."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document clearly describes the statistical methods used, specifically multilevel modeling (e.g., 'Multi-level modeling was employed...')."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Effect sizes (marginal R squared and conditional R squared), and p-values are reported in Table 3."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Not Met",
+          "justification": "The study is primarily quantitative, and subjective context or interpretation beyond statistical results is limited."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Met",
+          "justification": "The study does not involve qualitative data coding or analysis."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "The results are clearly presented in tables (Tables 2, 3, and 4) and summarized in the text."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Section 3.1 discusses limitations of the study, such as focusing solely on utterance analysis and the game-based learning setting."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration on platforms like the Open Science Foundation."
+        }
+      ]
+    }
+  ]
+}

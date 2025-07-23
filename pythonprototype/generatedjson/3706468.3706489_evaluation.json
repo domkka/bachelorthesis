@@ -5,14 +5,14 @@
       "category": "Open Methodology & Documentation",
       "results": [
         {
-          "criterion": "Clear Methodology",
+          "criterion": "Clear Research Methodology",
           "status": "Met",
-          "justification": "The paper explicitly states its methodology, focusing on a deductive and inductive coding process of LA research papers. \"Following the coding process used by [28] the two authors discussed (1) how each one would approach the deductive and inductive analysis...\""
+          "justification": "The paper explicitly states its methodology: \"Following the coding process used by [28] (p. 306) the two authors discussed (1) how each one would approach the deductive and inductive analysis...\" and details the deductive and inductive coding process."
         },
         {
           "criterion": "Step-by-step description",
           "status": "Met",
-          "justification": "The paper provides a detailed, step-by-step description of the research design, including the selection of papers, the coding process, inter-rater reliability checks, and the analysis phases. \"We firstly provide a brief problem statement...This is followed by a literature review...We then provide an overview of our methodology, followed by the analysis and discussion.\""
+          "justification": "The paper provides a detailed step-by-step description of the study design, including data collection, coding, inter-rater reliability assessment, and thematic analysis. See section 'In line with the purpose of this article...'"
         }
       ]
     },
@@ -20,19 +20,24 @@
       "category": "Data Accessibility & Transparency",
       "results": [
         {
-          "criterion": "Open Data",
+          "criterion": "Open Data 1",
           "status": "Met",
           "justification": "The paper provides a link to the working sheets: \"We have also made available the working sheets in this link: https://kortlink.dk/2qx3t\""
         },
         {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "The raw data (the full papers from LAK conferences) are not publicly available, but this is inherent to the nature of the study and not a lack of transparency. The authors used publicly available conference proceedings."
+        },
+        {
           "criterion": "Data Documentation",
           "status": "Met",
-          "justification": "The coding heuristic is described in detail, functioning as a form of data documentation. \"(1) Limitation is mentioned in the literature review; (2) limitation is mentioned in the discussion of the results; (3) the research design (quantitative, qualitative, mixed)...\""
+          "justification": "The coding heuristic is described in detail, and the process of refining it is explained. The paper also details the categories used for analysis."
         },
         {
           "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "The data collection methods are fully described, detailing the selection criteria for the papers analyzed (LAK '22, '23, '24 conferences) and the exclusion criteria. \"Following the coding process used by [28]...The corpus for analysis included154 of articles from LAK \u201924, LAK \u201923, and LAK \u201922, of which10 papers were excluded...\""
+          "justification": "The data collection methods are fully described, including the selection criteria for papers (full papers from LAK '22, '23, and '24) and the exclusion criteria (systematic reviews, conceptual research, etc.)."
         }
       ]
     },
@@ -40,14 +45,19 @@
       "category": "Code & Software Availability",
       "results": [
         {
-          "criterion": "Open Source Code",
+          "criterion": "Open Source Code 1",
           "status": "Not Met",
-          "justification": "The paper does not mention sharing the analysis code (e.g., Python, R) in a repository."
+          "justification": "The paper does not mention sharing the code used for the analysis (e.g., coding software, statistical packages)."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Applicable",
+          "justification": "N/A - Code was not shared."
         },
         {
           "criterion": "Code for Data preparation",
           "status": "Not Met",
-          "justification": "Since the analysis code is not shared, there are no scripts for data cleaning, analysis, or visualization included."
+          "justification": "The paper does not mention sharing code for data preparation."
         }
       ]
     },
@@ -55,14 +65,39 @@
       "category": "Type of Analysis",
       "results": [
         {
-          "criterion": "Quantitative Research Methods",
+          "criterion": "Quantitative Research Methods 1",
           "status": "Met",
-          "justification": "The paper reports Fleiss\u2019 kappa values to assess inter-rater reliability, a statistical measure. \"The final kappa when comparing the results of the coding authors indicated a good level of agreement (^ = 0.76, subjects=154, raters= 2, andp <0.005) with low measure of controversy.\""
+          "justification": "The paper reports Fleiss\u2019 kappa to assess agreement between the authors, a statistical measure. \"The final kappa when comparing the results of the coding authors indicated a good level of agreement (^ = 0.76, subjects=154, raters= 2, and p <0.005)\""
         },
         {
-          "criterion": "Qualitative Research Methods",
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Not Applicable",
+          "justification": "The analysis is primarily descriptive and categorical, focusing on frequencies and themes rather than statistical inference with effect sizes or confidence intervals."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
           "status": "Met",
-          "justification": "The paper describes a thematic analysis of the limitations sections, indicating a qualitative approach to interpreting the data. \"Once again, the coding and theming process was informed by [28]. Both researchers coded the limitations\u2019 section with specific attention to how authors suggested addressing the limitations\u2019 sections, after which the differences in coding were discussed and resolved and collectively themed.\""
+          "justification": "The paper uses thematic analysis to identify patterns and insights from the literature, providing subjective context and interpretation. \"The second part of the analysis involved an inductive coding of the limitations\u2019 sections of articles in the corpus in order to develop a thematic analysis of pointers for increasing the generalisability of LA research.\""
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Met",
+          "justification": "The data coding process is clearly described, including the development and refinement of the coding heuristic, and the inter-rater reliability assessment. The authors also mention colour coding instances where they were unsure."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "The results are clearly presented in Table 1, summarizing the categorization of the papers, and in Table 2, outlining the themes extracted from the analysis."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The paper includes a 'Limitations' section that discusses the scope of the analysis, potential biases, and the impact of the selection criteria. \"Our paper on examining the lack of generalisability in LA has certain limitations...\""
         }
       ]
     },
@@ -72,22 +107,7 @@
         {
           "criterion": "Preregistration",
           "status": "Not Met",
-          "justification": "The paper does not contain a link to a preregistration."
-        }
-      ]
-    },
-    {
-      "category": "Results & Interpretation",
-      "results": [
-        {
-          "criterion": "Outcome Shared",
-          "status": "Met",
-          "justification": "The paper presents the categorization of papers based on their discussion of limitations and generalizability (Table 1) and the themes extracted from the analysis (Table 2).\"As can be seen in the above table (Table 1),44% (n= 64) of the papers were found to fall inCategory 4...\""
-        },
-        {
-          "criterion": "Limitations and potential biases",
-          "status": "Met",
-          "justification": "The paper explicitly discusses limitations, including the scope of the selection (only LAK conferences) and potential biases. \"Our paper on examining the lack of generalisability in LA research has certain limitations...We assumed that the last three years\u2019 proceedings from the LAK conference reflect the maturity of the field.\""
+          "justification": "The paper does not mention or link to any preregistration."
         }
       ]
     }

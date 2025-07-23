@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706507",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research aims to explore LLMs for AES and human-AI collaboration, outlining the approach of experimenting with different LLMs and developing a dual-process framework. \"In this study, we explore the potential of proprietary and open-source LLMs...\""
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "The document provides a detailed description of the study design, including dataset creation, model training (fine-tuning), experimentation with prompting strategies, and the human-AI co-grading experiment. Sections 4 and 5 detail the steps."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Met",
+          "justification": "The document mentions the availability of the CSEE dataset and provides a link to the GitHub repository: \"Dataset is available in https://github.com/Xiaochr/LLM-AES\" and references the ASAP dataset with a link: \"https://www.kaggle.com/c/asap-aes\"."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "While the document states data anonymization and consent were obtained, there's no explicit justification for *not* sharing details of the annotation process (number of teachers, inter-annotator agreement)."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Tables 1 and 2 provide descriptive statistics for the ASAP and CSEE datasets, respectively, acting as a basic data dictionary. Details on scoring rubrics are also provided."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The document describes the data collection methods for both datasets, including collaboration with high schools for the CSEE dataset and the source of the ASAP dataset. \"We have developed a novel English essay scoring dataset...in collaboration with 29 high schools in China...\""
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Met",
+          "justification": "The document states that the dataset is available on GitHub, implying the associated code is likely there as well: \"Dataset is available in https://github.com/Xiaochr/LLM-AES\"."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Met",
+          "justification": "The document does not explicitly state whether all analysis code is shared, only that the dataset is available on GitHub. It's possible only data preparation code is available."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Met",
+          "justification": "The mention of the GitHub repository suggests that code for data preparation is likely available alongside the dataset: \"Dataset is available in https://github.com/Xiaochr/LLM-AES\"."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document clearly describes the statistical test used (Cohen\u2019s Quadratic Weighted Kappa - QWK) and mentions the use of a training/testing split. \"We adopted Cohen\u2019s Quadratic Weighted Kappa (QWK) as our primary evaluation metric...\""
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "QWK scores are reported throughout the results section (Tables 3, 4, 5, 6).\""
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document includes qualitative data from expert feedback through questionnaires and interviews, providing subjective context and interpretation. \"As summarized in Table 7, experts perceived the grading process to be less time-consuming when assisted by the LLM.\""
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Met",
+          "justification": "While qualitative data is collected, the document does not describe the data coding or analysis process in detail. It reports summary statistics from the questionnaires but doesn't explain how the qualitative feedback was analyzed."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented in tables (1, 2, 3, 4, 5, 6, 7) and figures (1, 2, 3) with clear descriptions and comparisons."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The document discusses limitations related to the dataset's scope (limited to Chinese high school students) and the pilot nature of the human-AI experiment. \"This study still has certain limitations. Firstly, although our CSEE dataset includes a substantial number of student essays, these essays originate from only two final exams...\""
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration on platforms like the Open Science Foundation."
+        }
+      ]
+    }
+  ]
+}

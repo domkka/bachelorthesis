@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706558",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The paper explicitly states the research methodology, focusing on leveraging AI models (BERT) to represent math strategies from student data. \"Specifically, we use BERT, a state-of-the-art approach traditionally used for language modeling, and learned embeddings for strategies based on sequences of actions from student data.\""
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "The paper provides a detailed step-by-step description of the study design, including data collection, pre-training the BERT model, fine-tuning, and evaluation. Sections 3 and 4 outline these steps."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The raw or processed datasets are not publicly available. The paper mentions the data source (MATHia) and its format (PSLC datashop), but does not provide direct access."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Met",
+          "justification": "The paper provides a clear justification for not sharing the data: privacy concerns. \"Note that we did not collect personally identifiable information in the data. Thus, we did not have access to demographic information even at the school-level.\""
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "The paper provides a description of the data collected, including the variables (timestamp, step, hints, errors, skills, graduation status) and the data format. Section 4.1.1 details the dataset."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Data collection methods are fully described, including the source (MATHia ITS), the types of data collected (student actions, problem details), and the timeframe (7th grade workspace). Section 4.1.1 provides this information."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Met",
+          "justification": "The paper mentions that the pre-trained models and code are available on GitHub: \"The pre-trained models and code is available here 1https://github.com/abisha-thapa/education_bert\"."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "N/A",
+          "justification": "Code is shared, so this criterion is not applicable."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Met",
+          "justification": "The paper states that the code used for pre-processing is available alongside the main analysis code on GitHub."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "Statistical tests and models (ROC-AUC, cross-entropy loss) are clearly described. The use of BERT and its parameters are also detailed."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "ROC-AUC scores are reported as a measure of model performance. The paper also mentions the use of Expected Calibration Error (ECE)."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Not Met",
+          "justification": "The study is primarily quantitative. While there is discussion of the *interpretation* of the results in terms of student strategies, there is no explicit qualitative data collection or analysis."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "N/A",
+          "justification": "Since there is no qualitative research, this criterion is not applicable."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "The results are clearly presented using ROC-AUC scores, tables, and figures (e.g., Fig. 5, Fig. 6, Fig. 7, Fig. 8)."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The paper discusses limitations, such as the dependence of strategies on the domain and interface, and acknowledges potential biases related to the data source. \"However, note that unlike typical AI applications...the strategies are highly dependent on the domain.\""
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The paper does not contain a link to a preregistration on platforms like the Open Science Foundation."
+        }
+      ]
+    }
+  ]
+}

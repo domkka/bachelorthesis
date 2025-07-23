@@ -5,14 +5,14 @@
       "category": "Open Methodology & Documentation",
       "results": [
         {
-          "criterion": "Clear Methodology",
+          "criterion": "Clear Research Methodology",
           "status": "Met",
-          "justification": "The document explicitly states the focus on student retention prediction and the collaborative model development paradigm. It outlines the roles of source and target institutions."
+          "justification": "The document explicitly states the research focuses on transfer learning strategies for college retention prediction, addressing fairness and privacy. (e.g., \"Therefore, we present this study that formally investigates transfer learning strategies...\")"
         },
         {
           "criterion": "Step-by-step description",
           "status": "Met",
-          "justification": "Sections 4.1-4.3 detail the data sources, prediction task, and transfer learning strategies, providing a step-by-step description of the experimental design. Section 4.4 outlines the key metrics used."
+          "justification": "The document details the research process, including data sources, prediction task, transfer learning strategies, key metrics, and research questions (RQ1-RQ3). Sections 4 and 5 provide a detailed description of the study design."
         }
       ]
     },
@@ -20,19 +20,24 @@
       "category": "Data Accessibility & Transparency",
       "results": [
         {
-          "criterion": "Open Data",
-          "status": "Partially Met",
-          "justification": "The document states data access was gained through research partnerships. While the raw data isn't directly shared, links to the data schema (Table1-Data-Schema.csv) and institutional contextual factors (Table2-Institutional-Contextual-Factors.csv) are provided on GitHub. This is not full open data, but provides some transparency."
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The raw datasets are not publicly available. While contextual factors are linked to IPEDS, the primary administrative records are not."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Met",
+          "justification": "The document explicitly states privacy concerns and data protection laws (FERPA) as justification for not sharing student data. (\"...existing privacy and data protection laws...impose restrictions on sharing student data...\")"
         },
         {
           "criterion": "Data Documentation",
           "status": "Met",
-          "justification": "Links to the data schema and institutional contextual factors on GitHub provide documentation explaining the variables. The document also describes the data collection process from SIS and IPEDS."
+          "justification": "Data schemas for both administrative records and institutional contextual factors are provided via links to GitHub. (\"The shared schema can be found at https://github.com/AEQUITAS-Lab/Transfer-Learning-LAK-2025/blob/main/Table1-Data-Schema.csv\")"
         },
         {
           "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "The document details data collection from administrative records (SIS) and the Integrated Postsecondary Education Data System (IPEDS), including the time frame (2013-2019) and the types of records collected."
+          "justification": "The document describes data collection methods, stating data was obtained from student information systems (SIS) and IPEDS. (Section 4.1)"
         }
       ]
     },
@@ -40,14 +45,19 @@
       "category": "Code & Software Availability",
       "results": [
         {
-          "criterion": "Open Source Code",
-          "status": "Not Met",
-          "justification": "The document does not mention the availability of analysis code in a repository like GitHub or GitLab."
+          "criterion": "Open Source Code 1",
+          "status": "Met",
+          "justification": "The document provides a link to a GitHub repository containing code to reproduce the experiments. (\"Codes to reproduce our experiments are available at https://github.com/AEQUITAS-Lab/Transfer-Learning-LAK-2025\")"
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Applicable",
+          "justification": "Code is shared, so justification for not sharing is not relevant."
         },
         {
           "criterion": "Code for Data preparation",
-          "status": "Not Applicable",
-          "justification": "Since the code is not shared, the question of whether data preparation scripts are included is not applicable."
+          "status": "Met",
+          "justification": "The GitHub repository linked contains code for data preparation as part of the overall experiment reproduction. (https://github.com/AEQUITAS-Lab/Transfer-Learning-LAK-2025)"
         }
       ]
     },
@@ -55,14 +65,24 @@
       "category": "Type of Analysis",
       "results": [
         {
-          "criterion": "Quantitative Research Methods",
+          "criterion": "Quantitative Research Methods 1",
           "status": "Met",
-          "justification": "The document describes statistical tests (regression analysis), models (fully connected neural network), and metrics (AUC, \u0394AUC, AUC Gap, MCC, Specificity, Equalized Odds, Wasserstein distance) with details on their calculation and interpretation. It also mentions effect sizes and confidence intervals (error bars in figures)."
+          "justification": "Statistical tests (regression analysis), models (fully connected neural network, SFDA methods), and assumptions are described. (Sections 4.2, 4.3, 4.4)"
         },
         {
-          "criterion": "Qualitative Research Methods",
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Effect sizes (\u0394AUC), confidence intervals (error bars in figures), and p-values are reported or implied through statistical significance. (Figure 2)"
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
           "status": "Not Met",
-          "justification": "The analysis is primarily quantitative; there is no mention of qualitative data or analysis."
+          "justification": "The study is primarily quantitative; subjective context and interpretation are limited."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Applicable",
+          "justification": "The study is primarily quantitative, so data coding and analysis are not relevant."
         }
       ]
     },
@@ -70,14 +90,24 @@
       "category": "Results & Interpretation",
       "results": [
         {
-          "criterion": "Outcome Shared",
+          "criterion": "Clearly presented Results",
           "status": "Met",
-          "justification": "The document presents the results of the transfer learning experiments, including performance metrics (AUC, \u0394AUC, MCC, Specificity) and fairness metrics (AUC Gap, Equalized Odds) for different strategies."
+          "justification": "Results are presented with figures and tables, and are clearly described in the text. (e.g., Figures 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)"
         },
         {
           "criterion": "Limitations and potential biases",
           "status": "Met",
-          "justification": "The document discusses limitations such as reliance on common data features, the limited geographic scope (US institutions), and the potential for ungeneralizable findings. It also acknowledges the complexity of fairness and the need for further research."
+          "justification": "The document discusses limitations, including reliance on common data features and the limited scope of institutions included in the sample. (Section 5.1)"
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration."
         }
       ]
     }

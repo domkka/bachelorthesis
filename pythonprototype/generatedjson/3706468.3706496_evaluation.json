@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706496",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document states the study's goal: \"This paper seeks to engage this problem with a case study that analyzes data from one of the few highly-controlled studies of the perception of AAL in student essays [19].\" and outlines the approach."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 3.1, 3.2, and 3.3 provide a detailed, step-by-step description of the essay modifications, human raters, and prompt engineering used in the study."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document mentions the use of data from Flynn and Preston [19], but does not provide a link to the raw data. It states the Flynn & Preston study was presented at a conference that did not issue proceedings, which may explain the lack of public availability."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Met",
+          "justification": "The document states that Flynn and Preston collected additional data in 2006 that had not been previously reported, and that this data was used in the study. The reason for not sharing the original Flynn & Preston data is explained (conference proceedings not issued)."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Tables 1, 2, and 3 detail the essay modifications. Section 3.2 describes the human rater data and how scores were converted."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Section 3.2 details the data collection methods for the human raters, including the number of participants, the scoring method, and the instructions given to the raters."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document does not mention the availability of any code used for analysis."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "N/A",
+          "justification": "Since code is not mentioned, there is no justification for its absence."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document does not mention any code used for data preparation."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "Statistical tests (ANOVA, t-tests) are mentioned and used to analyze the data. Cohen's d is also reported."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Effect sizes (Cohen\u2019s d), p-values, and descriptive statistics (mean, median, standard deviation) are reported throughout the results section (e.g., Table 7)."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document includes qualitative analysis of the feedback provided by GPT, interpreting its responses and identifying patterns."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Met",
+          "justification": "While the document describes the prompts used with GPT, it does not detail a formal coding scheme or analysis process for the qualitative feedback data."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented in tables (e.g., Tables 6, 7, 8, 9) and discussed in the text, making them clear and accessible."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The document discusses limitations, such as the small sample size and the potential for biases in the training data of the LLM. It also acknowledges the potential for human raters to be biased."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not mention or provide a link to any preregistration."
+        }
+      ]
+    }
+  ]
+}

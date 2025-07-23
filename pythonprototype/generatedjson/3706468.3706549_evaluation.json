@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706549",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The paper explicitly states its aim to propose a framework integrating the 4C/ID model with Learning Analytics, and describes a theory-driven approach to LA. \"This paper presents a novel theoretical framework...\""
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "The paper details the development of the 4C/ID_LA framework, including the P-A-S cycle integration, component descriptions (LT, SI, PI, PP), and a learner workflow with a sample scenario. Sections 2.1, 2.2, 3.1, and 3.2 provide a detailed description."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The paper does not mention the availability of raw or processed datasets."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Applicable",
+          "justification": "Since no data is mentioned, justification for non-sharing is not relevant."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Not Met",
+          "justification": "No data dictionary or codebook is provided as no data is shared."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The paper describes data collection through the P-A-S cycle and mentions collecting data on learner behavior, achievements, and outcomes. \"During the Performance (P) phase, learners complete subtasks, and the LA system collects data on their behavioral changes, achievements, and outcomes.\""
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The paper does not mention sharing any analysis code."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Applicable",
+          "justification": "Since no code is mentioned, justification for non-sharing is not relevant."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "No code for data preparation is shared or mentioned."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Not Met",
+          "justification": "The paper is primarily theoretical and does not present statistical tests or models."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Not Applicable",
+          "justification": "No statistical analysis is performed."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "The paper provides subjective context and interpretation regarding the integration of the 4C/ID model and LA. The entire paper is a discussion of the theoretical implications."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Met",
+          "justification": "The paper does not present data coding or analysis in a formal, shared manner. It describes the *process* of analysis, but not the analysis itself."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "The proposed 4C/ID_LA framework and its components are clearly presented and explained. The learner workflow and scenario provide a concrete example."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The paper discusses limitations related to the potential for learners to misjudge performance, avoid challenging tasks, and the need for further validation. \"Although the learners\u2019 subjective choice processes may not explicitly align with the learning objectives...\""
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The paper does not contain a link to a preregistration."
+        }
+      ]
+    }
+  ]
+}

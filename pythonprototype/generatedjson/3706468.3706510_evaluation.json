@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706510",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research methodology, focusing on a goal-setting intervention using a conversational agent to examine the effects of guidance and feedback. (e.g., 'Our primary research question was: What is the effect of guidance and feedback on the quality and attainment of self-set academic goals over time?') "
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Section 2.3 provides a detailed, step-by-step description of the experimental procedure, including participant recruitment, data collection, and the timeline of activities. (e.g., 'Data collection for this experiment took place across a 5-week period coinciding with a single semester of the participants degree.')"
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Met",
+          "justification": "The document states: 'An extensive overview of the experimental procedure of this study, alongside additional information about the goal quality and feedback allocation workflows can be found at the attached OSF link (https://osf.io/gwxe5/?view_only=2c3cf672fff24d4581d983d38f4f8b87).'"
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "N/A",
+          "justification": "Data is shared via OSF link."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Section 2.2 details the measures used (SRL skills, self-efficacy, perfectionism, goal quality, goal attainment, goal striving) and provides information about their scales and reliability (e.g., 'The questionnaire consisted of six subscales measured on a 5-point Likert scale ranging from 1 (strongly disagree) to 5 (strongly agree) including goal setting (5-items,U = .75)...')."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Section 2.2 describes the data collection methods for each measure, including the questionnaires used and how they were administered. (e.g., 'SRL skills were measured using the Online Self- regulated Learning Questionnaire (OSLQ)...')"
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document does not mention the availability of analysis code in an open repository."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "N/A",
+          "justification": "Code is not shared."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document does not mention the availability of code for data preparation."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document clearly describes the statistical tests used (ANOVA, ANCOVA) and mentions the use of covariates. (e.g., 'To answer the first research question, a mixed method Analysis of Variance (ANOVA) was run.')"
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Effect sizes (partial eta squared) and p-values are reported throughout the results section. (e.g., 'F(3,55) = 18.616, p < .001.')"
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document includes a thematic analysis of user feedback, providing subjective context and interpretation. (e.g., 'A thematic analysis was done on these answers to group them into overarching feedback points provided by participants.')"
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Met",
+          "justification": "The process of thematic analysis is described, and key themes are presented with illustrative quotes. (e.g., 'Overall, 68 (87.2%) of participants gave some form of feedback in the open response feedback question provided at the end of the study.')"
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "The results are presented in a clear and organized manner, with tables summarizing descriptive statistics and statistical test results. (e.g., Table 1 and Table 2)"
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Section 3.4 discusses limitations of the study, including the sample's characteristics and potential participation bias. (e.g., 'The sample was drawn from the general population of a social sciences department...')"
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not explicitly mention or provide a link to a preregistration."
+        }
+      ]
+    }
+  ]
+}

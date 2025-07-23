@@ -22,22 +22,22 @@
         {
           "criterion": "Open Data 1",
           "status": "Not Met",
-          "justification": "The document mentions datasets used (SQuAD, KhanQ, PeS2O) but does not state whether they are publicly available or provide links to access them. It only mentions where the datasets were sourced from."
+          "justification": "The document mentions datasets used (SQuAD, KhanQ, PeS2O) but does not state whether the novel datasets (SQuAD+, MixSQuAD, MixSQuAD2X, MixKhanQ) are publicly available. It only mentions the source datasets."
         },
         {
           "criterion": "Open Data 2",
-          "status": "N/A",
-          "justification": "Since the data is not stated as being available, justification for not sharing is not applicable."
+          "status": "Not Met",
+          "justification": "Since the availability of the novel datasets is not stated, there is no justification for why they might not be shared."
         },
         {
           "criterion": "Data Documentation",
-          "status": "Not Met",
-          "justification": "While the datasets are described, a detailed data dictionary or codebook explaining variables, formats, and preprocessing steps is not provided."
+          "status": "Met",
+          "justification": "Section 3.2 provides details on how the novel datasets were created, including the process of linking topics and creating contrastive examples. (e.g., \"3.2.1 Linking the target topic to data points, SQuAD+ dataset.\")"
         },
         {
           "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "Data collection methods, particularly for the human annotation task, are described in section 3.4. (e.g., \"To set up the annotation task, we randomly selected 30 questions...\")"
+          "justification": "The document describes the data collection methods, including the use of wikification and human annotation for creating the datasets. (e.g., \"3.2.1 Linking the target topic to data points, SQuAD+\", \"3.4 Human Annotation-based Evaluation of Semantic Relatedness Metrics\")"
         }
       ]
     },
@@ -47,17 +47,17 @@
         {
           "criterion": "Open Source Code 1",
           "status": "Not Met",
-          "justification": "The document mentions a GitHub repository but does not provide a link. (e.g., \"https://github.com/Cathgy/Topic-controllable-Question-Generator.\")"
+          "justification": "The document mentions the use of HuggingFace's T5 model but does not state whether the analysis code or the code for training the models is publicly available. It does provide a link to a GitHub repository at the end of section 3.3.3, but it is not clear if the code is fully available there."
         },
         {
           "criterion": "Open Source Code 2",
-          "status": "N/A",
-          "justification": "Since code availability is not confirmed, justification for not sharing is not applicable."
+          "status": "Not Applicable",
+          "justification": "Since the availability of the code is not confirmed, there is no justification for why it might not be shared."
         },
         {
           "criterion": "Code for Data preparation",
           "status": "Not Met",
-          "justification": "The document describes the data preparation process but does not explicitly state whether the code used for this purpose is shared or available."
+          "justification": "The document describes the data preparation steps but does not explicitly state whether the code used for these steps is shared."
         }
       ]
     },
@@ -67,22 +67,22 @@
         {
           "criterion": "Quantitative Research Methods 1",
           "status": "Met",
-          "justification": "Statistical tests and models (BLEU, METEOR, ROUGE, Perplexity, BERTScore, WikiSimRel) are clearly described and used for evaluation. (e.g., \"3.6 Evaluation Metrics\")"
+          "justification": "The document clearly describes the statistical tests and models used, such as BLEU, METEOR, ROUGE, F1 score, Perplexity, BERTScore, and WikiSimRel. (e.g., \"3.6 Evaluation Metrics\")"
         },
         {
           "criterion": "Quantitative Research Methods 2",
           "status": "Met",
-          "justification": "Metrics like BLEU scores, F1 scores, and Perplexity are reported. (e.g., Table 3)"
+          "justification": "The document reports various metrics, including BLEU scores, F1 scores, Perplexity, and semantic relatedness scores. (e.g., Tables 3 and 4)"
         },
         {
           "criterion": "Qualitative Research Methods 1",
           "status": "Met",
-          "justification": "Subjective context and interpretation are given, particularly in the discussion of human evaluation results and the limitations of the study. (e.g., \"4.1 Most Representative Automated Topic Relevance Metric to Human Evaluations\")"
+          "justification": "The document includes a human evaluation component and discusses the inter-rater reliability of the annotations, providing subjective context and interpretation. (e.g., \"3.4 Human Annotation-based Evaluation of Semantic Relatedness Metrics\")"
         },
         {
           "criterion": "Qualitative Research Methods 2",
           "status": "Met",
-          "justification": "The data coding and analysis process for the human annotation task is described, including the Fleiss\u2019 kappa measure for inter-rater reliability. (e.g., \"To set up the annotation task...\")"
+          "justification": "The process of human annotation is described, including the number of annotators, their demographics, and the annotation task itself. (e.g., \"3.4 Human Annotation-based Evaluation of Semantic Relatedness Metrics\")"
         }
       ]
     },
@@ -92,12 +92,12 @@
         {
           "criterion": "Clearly presented Results",
           "status": "Met",
-          "justification": "Results are presented in tables (e.g., Table 3, Table 4) and discussed in the text. (e.g., \"4.2 Topical Relevance and the Effect of Pre-training on Generated Questions\")"
+          "justification": "The results are presented in tables (Tables 2, 3, and 4) and discussed in the text, providing a clear overview of the findings. (e.g., \"4.1 Topical Relevance and the Effect of Pre-training on Generated Questions (RQ 2 and RQ 3)\")"
         },
         {
           "criterion": "Limitations and potential biases",
           "status": "Met",
-          "justification": "Limitations of the study, such as the limited sample size for human evaluation and the potential impact of model size, are discussed. (e.g., \"5.1 Implications of the Results for Research and Practice\", \"This study, while advancing topic-controllable question generation in education, acknowledges several limitations.\")"
+          "justification": "The document discusses limitations, such as the limited sample size of the human evaluation and the potential impact of the model size. (e.g., \"5.1 Implications of the Results for Research and Practice\", \"Limitations\")"
         }
       ]
     },
@@ -107,7 +107,7 @@
         {
           "criterion": "Preregistration",
           "status": "Not Met",
-          "justification": "The document does not contain a link to a preregistration on platforms like the Open Science Foundation."
+          "justification": "The document does not contain a link to a preregistration."
         }
       ]
     }

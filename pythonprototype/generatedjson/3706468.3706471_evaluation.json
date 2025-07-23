@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706471",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document describes the use of adaptive experiments and specifically mentions Thompson Sampling as the MAB algorithm used. It details the experimental setup with two examples."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "The document provides a step-by-step description of the experiments, including defining conditions, selecting rewards, and configuring algorithm updates. For example, the 'Encouraging Self-Reflection' experiment is described in detail."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document does not state that the raw or processed datasets are publicly available."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "While no data is shared, there is no explicit justification for why the data cannot be shared. It is implied that the data comes from a platform (OLI) and a challenge, but privacy concerns are not directly addressed."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Not Met",
+          "justification": "There is no data dictionary or codebook provided."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Data collection methods are described, such as using student correctness on multiple-choice questions as a reward and tracking participation in optional activities."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document does not state that the analysis code is shared in an open repository."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Met",
+          "justification": "There is no justification provided for why the code cannot be shared."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document does not mention code for data preparation."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "Statistical tests (Wald Z test) are mentioned and described, and the use of Thompson Sampling (a quantitative method) is central to the study."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Effect sizes (Cohen\u2019s \ud835\udf14), p-values (p < 0.0001), and z-scores (z = 4.55) are reported."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document provides subjective context and interpretation of the results, particularly regarding the potential impact of interventions on different student groups."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Met",
+          "justification": "While interpretation is provided, there is no description of data coding or analysis methods beyond the statistical tests."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented in tables (Table 1) and figures (Figures 1, 2, 3, 4) with clear descriptions."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The document discusses limitations, such as the trade-off between participant benefit and statistical inference, and acknowledges potential biases in Multi-armed Bandits."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration."
+        }
+      ]
+    }
+  ]
+}

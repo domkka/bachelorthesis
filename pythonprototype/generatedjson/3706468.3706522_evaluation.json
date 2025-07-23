@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706522",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research aims to extract CPS behaviors and predict learning outcomes using CSPM and predictive modeling. \"Our work uses clustering and constraint-based sequential pattern mining (CSPM) to extract and analyze pedagogically relevant behavioral patterns...\""
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 4.1-4.6 provide a detailed, step-by-step description of the study design, including data preprocessing, CSPM application, data representation, and predictive modeling."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document does not state that the raw or processed datasets are publicly available."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "While no data is shared, there is no explicit justification for why the data cannot be shared. However, the document does mention the small dataset size (61 samples) which could be a factor."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "The document describes the data collected (in-game actions, timestamps, context name-value pairs) and the preprocessing steps (tokenization, lower-casing, cleaning, Word2Vec embedding, clustering). \"These logs capture interactions such as movement...along with other miscellaneous data...\""
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The document clearly describes the data collection methods, stating that data was recorded from students\u2019 in-game actions in EcoJourneys using semi-structured trace log files. \"In EcoJourneys, we record students\u2019 in-game actions in semi-structured trace log files.\""
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document does not state that the analysis code is shared in an open repository."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Met",
+          "justification": "There is no justification provided for why the code cannot be shared."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "While data preparation steps are described, the code used for these steps is not shared or mentioned."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "Statistical tests (10-fold cross-validation, nested cross-validation), models (Logistic Regression, Elastic Net, Gradient Boosting, Logistic GAM), and assumptions are described. \"We used 10-fold stratified cross-validation with 5-fold nested cross-validation...\""
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Accuracy and F1-score are reported as evaluation metrics. \"It achieved an average accuracy of 70.4% and an F1-score of 68.2%.\""
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "Subjective context and interpretation are given when mapping clusters to CPS ontology codes and discussing the implications of the findings. \"Our approach interprets the extracted patterns through pedagogical theory...\""
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Met",
+          "justification": "The process of mapping clusters to CPS codes is described, providing insight into the analysis. \"Clusters related to communication...were classified under the broad \u2018social\u2019 dimension...\""
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented in text and figures (Figures 4 and 5), clearly outlining the performance of different models. \"For static features, Figure 4 presents the predictive performance of models...\""
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The document discusses limitations related to the small dataset size and the generalizability of the findings. \"Our work utilizes data from only 61 students...making it difficult to generalize the conclusions...\""
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration."
+        }
+      ]
+    }
+  ]
+}

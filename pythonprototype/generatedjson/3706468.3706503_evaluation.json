@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706503",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research methodology, describing it as a 'laboratory-coordinated experimental design with four workshop groups' (Section 3.3)."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Section 3.3 provides a detailed, step-by-step description of the study design, including participant assignment, procedures, and data collection."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document does not state that the raw or processed datasets are publicly available."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "While data isn't shared, there isn't a clear justification provided beyond the practicalities of the study."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Not Met",
+          "justification": "There is no mention of a data dictionary or codebook explaining variables, formats, or preprocessing steps."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Data collection methods are fully described, including the use of questionnaires and demographic data collection (Section 3.1, 3.4)."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Met",
+          "justification": "The document states: 'The corresponding questionnaires can be found from https://github.com/rongjackie/VR-in-history-classrooms' (Section 3.4)."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Applicable",
+          "justification": "Code is shared, so justification for not sharing is not relevant."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document does not mention whether code for data preparation is shared."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "Statistical tests (PLS-SEM) and models are clearly described (Section 3.4, 4.1)."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Effect sizes (\u03b2 values), p-values, and reliability/validity measures (Cronbach\u2019s alpha, AVE, VIF) are reported (Tables 1, 3, 4)."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Not Met",
+          "justification": "The study is primarily quantitative; subjective context and interpretation are limited."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Applicable",
+          "justification": "The study is primarily quantitative, so data coding and analysis description is not relevant."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are clearly presented in tables (Tables 1-5) and discussed in the text (Section 4)."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Limitations and potential biases (e.g., novelty effect, operational difficulty) are discussed in Section 5.1."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration on the Open Science Foundation or any other platform."
+        }
+      ]
+    }
+  ]
+}

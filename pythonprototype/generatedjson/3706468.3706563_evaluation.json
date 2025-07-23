@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706563",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research methodology, including reflexive thematic analysis (RTA) and scientometric analysis. (Section 2.1, 2.2)"
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "The document provides a step-by-step description of the study design, including survey distribution, data analysis (RTA coding process), and scientometric analysis methods. (Sections 2.1, 2.2)"
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Met",
+          "justification": "The document states that the datasets are available on the Open Science Framework (OSF). (Last paragraph)"
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "N/A",
+          "justification": "Data is shared, so justification for not sharing is not applicable."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "The document mentions the availability of the thematic analysis and associated memos, and the VOSviewer JSON files, which serve as data documentation. (Last paragraph)"
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Data collection methods are fully described, including the survey instrument (23-item survey), participant recruitment, and response rate. (Section 2.1)"
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Met",
+          "justification": "The document states that the datasets include VOSviewer JSON files, implying the use of VOSviewer software and its associated data. (Last paragraph)"
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "N/A",
+          "justification": "Code is shared, so justification for not sharing is not applicable."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "While data is shared, the code used for data preparation (e.g., survey data cleaning, coding) is not explicitly mentioned as being shared."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "The scientometric analysis is described, including the use of DOI searches and network visualization software (VOSviewer). (Section 2.2)"
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Not Met",
+          "justification": "While the scientometric analysis is described, effect sizes, confidence intervals, and p-values are not reported."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document provides subjective context and interpretation of the qualitative data, particularly in the discussion of the CoP values and the thematic analysis. (Sections 3.2, 3.3, 3.4, 3.5, 3.6)"
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Met",
+          "justification": "The data coding and analysis process (RTA) is clearly described, including the use of five codes grounded in the CoP values. (Section 2.1, 3.2)"
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "The results of both the qualitative and quantitative analyses are clearly presented, with illustrative examples and tables. (Sections 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7)"
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The document discusses limitations, including potential recall bias and the response rate, and acknowledges potential biases related to the sample. (Section 5.3)"
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration."
+        }
+      ]
+    }
+  ]
+}

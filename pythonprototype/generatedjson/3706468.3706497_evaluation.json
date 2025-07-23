@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706497",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research focuses on refining Neural Epistemic Network Analysis (NENA) to model collaborative problem solving (CPS)."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 3.1-3.5 provide a detailed, step-by-step description of the data, ENA, SNA, NENA, and comparative analysis processes."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document mentions the data was collected as part of the Tactical Decision Making Under Stress (TADMUS) study but does not provide a link or mention public availability."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "While the document doesn't explicitly state why the data isn't shared, it's likely due to sensitivity related to military training scenarios, but this isn't stated."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Table 1 provides a codebook explaining the qualitative codes used in the data. Section 3.1 describes the data collection context."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Section 3.1 details the data collection methods, including the study design, participants, roles, scenarios, and data source (transcripts of team conversations)."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document does not mention the availability of the analysis code in a public repository."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Met",
+          "justification": "No justification is provided for the lack of code sharing."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document does not mention the availability of code used for data preparation."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "Statistical tests (mixed-effects regressions), models (GNN autoencoder), and assumptions (orthogonality, isometry) are described."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Effect sizes (Cohen\u2019s d), confidence intervals, and p-values are reported in Section 3.5.4 and Table 4."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "Qualitative interpretation of embedding space dimensions is provided in Section 4.1."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Met",
+          "justification": "Data coding (using the codes in Table 1) and analysis are described in Section 3.1 and 3.2."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented in sections 4.1-4.5, with tables and figures illustrating the findings."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Limitations are discussed in the final paragraph of the document, including the need for evaluation on more datasets and the potential for over-complexity of the deep learning architecture."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration."
+        }
+      ]
+    }
+  ]
+}

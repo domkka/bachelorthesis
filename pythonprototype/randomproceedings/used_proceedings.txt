@@ -1,7 +1,32 @@
-Scott:		473
-		475
+Scott:			473
+			475
 
-Carolin: 	487
-		488
-Mohammadreza Molavi:	495
-			509
+Kaan: 			482
+
+Emre: 			483
+
+Alan: 			485 ✅
+
+Daniel: 		487
+
+David: 			488
+
+Mohammadreza Molavi:	495 ✅
+			509 ✅
+
+Moein Mohammad: 	513 ✅
+			518 ✅
+
+Szidonia:		519 ✅
+			529 ✅
+
+Zana:			544
+
+Ali: 			535
+			552
+
+
+
+
+561 NOT WORKING????
+

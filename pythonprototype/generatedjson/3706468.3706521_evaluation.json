@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706521",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research aims to explore bias in a predictive machine learning model related to student ADHD status. The methodology involves combining fairness metrics with XAI techniques."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 3 and 4 provide a detailed step-by-step description of the study design, including the online learning platform, data collection, feature engineering, model training, and analysis methods."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document does not state that the raw or processed datasets are publicly available."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "While the document doesn't explicitly state a reason for not sharing data, it implies privacy concerns by mentioning IRB approval and the option for participants to not answer sensitive questions."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Section 3.2 and 4.1 provide details about the data collected, including demographic information, OSLQ survey details, and features extracted for the model. The description of the OSLQ subscales acts as a partial codebook."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Section 3.2 details the data collection methods, including recruitment from a university and Prolific, compensation details, and the use of a consent form and demographic survey."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document does not mention whether the analysis code is shared in an open repository."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Met",
+          "justification": "No justification is provided for not sharing the code."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document does not explicitly state whether code for data preparation is shared."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document clearly describes the statistical tests (regression analysis), models (random forest regression), and assumptions used in the analysis (Section 4.1 and 4.2)."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Effect sizes (R2 = .481) and statistical significance (p-values) are reported throughout the results section (Section 4.1 and 5.2)."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Not Met",
+          "justification": "The document primarily focuses on quantitative analysis and lacks substantial subjective context or interpretation beyond the statistical findings."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Met",
+          "justification": "No qualitative data coding or analysis is described or shared."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "The results are clearly presented in sections 5.1 and 5.2, with tables and descriptions of the findings related to fairness metrics and SHAP value correlations."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Section 6 discusses limitations, including the sample size of students with ADHD and the lack of qualitative data. Potential biases are also acknowledged throughout the discussion."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration."
+        }
+      ]
+    }
+  ]
+}

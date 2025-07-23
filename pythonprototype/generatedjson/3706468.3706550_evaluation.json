@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706550",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The paper states the goal is to create a higher-resolution \"map\" for physics learning and uses LLMs for automated labeling. The approach is clearly outlined."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "The paper details the steps: 1) creating an atomic LO system, 2) using LLMs for labeling, and 3) proposing evaluation metrics. The experimental setup (Section 5.1) provides further detail."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The paper mentions datasets (OpenStax University Physics textbook, expert-created problem banks) but does not provide direct access to the raw or processed datasets."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "While the OpenStax textbook is publicly available, the expert-created problem banks are not. There is no justification provided for why these are not shared."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Section 4 provides details on the structure of the learning objectives (LOs) and the questions, including the components of each LO and the source of the questions."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The paper describes how questions were selected from the course and OpenStax textbook (Section 4.2) and how experts labeled the LOs (Section 4.3)."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The paper does not mention sharing the analysis code used for LLM experiments or evaluation."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "N/A",
+          "justification": "Since the code is not shared, this criterion is not applicable."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The paper does not mention sharing code used for data preparation or preprocessing."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "The paper clearly describes the evaluation metrics used (Exact Match, Jaccard Index, F1 Score, Distance-based Metric) in Section 3.1."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "The results are presented with values for the evaluation metrics (e.g., Exact Match, Jaccard Index, F1 score, Distance) in Tables 5, 6, and 7."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "Section 6.3 provides a qualitative error analysis with examples of LLM labeling, including expert commentary."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Met",
+          "justification": "While the error analysis provides examples, the data coding and analysis process is not explicitly described or shared."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "The results are presented in tables (5, 6, 7) and figures (2, 3, 4) with clear labels and descriptions."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Section 6.3 discusses potential reasons for LLM mislabeling and limitations of the LO system."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The paper does not mention or link to any preregistration."
+        }
+      ]
+    }
+  ]
+}

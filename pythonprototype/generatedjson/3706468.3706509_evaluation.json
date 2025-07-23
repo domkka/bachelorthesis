@@ -7,12 +7,12 @@
         {
           "criterion": "Clear Research Methodology",
           "status": "Met",
-          "justification": "The document states it uses 'Quantitative ethnography' and details the integration of qualitative and quantitative methods."
+          "justification": "The document states \"Quantitative ethnography was adopted in this study...\" and details the use of ENA and ONA."
         },
         {
           "criterion": "Step-by-step description",
           "status": "Met",
-          "justification": "Sections 2.1, 2.2, 2.3, 3.1, 3.2, and 3.3 provide a detailed description of the course design, research questions, participants, data sources, data transformation, and network analysis."
+          "justification": "Sections 2.1, 2.2, 2.3, 3.1, and 3.2 provide a detailed description of the course design, participants, data sources, data transformation, and network analysis."
         }
       ]
     },
@@ -22,22 +22,22 @@
         {
           "criterion": "Open Data 1",
           "status": "Not Met",
-          "justification": "The document does not state that the raw or processed datasets are publicly available."
+          "justification": "The document does not mention the public availability of the raw or processed datasets."
         },
         {
           "criterion": "Open Data 2",
           "status": "Not Met",
-          "justification": "While privacy isn't explicitly mentioned, the document doesn't offer data access, and no justification is provided."
+          "justification": "While privacy concerns aren't explicitly stated, there's no mention of data sharing, implying it's not available."
         },
         {
           "criterion": "Data Documentation",
-          "status": "Met",
-          "justification": "Section 3.1 details the coding process and the creation of a consolidated list of textual expressions matched to the keywords, functioning as a codebook."
+          "status": "Partially Met",
+          "justification": "The document describes the coding process and keywords (Table 1), but a full data dictionary is not provided. The description of the coding process in 3.1 acts as partial documentation."
         },
         {
           "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "The document describes data collection as students\u2019 inputs in online discussion forums and records of their assignment performance (Section 2.3)."
+          "justification": "Data collection methods are described: \"Data sources included students\u2019 inputs in online discussion forums and records of their assignment performance.\""
         }
       ]
     },
@@ -47,17 +47,17 @@
         {
           "criterion": "Open Source Code 1",
           "status": "Not Met",
-          "justification": "The document mentions using web-ENA1 but does not provide a link to the code repository."
+          "justification": "The document does not mention the availability of the analysis code."
         },
         {
           "criterion": "Open Source Code 2",
-          "status": "Not Met",
-          "justification": "No justification is provided for why the code is not shared."
+          "status": "Not Applicable",
+          "justification": "Since code is not mentioned as available, justification is not needed."
         },
         {
           "criterion": "Code for Data preparation",
-          "status": "Met",
-          "justification": "Section 3.1 describes the creation of Excel formulas for counting code occurrences, indicating code for data preparation was used."
+          "status": "Not Met",
+          "justification": "While the data preparation process is described, the code used for it is not shared or mentioned."
         }
       ]
     },
@@ -67,22 +67,22 @@
         {
           "criterion": "Quantitative Research Methods 1",
           "status": "Met",
-          "justification": "The document describes the use of t-tests, singular value decomposition (SVD), and network analysis."
+          "justification": "Statistical tests (t-test) are described, and the use of network analysis is mentioned."
         },
         {
           "criterion": "Quantitative Research Methods 2",
           "status": "Met",
-          "justification": "The document reports t-test results, p-values, and Cohen\u2019s d (effect sizes) (e.g., Table 2)."
+          "justification": "P-values (e.g., p = 0.000) and effect sizes (Cohen\u2019s d) are reported (e.g., Cohen\u2019s d = 1.57)."
         },
         {
           "criterion": "Qualitative Research Methods 1",
           "status": "Met",
-          "justification": "The document includes subjective interpretation of the network analysis results and discusses conceptual engagement patterns."
+          "justification": "The document provides subjective context and interpretation of the results, particularly in the discussion of the differences between groups."
         },
         {
           "criterion": "Qualitative Research Methods 2",
-          "status": "Met",
-          "justification": "The document describes the manual coding process and the iterative refinement of the codebook (Section 3.1)."
+          "status": "Partially Met",
+          "justification": "The coding process is described, but the full coding scheme and examples of coded data are not shared."
         }
       ]
     },
@@ -92,12 +92,12 @@
         {
           "criterion": "Clearly presented Results",
           "status": "Met",
-          "justification": "The results of the ENA and ONA analyses are presented with figures and tables, and are clearly described in the text."
+          "justification": "Results are presented in text, tables (Table 2), and figures (Fig. 1, Fig. 2, Fig. 3, Fig. 4)."
         },
         {
           "criterion": "Limitations and potential biases",
           "status": "Met",
-          "justification": "The document discusses limitations related to the sample size and the potential influence of factors beyond epistemic orientation (Section 4)."
+          "justification": "The document discusses limitations: \"An important limitation of this study is that we only investigated epistemic differences...\" and acknowledges potential biases."
         }
       ]
     },

@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706502",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research aims to measure SRL processes using trace data and compares secondary and higher education students. The methodology is outlined in sections 3.1, 3.2, 3.3, 3.4, and 3.5."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 3.1 through 3.5 provide a detailed, step-by-step description of the study design, including participant recruitment, data collection, data processing, SRL process modelling, and analysis techniques."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document does not state that the raw or processed datasets are publicly available."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "While there is no explicit statement about data sharing, the document does not provide a justification for why the data cannot be shared."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Section 3.2 details the survey questions, pretest formats, and essay scoring criteria, providing documentation of the data collected."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Data collection methods are fully described in section 3.2, including details about surveys, pretests, essay scoring, and trace data collection."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Met",
+          "justification": "The document states: \"This coding framework was validated by [13] (see Table 1). To apply the codes to the data we developed a trace parser...and maps them to corresponding SRL processes, as delineated in the coding scheme provided in a GitHub repository (https://github.com/yixin- cheng/lak25).\""
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "N/A",
+          "justification": "Code is shared, so this criterion is not applicable."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Met",
+          "justification": "The trace parser mentioned in the document is used for data preparation and is available on GitHub (https://github.com/yixin- cheng/lak25)."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "Statistical tests (regression analysis), models (M1, M2, M3), and assumptions are described in section 3.5."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Effect sizes (Cohen\u2019s \ud835\udc51), confidence intervals, and p-values are reported in Table 2 and the surrounding text."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Not Met",
+          "justification": "The analysis is primarily quantitative. While interpretations are provided, there is limited subjective context beyond the statistical findings."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Met",
+          "justification": "The document focuses on quantitative analysis and does not describe data coding or analysis in a qualitative manner."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are clearly presented in sections 4.1, 4.2, and 4.3, with reference to figures and tables."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Limitations are discussed at the end of the document, including task duration differences and the lack of examination of SRL processes at the level of specific learning strategies."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration on the Open Science Foundation or any other platform."
+        }
+      ]
+    }
+  ]
+}

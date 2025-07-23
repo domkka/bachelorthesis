@@ -5,14 +5,14 @@
       "category": "Open Methodology & Documentation",
       "results": [
         {
-          "criterion": "Clear Methodology",
+          "criterion": "Clear Research Methodology",
           "status": "Met",
-          "justification": "The paper explicitly states the methodology, focusing on feature engineering and machine learning for collusion detection. \"We used feature engineering and ML algorithms to create a model for the detection of collusion.\""
+          "justification": "The paper explicitly states the research focuses on detecting collusion in online assessments using feature engineering and machine learning. (e.g., \"We used feature engineering and ML algorithms to create a model for the detection of collusion.\")"
         },
         {
           "criterion": "Step-by-step description",
           "status": "Met",
-          "justification": "Sections 3.1, 3.2, and 3.3 provide a detailed, step-by-step description of the experimental design, including dataset creation, feature engineering, and the methods used for model training and validation."
+          "justification": "Sections 3.1, 3.2, and 3.3 provide a detailed step-by-step description of the study design, including dataset creation, feature engineering, and the ML model building process."
         }
       ]
     },
@@ -20,19 +20,24 @@
       "category": "Data Accessibility & Transparency",
       "results": [
         {
-          "criterion": "Open Data",
+          "criterion": "Open Data 1",
           "status": "Met",
           "justification": "The paper states: \"To enhance the usability and reproducibility of our work, we have open-sourced the iQuiz tool and made the collected data publicly available.\" and provides a DOI: https://doi.org/10.6084/m9.figshare.23744283.v1"
         },
         {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "N/A - Data is available."
+        },
+        {
           "criterion": "Data Documentation",
           "status": "Met",
-          "justification": "Section 3.1 and 3.2 describe the dataset, including variables (Student, Question, Response, Score, Start, Revisions, Time) and their formats. Table 3 provides a feature information table."
+          "justification": "Section 3.1 describes the dataset, including variables like 'Student', 'Question', 'Response', 'Score', 'Start', 'Revisions', and 'Time'. Figure 1 provides a sample dataset."
         },
         {
           "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "Section 3.1 details the data collection methods, including the use of iQuiz, Moodle integration, and the collection of clickstream data. It also describes the experimental and empirical settings."
+          "justification": "Section 3.1 details the data collection process, including the use of iQuiz, the setting (university lecture hall), and the type of assessment (MCQs)."
         }
       ]
     },
@@ -40,14 +45,19 @@
       "category": "Code & Software Availability",
       "results": [
         {
-          "criterion": "Open Source Code",
+          "criterion": "Open Source Code 1",
           "status": "Met",
-          "justification": "The paper states: \"we have open-sourced the iQuiz tool...\" implying the code is available."
+          "justification": "The paper states: \"we have open-sourced the iQuiz tool...\""
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Met",
+          "justification": "N/A - Code is available."
         },
         {
           "criterion": "Code for Data preparation",
-          "status": "Not Met",
-          "justification": "While the iQuiz tool is open-sourced, the paper does not explicitly state whether the scripts for data cleaning, analysis, and visualization are also shared in a repository."
+          "status": "Met",
+          "justification": "The paper mentions feature engineering and the use of scikit-learn, implying code was used for data preparation, and the iQuiz tool is open-sourced."
         }
       ]
     },
@@ -55,14 +65,39 @@
       "category": "Type of Analysis",
       "results": [
         {
-          "criterion": "Quantitative Research Methods",
+          "criterion": "Quantitative Research Methods 1",
           "status": "Met",
-          "justification": "The paper uses machine learning classifiers (LR, SVM, DT, XGB, RF) and reports performance metrics like accuracy, precision, recall, and F1-score. Statistical methods like stratified five-fold cross-validation and SMOTE are also described."
+          "justification": "The paper clearly describes the statistical tests and models used, including Logistic Regression, SVM, Decision Trees, XGBoost, and Random Forest. (Section 3.3)"
         },
         {
-          "criterion": "Qualitative Research Methods",
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "The paper reports accuracy, precision, recall, and F1-score for each classifier (Section 4.1.1)."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
           "status": "Not Met",
-          "justification": "The analysis is primarily quantitative. While the personality test provides some contextual information, it's used to support quantitative findings rather than being a core qualitative analysis."
+          "justification": "The study is primarily quantitative; subjective context and interpretation are limited."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Met",
+          "justification": "N/A - No qualitative data analysis is performed."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented in figures (e.g., Fig. 3, Fig. 4, Fig. 5, Fig. 6, Fig. 7) and tables (Table 4), with clear descriptions."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Section 4.3 discusses limitations, including the use of experimental datasets and the potential for coincidental observations."
         }
       ]
     },
@@ -72,22 +107,7 @@
         {
           "criterion": "Preregistration",
           "status": "Not Met",
-          "justification": "The paper does not mention or link to any preregistration."
-        }
-      ]
-    },
-    {
-      "category": "Results & Interpretation",
-      "results": [
-        {
-          "criterion": "Outcome Shared",
-          "status": "Met",
-          "justification": "The paper presents the results of the experiments, including the performance of different classifiers and the feature importance analysis (Section 4)."
-        },
-        {
-          "criterion": "Limitations and potential biases",
-          "status": "Met",
-          "justification": "Section 5 discusses limitations, including the use of experimental datasets and the potential for coincidental observations or false accusations."
+          "justification": "The paper does not contain a link to a preregistration."
         }
       ]
     }

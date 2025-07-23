@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706499",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research methodology, including a cluster RCT and subsequent analyses like MLCA and hierarchical linear modeling. (e.g., 'In this study, we took a person-centered approach to uncover math anxiety profiles...')"
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "The '3.3 Analysis Approaches' section provides a detailed, step-by-step description of the study design and analytical methods used, including model specification and enumeration."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document does not state that the raw or processed datasets are publicly available."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Met",
+          "justification": "The document mentions IRB approval and states data of opt-out students were excluded, implying privacy concerns are being addressed. ('The study was approved by WestEd\u2019s Institutional Review Board (IRB). Data of opt-out students were excluded from the analysis.')"
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Table 2 provides descriptive statistics for the measures used, functioning as a basic data dictionary. Details on the survey scale are also provided (e.g., 'validated five-item survey scale from the PISA 2012 Student Questionnaire')."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Data collection methods are fully described, including the use of pre-surveys, data from the MathSpring platform, and state standardized math test scores. (e.g., 'Students completed pre-surveys in the fall to index their math anxiety...') "
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document does not mention whether the analysis code is shared in an open repository."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "N/A",
+          "justification": "Not applicable, as the code is not mentioned as being available."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document does not mention whether code for data preparation is shared."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "Statistical tests and models (MLCA, hierarchical linear models) are clearly described in the '3.3 Analysis Approaches' section."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Effect sizes (e.g., differences in adjusted means), and p-values are reported in the results sections (e.g., Table 5, Table 6)."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Not Met",
+          "justification": "The study is primarily quantitative; subjective context and interpretation are limited."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Met",
+          "justification": "The study is primarily quantitative; data coding and analysis are not described in a qualitative manner."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are clearly presented in tables (e.g., Table 5, Table 6) and in the text, with descriptions of the findings."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Limitations are discussed in the 'Discussion' section, including the non-causal nature of the findings and potential for skewed distributions. (e.g., 'Despite the finding that theHighly Anxious group\u2019s use of hints was significantly associated with improvements in their MCAS outcomes, their scores did not surpass that of the other two groups.')"
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration."
+        }
+      ]
+    }
+  ]
+}

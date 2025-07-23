@@ -27,7 +27,7 @@
         {
           "criterion": "Open Data 2",
           "status": "Met",
-          "justification": "The document implicitly justifies the lack of open data by mentioning the context of data collection (e.g., students in conflict areas, US schools) which suggests privacy concerns and data use agreements."
+          "justification": "The document implicitly justifies the lack of open data by mentioning the context of data collection (e.g., students in conflict areas, anonymized data) which suggests privacy concerns."
         },
         {
           "criterion": "Data Documentation",
@@ -52,7 +52,7 @@
         {
           "criterion": "Open Source Code 2",
           "status": "Not Applicable",
-          "justification": "Since the code is not mentioned as being available, there is no justification for its absence."
+          "justification": "Since the code is not mentioned as being shared, there is no justification provided."
         },
         {
           "criterion": "Code for Data preparation",
@@ -72,17 +72,17 @@
         {
           "criterion": "Quantitative Research Methods 2",
           "status": "Met",
-          "justification": "The document reports effect sizes (R-squared), and RMSE is used as a metric for evaluating the models."
+          "justification": "The document reports effect sizes (R-squared), rooted mean squared error (RMSE), and mentions the use of standard error in the results."
         },
         {
           "criterion": "Qualitative Research Methods 1",
           "status": "Not Met",
-          "justification": "The study is primarily quantitative and does not include significant subjective context or interpretation."
+          "justification": "The study is primarily quantitative and does not include significant subjective context or interpretation beyond the discussion of results."
         },
         {
           "criterion": "Qualitative Research Methods 2",
           "status": "Not Applicable",
-          "justification": "Since there is no qualitative data analysis, there is no data coding or analysis to describe."
+          "justification": "Since there is no qualitative data analysis, there is no coding or analysis to describe."
         }
       ]
     },
@@ -92,12 +92,12 @@
         {
           "criterion": "Clearly presented Results",
           "status": "Met",
-          "justification": "The results are presented in tables and figures, with clear descriptions of the findings. For example, Figure 1 and Tables 3 & 4 present the prediction performance."
+          "justification": "The results are presented in tables and figures, with clear descriptions of the findings. Section 3 provides a detailed analysis of the results."
         },
         {
           "criterion": "Limitations and potential biases",
           "status": "Met",
-          "justification": "The document discusses limitations, such as the potential impact of usage time definitions (Section 2.2), the sparsity of data in CWTLReading, and the need for further validation before using predictions for interventions (Section 3.6)."
+          "justification": "Section 3 discusses limitations, such as the potential impact of usage time definitions, the sparsity of data in CWTLReading, and the need for further validation before using predictions for interventions."
         }
       ]
     },

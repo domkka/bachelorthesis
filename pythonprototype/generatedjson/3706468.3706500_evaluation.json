@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706500",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research aims to extend Knowledge Tracing (KT) for open-ended coding questions, incorporating test case-level information. It details the development of a new KT task and a method called TIKTOC."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 3.1 and 4.3 provide a detailed formulation of the problem and a step-by-step description of the TIKTOC method, including its components and training process."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Met",
+          "justification": "The document states: \"We augment the CodeWorkout dataset [8] with the test cases used for a subset of the questions. We have publicly released this augmented dataset to serve as a benchmark...\""
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "N/A",
+          "justification": "The data is stated to be publicly released, so justification for non-sharing is not applicable."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Table 2 provides statistics of the augmented dataset, and the document references the CodeWorkout dataset's documentation on PSLC DataShop [8]."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The document describes the data collection process, stating it comes from an introductory Java programming course at a large US university and details the types of test cases extracted from CodeWorkout."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document does not explicitly state that the analysis code is shared in an open repository."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "N/A",
+          "justification": "Since the code is not stated to be shared, justification for non-sharing is not applicable."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document mentions an automated evaluation pipeline for data preparation but does not state whether the code for this pipeline is shared."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document describes the statistical metrics used for evaluation (AUC, F1 Score, accuracy, CodeBLEU) and mentions the use of LSTM networks and multi-task learning."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "The document reports performance metrics with standard deviations and mentions statistical significance testing (p-values)."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document includes qualitative case studies (Tables 5, 6, and 7) with interpretations of the model's behavior and insights into student learning."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Met",
+          "justification": "While qualitative analysis is present, the document does not explicitly describe a formal data coding or analysis process for the case studies."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented in tables (3, 4, 5, 6, 7) with clear comparisons between different methods."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The document discusses limitations in the final section, including the need to explore ways to leverage test case content and address fairness concerns."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration."
+        }
+      ]
+    }
+  ]
+}

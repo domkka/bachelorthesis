@@ -12,7 +12,7 @@
         {
           "criterion": "Step-by-step description",
           "status": "Met",
-          "justification": "The paper details the three phases of the ILD framework (Informed Exploration, Enactment, Local Evaluation) and provides a narrative report of the main results for each phase."
+          "justification": "The paper details the three phases of the IDL framework: Informed Exploration, Enactment, and Local Evaluation, providing descriptions of each phase's activities."
         }
       ]
     },
@@ -37,7 +37,7 @@
         {
           "criterion": "Data Collection Methods",
           "status": "Met",
-          "justification": "Data collection methods are described, including document analysis, semi-structured interviews, and a pilot study. Table 1 provides details on information sources and study objectives."
+          "justification": "Data collection methods are described, including document analysis, semi-structured interviews, and a pilot study (see Table 1 and surrounding text)."
         }
       ]
     },
@@ -67,12 +67,12 @@
         {
           "criterion": "Quantitative Research Methods 1",
           "status": "Met",
-          "justification": "The document mentions the calculation of Fleiss\u2019 kappa to assess peer agreement as evidence of construct validity."
+          "justification": "The document mentions the use of Fleiss\u2019 kappa to assess peer agreement (construct validity)."
         },
         {
           "criterion": "Quantitative Research Methods 2",
           "status": "Not Met",
-          "justification": "Effect sizes, confidence intervals, and p-values are not reported."
+          "justification": "While statistical tests are mentioned, effect sizes, confidence intervals, and p-values are not reported."
         },
         {
           "criterion": "Qualitative Research Methods 1",
@@ -82,7 +82,7 @@
         {
           "criterion": "Qualitative Research Methods 2",
           "status": "Met",
-          "justification": "The document describes the data coding process (inductive coding, peer debriefing, thematic analysis) and mentions triangulation of data sources."
+          "justification": "The document describes the data coding process (inductive coding, peer debriefing, thematic analysis) and mentions triangulation of data sources (Table 1)."
         }
       ]
     },
@@ -92,12 +92,12 @@
         {
           "criterion": "Clearly presented Results",
           "status": "Met",
-          "justification": "Results are presented in a narrative format, with supporting evidence from interviews and document analysis. Tables (e.g., Table 2, Table 3, Table 4) summarize key findings."
+          "justification": "Results are presented in narrative form, with supporting evidence from interviews and document analysis, and summarized in tables (e.g., Table 4)."
         },
         {
           "criterion": "Limitations and potential biases",
           "status": "Met",
-          "justification": "The document discusses limitations, such as the short period of time analyzed and the conservative nature of improvement actions detected. It also acknowledges potential biases related to faculty perceptions."
+          "justification": "The document discusses limitations, such as the short period of time analyzed and the conservative nature of improvement actions, and acknowledges potential biases (e.g., instructor resistance)."
         }
       ]
     },

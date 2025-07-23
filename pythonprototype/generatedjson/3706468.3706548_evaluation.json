@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706548",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document clearly states the research aims to enhance AES using keystroke logs and deep learning. It proposes a novel model (KAES) and outlines the experimental setup."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 3 (Dataset, Feature Engineering, Problem Setup) and 5 (Experiment Settings) provide a detailed, step-by-step description of the study design, including data preparation, feature extraction, model training, and evaluation."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document mentions using the CBAL dataset, but does not provide a direct link or instructions on how to access it. It states the data was collected as part of a 2013 study."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Applicable",
+          "justification": "Since the data is not openly available, this criterion is not applicable."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Section 3.1 (Dataset) provides details about the dataset, including the number of essays, scoring dimensions, and scoring scale. Table 1 provides statistical information."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Section 3.1 describes the dataset collection process, mentioning it was collected as part of a larger CBAL Writing Study and used SBA principles."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Met",
+          "justification": "The document states: \"KAES model code1 has been released to advance future research in this domain.\""
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Applicable",
+          "justification": "The code is stated to be released, so this criterion is not applicable."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "While the document mentions data preprocessing, it does not explicitly state whether the code for data preparation is shared."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "The document describes the use of statistical tests (QWK), models (LGBM, CNN, LSTM), and mentions hyperparameter tuning."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "The document reports QWK scores, including percentage improvements over baseline models (e.g., \"KAES improves the average Quadratic Weighted Kappa (QWK) scores... by 4.54% and 2.68%, respectively.\")."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Not Met",
+          "justification": "The study is primarily quantitative and does not include significant qualitative interpretation or subjective context."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Applicable",
+          "justification": "Since there is no qualitative data analysis, this criterion is not applicable."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented in tables (Table 2 and Table 3) and discussed in Section 5.2, with clear comparisons to baseline models."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Section 5.3 (Exploring the Future) discusses limitations, such as the need for further feature engineering and validation on other datasets."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not mention or provide a link to any preregistration."
+        }
+      ]
+    }
+  ]
+}
