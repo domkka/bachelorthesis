@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706518",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The paper explicitly states a 'design-based research approach' and mentions the 'Integrative Learning Design Framework (IDL)'."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "The paper details the three phases of the ILD framework (Informed Exploration, Enactment, Local Evaluation) and provides a narrative report of the main results for each phase."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The paper does not mention the availability of raw or processed datasets."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Applicable",
+          "justification": "Since data is not mentioned as available, justification is not needed."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Not Met",
+          "justification": "There is no mention of a data dictionary or codebook."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The paper describes data collection methods, including document analysis, semi-structured interviews, and a pilot study (see Table 1)."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The paper does not mention the availability of analysis code."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Applicable",
+          "justification": "Since code is not mentioned as available, justification is not needed."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The paper does not mention code for data preparation."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "The paper mentions the use of Fleiss\u2019 kappa to assess peer agreement (construct validity)."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Not Met",
+          "justification": "While statistical tests are mentioned, effect sizes, confidence intervals, and p-values are not reported."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "The paper provides subjective context and interpretation of interview data and document analysis."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Met",
+          "justification": "The paper describes the data coding process (inductive coding, peer debriefing, thematic analysis) and mentions triangulation of data sources (Table 1)."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "The paper presents results in a narrative format, with supporting evidence from interviews and document analysis. Tables are used to summarize findings."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The paper discusses limitations, such as the short period of time analyzed and the conservative incidence of the CA tool in improvement actions. It also acknowledges potential biases related to faculty perceptions."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The paper does not contain a link to a preregistration."
+        }
+      ]
+    }
+  ]
+}

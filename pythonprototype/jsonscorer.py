@@ -2,8 +2,6 @@ import json
 import os
 import csv
 
-from unicodedata import category
-
 
 def evaluate_json(data):
     score = 0
@@ -19,7 +17,7 @@ def evaluate_json(data):
                 category_statuses[category_name] = "Not Met"
 
         elif category_name == "Data Accessibility & Transparency":
-            required_criterion_idx = [0,2,3]
+            required_criterion_idx = [0]
             if all(criteria[i]["status"] != "Not Met" for i in required_criterion_idx):
                 score += 1
                 category_statuses[category_name] = "Met"
@@ -27,7 +25,7 @@ def evaluate_json(data):
                 category_statuses[category_name] = "Not Met"
 
         elif category_name == "Code & Software Availability":
-            required_criterion_idx = [0,2]
+            required_criterion_idx = [0]
             if all(criteria[i]["status"] != "Not Met" for i in required_criterion_idx):
                 score += 1
                 category_statuses[category_name] = "Met"
@@ -83,10 +81,40 @@ def save_as_csv(output_csv, results):
             writer.writerow(row)
     print(f"Results saved to: {output_csv}")
 
+def justified_closed_data_json(directory):
+    data_justified_count = 0
+    code_justified_count = 0
+    for filename in os.listdir(directory):
+        if filename.endswith(".json"):
+            filepath = os.path.join(directory, filename)
+            with open(filepath, "r", encoding="utf-8") as file:
+                data = json.load(file)
+
+            for category in data["evaluation"]:
+                category_name = category["category"]
+                criteria = category["results"]
+                if category_name == "Data Accessibility & Transparency":
+                    if criteria[1]["status"] == "Met":
+                        print("Justified Data not shared:")
+                        print(data["id"])
+                        data_justified_count +=1
+
+                elif category_name == "Code & Software Availability":
+                    if category_name == "Data Accessibility & Transparency":
+                        if criteria[1]["status"] == "Met":
+                            print("Justified Code not shared:")
+                            print(data["id"])
+                            code_justified_count += 1
+
+    print(f"Data not shared justified: {data_justified_count}")
+    print(f"Code not shared justified: {code_justified_count}")
+
 
 if __name__ == "__main__":
     folder_path = "generatedjson"
-    output_csv_path = "evaluation_results.csv"
+    output_csv_path = "prototype_evaluation_results.csv"
 
-    results = evaluate_all_json(folder_path)
-    save_as_csv(output_csv_path, results)
+    #results = evaluate_all_json(folder_path)
+    #save_as_csv(output_csv_path, results)
+
+    justified_closed_data_json(folder_path)

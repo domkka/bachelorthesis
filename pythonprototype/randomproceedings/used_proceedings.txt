@@ -1,32 +1,26 @@
-Scott:			473
-			475
+P1:	495 ✅
+	509 ✅
 
-Kaan: 			482
+P2: 	513 ✅
+	518 ✅
 
-Emre: 			483
+P3:	519 ✅
+	529 ✅
 
-Alan: 			485 ✅
+P4:	544 ✅
+	556 ✅
 
-Daniel: 		487
+P5: 	487 ✅
+	488 ✅
 
-David: 			488
+P6: 	483 ✅
+	546 ✅
 
-Mohammadreza Molavi:	495 ✅
-			509 ✅
-
-Moein Mohammad: 	513 ✅
-			518 ✅
-
-Szidonia:		519 ✅
-			529 ✅
-
-Zana:			544
-
-Ali: 			535
-			552
+P7	535 ✅
+	552 ✅
 
 
 
-
-561 NOT WORKING????
-
+incomplete P8:  	485 ✅	
+no response P9: 	482
+			549

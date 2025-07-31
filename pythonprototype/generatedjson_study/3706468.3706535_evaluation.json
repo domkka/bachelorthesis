@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706535",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research methodology, describing two randomized experiments investigating the effects of explanations on educators\u2019 attitudes towards algorithms. (e.g., \"In two randomized experiments (\ud835\udc41 = 570), we compare educator preferences...\")"
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "The document provides a detailed, step-by-step description of the study design for both Study 1 and Study 2, including participant recruitment, procedure, experimental manipulation, and measures. (e.g., \"Study 1 employed a two (explanation) by two (visualization) between-subjects design...\")"
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Met",
+          "justification": "The document states that all code, data, and supplementary materials are available on OSF: \"All code, data, and supplementary materials for this study are available on OSF.\""
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "N/A",
+          "justification": "Data is shared, so justification for not sharing is not applicable."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "The document mentions a data dictionary or codebook explaining variables, formats, and preprocessing steps is available on OSF: \"Materials on OSF https://osf.io/7c5zt/?view_only= 58f0a6314e9243e9acdbd1c844d43d7b.\""
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Data collection methods are fully described, including recruitment through Prolific, survey administration, and the use of specific scales and questionnaires. (e.g., \"We recruited 170 participants from Prolific...\")"
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Met",
+          "justification": "The document states that the analysis code is shared on OSF: \"All code, data, and supplementary materials for this study are available on OSF.\""
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "N/A",
+          "justification": "Code is shared, so justification for not sharing is not applicable."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Met",
+          "justification": "The document states that code for data preparation is available on OSF: \"All code, data, and supplementary materials for this study are available on OSF.\""
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "Statistical tests (linear regression) and models are clearly described. (e.g., \"We examined how algorithm preference varies across experimental conditions by fitting a linear regression model.\")"
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Effect sizes (e.g., 0.25), confidence intervals, and p-values are reported throughout the results sections. (e.g., \"(\ud835\udc393,164 = 0.4454,\ud835\udc5d = 0.7209)\")"
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "Subjective context and interpretation are given through the thematic analysis of open-ended responses. (e.g., discussion of themes emerging from the notes to parents)"
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Met",
+          "justification": "Data coding and analysis are described, including the identification of themes in the notes to parents. (e.g., \"We categorized the notes into three levels of detail about the algorithm...\")"
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "The results are clearly presented using tables, figures, and descriptive text. (e.g., Figure 2a, Table 1)"
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Limitations and potential biases are discussed, including the use of Prolific participants and the context-specificity of the study. (e.g., \"First, the data collected was from educators on Prolific\u2026\")"
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Met",
+          "justification": "The document contains a link to the preregistration on OSF: \"The study was preregistered on OSF at https://osf.io/cjadu.\""
+        }
+      ]
+    }
+  ]
+}
