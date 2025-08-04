@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706529",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The paper explicitly states the research methodology: \"In this work, we demonstrated a novel approach for evaluating LLM-generated artifacts based on student learning data.\""
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "The paper provides a detailed step-by-step description of the study design, from data collection and LLM prompting to distractor evaluation (Sections 4 and 5)."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The paper states: \"The dataset of student responses is not publicly available and was provided by the tool\u2019s developer upon our request.\""
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Met",
+          "justification": "The paper provides a clear justification for not sharing the data: privacy concerns and the data being provided by the tool's developer."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "The paper describes the data collected (student identifier, course ID, challenge ID, etc.) and provides summary statistics (Table 1). It also details the data cleaning process (excluding attempts after a correct answer)."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "Data collection methods are fully described, including the source (PCEX system), the type of data collected (student responses), and the time period (Fall 2017 to Spring 2023)."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The paper does not mention sharing the analysis code."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "N/A",
+          "justification": "Since the code is not mentioned, there is no justification for not sharing it."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The paper does not mention sharing code for data preparation."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "Statistical tests (averages, standard deviations) and models (matching LLM-generated distractors to human-authored ones) are described."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Effect sizes (match rates), standard deviations, and descriptive statistics are reported throughout the results section."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "The authors provide subjective context and interpretation when labeling non-matched distractors (Nonsense, Unnecessary statements, Correct answer, Distractor)."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Met",
+          "justification": "The data coding process (labeling non-matched distractors) and analysis (inter-rater agreement) are clearly described."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented clearly using tables (Table 1), figures (Figures 6, 7, 8, 9, 10, 11, 12, 13), and descriptive text."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The paper discusses limitations such as the limited dataset size, uneven topic distribution, and vague problem statements (Section 6)."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The paper does not contain a link to a preregistration."
+        }
+      ]
+    }
+  ]
+}

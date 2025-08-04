@@ -1,0 +1,115 @@
+{
+  "id": "02-3706468.3706552",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research investigates machine learning predictors using student logs to predict external assessment outcomes. (e.g., \"In this work we investigate machine learning predictors using students\u2019 logs during their first few hours of use with educational technology can provide useful predictive insight into those students\u2019 end-of-school year external assessment.\")"
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 2.2.1 (Features Extraction), 2.2.2 (Predicting Outcomes using Machine Learning Methods), and 2.2.3 (Model Evaluation) provide a detailed, step-by-step description of the study design, including data analysis and evaluation metrics."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document does not state that the raw or processed datasets are publicly available."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Met",
+          "justification": "The document implies data sharing is limited due to the nature of the data and context: \"MATHia data used in this study was collected from 2644 students...\" and similar statements suggest the data is from specific institutions and may be subject to privacy restrictions."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Section 2.1 (Data) provides descriptions of the datasets (Can\u2019t Wait to Learn, MATHia, iReady), including the number of students, data collection periods, and the nature of the assessments. Features are described in 2.2.1."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The document describes how data was collected from each platform (e.g., log data from tablets for CWTL, data from software usage for MATHia and iReady). (Section 2.1)"
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document does not state that the analysis code is shared in an open repository."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Applicable",
+          "justification": "Since the code is not shared, there is no justification provided."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Not Met",
+          "justification": "The document mentions data preprocessing (Section 2.2.1), but does not state that the code for this preparation is shared."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "Statistical tests (5-fold cross validation), models (linear regression, support vector regression, random forest), and assumptions (e.g., projecting post-test scores to [0,1]) are clearly described (Section 2.2.2)."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "RMSE and R-squared (\ud835\udc452) are reported as evaluation metrics (Section 2.2.3)."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Not Met",
+          "justification": "The study is primarily quantitative; subjective context and interpretation are limited."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Applicable",
+          "justification": "Since there are no qualitative methods, there is no data coding or analysis to describe."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented in tables and figures (e.g., Figure 1, Tables 3-5) with clear descriptions and comparisons."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The document discusses limitations, such as the potential impact of usage time definitions (Section 2.2), the sparsity of data in CWTLReading (Section 3.2), and the need for further validation before using predictions for interventions (Section 3.6)."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration."
+        }
+      ]
+    }
+  ]
+}

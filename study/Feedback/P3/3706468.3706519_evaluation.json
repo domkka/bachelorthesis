@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706519",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research methodology, focusing on linguistic synchrony and its relation to pedagogical dialogue acts in tutoring conversations. (e.g., 'This study consisted of three main phases: linguistic synchrony modeling, multivariate time-series feature extraction, and classification model building and evaluation.')"
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Sections 2.3 and 2.4 provide a detailed, step-by-step description of the study design, including data collection, data preparation, analysis procedures, and linguistic synchrony modeling."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Met",
+          "justification": "The document states the dataset comes from the 'Teacher-Student Chat Room Corpus (TSCC, Caines et al. [6])', indicating a source for the data."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "While the source is mentioned, it is not explicitly stated whether the dataset is publicly available. There is no justification for why it might not be shared."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Table 1 provides information about the CEFR levels and their frequency distribution, and Table 2 describes the pedagogical dialogue acts. This serves as partial data documentation."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The document describes the data collection methods, stating that the dataset includes '260 unique dyadic online chats spanning about an hour each between a tutor and a student' and that 'Each student\u2019s English proficiency level was determined by subject matter experts (SMEs)'. (Section 2.3.1)"
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document does not mention whether the analysis code is shared in an open repository."
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Met",
+          "justification": "Since the code is not mentioned as being shared, there is no justification provided."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Met",
+          "justification": "The document mentions preprocessing techniques were applied using RegEx functions and describes steps like expanding contractions, removing punctuation, stemming, and lemmatization. (Section 2.3.1)"
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "Statistical tests (Kruskal-Wallis H test, Dunn\u2019s post-hoc test), models (SVM, RF, LR, KNN, GBM), and assumptions (e.g., non-normal distribution) are clearly described. (Sections 2.5.4, 3.2)"
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Accuracy, precision, recall, and F1 scores are reported for the classification models. (Table 5)"
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Not Met",
+          "justification": "While the study interprets the quantitative results, there is limited subjective context or in-depth qualitative interpretation of the data beyond the statistical findings."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Met",
+          "justification": "Data coding and analysis are not described in detail, particularly regarding the categorization of pedagogical dialogue acts beyond mentioning SMEs were used."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "The results are presented clearly in tables (e.g., Table 1, Table 5) and figures (e.g., Figure 2, Figure 4) with accompanying text explaining the findings."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "The document acknowledges limitations, such as the infrequent occurrence of certain dialogue acts potentially affecting the results. (e.g., 'This infrequent occurrence could lead to higher variability in the synchrony metrics and may not fully capture the role of reference acts in fostering semantic alignment.')"
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration on platforms like the Open Science Foundation."
+        }
+      ]
+    }
+  ]
+}

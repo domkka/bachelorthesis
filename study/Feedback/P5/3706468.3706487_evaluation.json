@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706487",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research aims and approach throughout the introduction and section 2. \"This paper tackles the challenge of topic-based educational question generation...\" and \"The results show that the novel method proposed and evaluated here is capable of generating topical educational questions...\""
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Section 3 provides a detailed, step-by-step description of the study design, including dataset creation (3.1, 3.2), model development (3.3), and experimental setup (3.5)."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document mentions using datasets like SQuAD and KhanQ, but does not state whether the novel datasets (MixSQuAD, MixKhanQ) are publicly available. It only states where the original datasets can be found. \"We used the SQuAD 1.1...as the source for creating new datasets...For evaluation, we used the KhanQ dataset...\""
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Applicable",
+          "justification": "Since the data is not stated as being open, justification is not needed."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Section 3.2 provides details on how the new datasets were created, including the process of linking topics and creating contrastive examples. This serves as a form of data documentation. \"To identify semantic annotations for every context and question, we employ wikification...\""
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The document describes the data collection methods, including using existing datasets (SQuAD, KhanQ) and the process of annotating and transforming them. \"We retain the top 5 concepts for each text...\""
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Not Met",
+          "justification": "The document does not state whether the analysis code is publicly available. It mentions a GitHub link but only for reference: \"https://github.com/Cathgy/Topic-controllable-Question-Generator\""
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Applicable",
+          "justification": "Since the code is not stated as being open, justification is not needed."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Met",
+          "justification": "The document describes the data preparation steps in detail (Section 3.2), which could be implemented in code. While the code itself isn't explicitly shared, the process is well-documented."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "Statistical tests and models (BLEU, METEOR, ROUGE, Perplexity, BERTScore, WikiSimRel) are clearly described in section 3.6."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "The document reports metrics like BLEU scores, F1 scores, and Perplexity, providing quantitative results. Tables 3 and 4 present these results."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "The human evaluation (Section 3.4) provides subjective context and interpretation of the semantic relatedness metrics."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Met",
+          "justification": "The process of human annotation is described, including the number of annotators, their background, and the scoring method. \"We created a small gold-standard dataset via human annotation...\""
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "The results are presented in tables (3 and 4) and discussed in section 4, with clear explanations of the findings."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Section 5 discusses limitations, such as the limited sample size of the human evaluation and the potential for bias in the evaluation metrics. \"The limited human evaluation sample size hinders the statistical power of our findings...\""
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration."
+        }
+      ]
+    }
+  ]
+}

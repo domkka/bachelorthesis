@@ -1,0 +1,115 @@
+{
+  "id": "3706468.3706513",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "The document explicitly states the research methodology, introducing \"Transition Network Analysis (TNA)\" as a novel method."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Section 3.1, 'Implementation of the method', provides a detailed, step-by-step description of the study design, including data coding, Markov model estimation, and clustering."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document does not state that the raw or processed datasets are publicly available."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Met",
+          "justification": "While no data is shared, there is no explicit justification for why the data cannot be shared."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Met",
+          "justification": "Table 1 serves as a data dictionary, explaining the coding scheme for chat discussions, including variables and descriptions."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The document describes the data collection methods: \"students had to collaborate together online using chats...The students' online chat discussions were collected and coded...\""
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Met",
+          "justification": "The document states: \"We also present an R package [19] as well as a set of step-by-step tutorials to aid researchers in implementing TNA [32].\""
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Applicable",
+          "justification": "Code is shared, so justification for not sharing is not relevant."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Met",
+          "justification": "The document mentions the use of R packages 'tna' and 'seqHMM' for data preparation and analysis, implying code for preprocessing exists."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "Statistical tests (e.g., BIC for cluster selection), models (Markov models, Stochastic Process Mining), and assumptions (first-order dependency) are described."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Met",
+          "justification": "Effect sizes (e.g., Cohen's kappa = 0.61), and statistical values (e.g., t-values, p-values) are reported."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Not Met",
+          "justification": "The analysis is primarily quantitative; subjective context and interpretation are limited."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Not Applicable",
+          "justification": "The study is not primarily qualitative, so data coding and analysis details are not extensively shared in a qualitative manner."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Results are presented with descriptions of TNA plots, centrality measures, patterns (dyads, cliques, communities, clusters), and covariate analysis."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Section 4.6, 'Limitations', discusses potential biases and limitations of the method, such as sample size requirements and assumptions of Markov models."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not contain a link to a preregistration."
+        }
+      ]
+    }
+  ]
+}
