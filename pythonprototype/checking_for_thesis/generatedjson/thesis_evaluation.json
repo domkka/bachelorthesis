@@ -1,0 +1,115 @@
+{
+  "id": "thesis",
+  "evaluation": [
+    {
+      "category": "Open Methodology & Documentation",
+      "results": [
+        {
+          "criterion": "Clear Research Methodology",
+          "status": "Met",
+          "justification": "Chapter 1 introduces the research focus and Chapter 3 details the implementation, outlining the approach used for the reproducibility checking pipeline."
+        },
+        {
+          "criterion": "Step-by-step description",
+          "status": "Met",
+          "justification": "Chapter 3 provides a detailed description of the pipeline's implementation, including text extraction, analysis, and evaluation against the checklist. Figure 3.1 and 3.3 visually represent the workflow."
+        }
+      ]
+    },
+    {
+      "category": "Data Accessibility & Transparency",
+      "results": [
+        {
+          "criterion": "Open Data 1",
+          "status": "Not Met",
+          "justification": "The document describes analyzing LAK proceedings, but does not provide access to the proceedings themselves or the data used for the analysis. It mentions analyzing papers from LAK\u201921 and LAK\u201922, but doesn't share the dataset."
+        },
+        {
+          "criterion": "Open Data 2",
+          "status": "Not Applicable",
+          "justification": "Since the data is not shared, a justification is not provided."
+        },
+        {
+          "criterion": "Data Documentation",
+          "status": "Not Applicable",
+          "justification": "No data is shared, therefore no documentation exists."
+        },
+        {
+          "criterion": "Data Collection Methods",
+          "status": "Met",
+          "justification": "The document states that papers from LAK conferences were analyzed, and the process of selecting and processing these papers is described."
+        }
+      ]
+    },
+    {
+      "category": "Code & Software Availability",
+      "results": [
+        {
+          "criterion": "Open Source Code 1",
+          "status": "Met",
+          "justification": "The document states: 'All code was written in Python 3.13 and is available in the following GitHub repository: https://github.com/domkka/bachelorthesis/tree/main/pythonprototype'"
+        },
+        {
+          "criterion": "Open Source Code 2",
+          "status": "Not Applicable",
+          "justification": "Code is shared, so no justification is needed."
+        },
+        {
+          "criterion": "Code for Data preparation",
+          "status": "Met",
+          "justification": "The document states that the code includes scripts for data preparation and analysis."
+        }
+      ]
+    },
+    {
+      "category": "Type of Analysis",
+      "results": [
+        {
+          "criterion": "Quantitative Research Methods 1",
+          "status": "Met",
+          "justification": "The study uses quantitative methods to assess reproducibility scores and compare results, and mentions statistical analysis."
+        },
+        {
+          "criterion": "Quantitative Research Methods 2",
+          "status": "Not Applicable",
+          "justification": "While quantitative methods are used, specific effect sizes, confidence intervals, or p-values are not explicitly reported in the provided text."
+        },
+        {
+          "criterion": "Qualitative Research Methods 1",
+          "status": "Met",
+          "justification": "The human evaluation component involves gathering subjective feedback from researchers, representing qualitative data."
+        },
+        {
+          "criterion": "Qualitative Research Methods 2",
+          "status": "Met",
+          "justification": "The document describes the survey process and the collection of open-ended responses, indicating attention to subjective context and interpretation."
+        }
+      ]
+    },
+    {
+      "category": "Results & Interpretation",
+      "results": [
+        {
+          "criterion": "Clearly presented Results",
+          "status": "Met",
+          "justification": "Chapter 4 presents the results of the study, including figures and tables summarizing the findings from both the automated pipeline and the human evaluation."
+        },
+        {
+          "criterion": "Limitations and potential biases",
+          "status": "Met",
+          "justification": "Chapter 5 explicitly discusses the limitations of the pipeline and potential biases in the evaluation process."
+        }
+      ]
+    },
+    {
+      "category": "Preregistration",
+      "results": [
+        {
+          "criterion": "Preregistration",
+          "status": "Not Met",
+          "justification": "The document does not mention any preregistration of the study itself."
+        }
+      ]
+    }
+  ]
+}
