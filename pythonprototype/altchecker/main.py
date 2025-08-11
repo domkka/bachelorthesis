@@ -123,7 +123,7 @@ def generate(pdf_text, checklist):
     return response.text
 
 if __name__ == "__main__":
-    file_name = "thesis.pdf"
+    file_name = "BachelorThesisDK.pdf"
     file_id = os.path.splitext(os.path.basename(file_name))[0]
     reader = PdfReader(file_name)
 
