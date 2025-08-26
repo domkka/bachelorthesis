@@ -4,6 +4,7 @@ from google.genai import types
 import json
 from pypdf import PdfReader
 import re
+import json5
 
 def extract_sections_using_bookmarks(reader: PdfReader):
     """Splits the PDF into sections using its bookmarks (if available)."""
@@ -119,13 +120,13 @@ def generate(pdf_text, checklist):
     return response.text
 
 if __name__ == "__main__":
-    file_name = "3706468.3706535.pdf"
+    file_name = "3706468.3706561.pdf"
     file_id = os.path.splitext(os.path.basename(file_name))[0]
 
-    reader = PdfReader(f"lakproceedings/{file_name}")
+    reader = PdfReader(f"../lakproceedings/{file_name}")
 
     # Load checklist
-    with open("checklist.json", "r") as file:
+    with open("../checklist.json", "r") as file:
         reproducibility_checklist = json.load(file)
 
 
@@ -155,17 +156,18 @@ if __name__ == "__main__":
         combined_text = "\n\n".join(fused_texts)
 
     response = generate(combined_text, reproducibility_checklist)
+    print(response)
 
     responsejson = extract_json_from_response(response)
     if responsejson:
         try:
-            parsed = json.loads(responsejson)
+            parsed = json5.loads(responsejson)
             wrapped_data = {
                 "id": file_id,
                 "evaluation": parsed
             }
 
-            output_path = f"generatedjson/{file_id}_evaluation.json"
+            output_path = f"{file_id}_evaluation.json"
             with open(output_path, "w") as f:
                 json.dump(wrapped_data, f, indent=2)
 

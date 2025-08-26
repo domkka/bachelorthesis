@@ -8,6 +8,7 @@ from pypdf import PdfReader
 import re
 from tkinter import ttk
 from tkinter import filedialog,messagebox, simpledialog
+import json5
 
 def extract_sections_using_bookmarks(reader: PdfReader):
     """Splits the PDF into sections using its bookmarks."""
@@ -280,7 +281,7 @@ class ReproducibilityChecker:
         try:
             response=generate(combined_text, checklist, self.api_key)
             responsejson = extract_json_from_response(response)
-            parsed = json.loads(responsejson)
+            parsed = json5.loads(responsejson)
             wrapped_data = {
                 "id": file_id,
                 "evaluation": parsed

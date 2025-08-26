@@ -112,9 +112,9 @@ def justified_closed_data_json(directory):
 
 if __name__ == "__main__":
     folder_path = "generatedjson"
-    output_csv_path = "prototype_evaluation_results.csv"
+    output_csv_path = "complete_evaluation_results_2.csv"
 
-    #results = evaluate_all_json(folder_path)
-    #save_as_csv(output_csv_path, results)
+    results = evaluate_all_json(folder_path)
+    save_as_csv(output_csv_path, results)
 
     justified_closed_data_json(folder_path)
