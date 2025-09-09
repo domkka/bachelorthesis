@@ -289,7 +289,7 @@ class ReproducibilityChecker:
 
             output_dir = "generatedjson"
             os.makedirs(output_dir, exist_ok=True)
-            output_path = os.path.join(output_dir, f"{file_id}_evaluation.json")
+            output_path = os.path.join(output_dir, f"{file_id}_evaluation_test.json")
             with open(output_path, "w") as f:
                 json.dump(wrapped_data, f, indent=2)
 
